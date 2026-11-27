@@ -1,0 +1,1178 @@
+{
+ "gates-open-letter-1976": {
+  "url": "https://en.wikisource.org/wiki/Open_Letter_to_Hobbyists",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 4965,
+  "sha256": "f0a1cb642f76d1bb11b6ba89a62d6d150b4509f0eafb11752e55e093ad5021f6"
+ },
+ "mckusick-berkeley-unix": {
+  "url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 45508,
+  "sha256": "9972d3b8240644242e51ec9763cd7e5cd244d76834713657195bf7ecd58d2c3d"
+ },
+ "fsf-about": {
+  "url": "https://www.fsf.org/about/",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html;charset=utf-8",
+  "chars": 8586,
+  "sha256": "c1533c788f86f3afe7dacdae7f3682c68b911d1018808462e54814f6f8f888e2"
+ },
+ "fsf-gplv3-released": {
+  "url": "https://www.fsf.org/news/gplv3_launched",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html;charset=utf-8",
+  "chars": 11469,
+  "sha256": "cbc27768640379ca4e56256542fb69bb1c8daf0cee1f71d78dec4a30051aebe7"
+ },
+ "osi-bsd-3-clause": {
+  "url": "https://opensource.org/license/bsd-3-clause",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8677,
+  "sha256": "e9f3bda9c9785136c98761f76560a85710eddd3b69b5a7dc8e4d1078ac96980e"
+ },
+ "linux-relnotes-0-12": {
+  "url": "https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.12",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "chars": 7536,
+  "sha256": "056d5c6df49f10afca59661e43215314185a21b7c77794f1aef3613cfe569d75"
+ },
+ "linus-minix-post-cmu": {
+  "url": "https://www.cs.cmu.edu/~awb/linux.history.html",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 24209,
+  "sha256": "674f67e3019f1acc85bcf7c9f4dece6650c3ea9cf277cedca0cfb3555575f081"
+ },
+ "debian-history-intro": {
+  "url": "https://www.debian.org/doc/manuals/project-history/intro.en.html",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 3047,
+  "sha256": "1f13d596ba33f5787cfa857249af7e5973cd2cd816ad202fa094312ec8cdc87e"
+ },
+ "debian-social-contract": {
+  "url": "https://www.debian.org/social_contract",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 7523,
+  "sha256": "b3deea5d914cf2a7eed3cb7addd2930cfec48b8b2f1998837f98684a8f7cf901"
+ },
+ "apache-about": {
+  "url": "https://httpd.apache.org/ABOUT_APACHE.html",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 10688,
+  "sha256": "b404c8a75f932321cd4d97ed974ccd1037ee6e8863ef0cae520187cb0e537420"
+ },
+ "asf-press-1999": {
+  "url": "https://www.apache.org/foundation/press/pr_1999_06_30.txt",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/plain",
+  "chars": 6450,
+  "sha256": "e8b3d358ae1c827f18ae72933b1f39a57248797ef6f6d3c5c4139147d57ab146"
+ },
+ "peterson-coining-2018": {
+  "url": "https://opensource.com/article/18/2/coining-term-open-source-software",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 26589,
+  "sha256": "9d1b1d692ec57b0a0449b8ab99207ef4989bd62f3e3676703dc41042ebcfc681"
+ },
+ "osi-history": {
+  "url": "https://opensource.org/history",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 15042,
+  "sha256": "ea6cc8c76d6075c1106a79125a547d39c27349e880ec6851017cbfba8dbf5068"
+ },
+ "osi-osd": {
+  "url": "https://opensource.org/osd",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 10425,
+  "sha256": "a42dd201331832fa7bab6d8f103123b98ba428ee19857b9ee2e77b67c847c72c"
+ },
+ "perens-talk-free-software-1999": {
+  "url": "https://static.lwn.net/1999/0218/a/bp.html",
+  "fetched": "2026-11-27T13:33Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 2805,
+  "sha256": "f406c43b3df19db2f0dba6e7c3697e589916c6341e37064daa4ed78fc88ef68f"
+ },
+ "perens-osd-opensources": {
+  "url": "https://www.oreilly.com/openbook/opensources/book/perens.html",
+  "fetched": "2026-11-27T13:12Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 47386,
+  "sha256": "dbde2d843dbe6ba34a04cd4493aa1d97a0ab454dc1f6ca6794113ff95b9f5929"
+ },
+ "cnet-allchin-2001": {
+  "url": "https://www.cnet.com/tech/tech-industry/microsoft-exec-calls-open-source-a-threat-to-innovation/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8149,
+  "sha256": "36b72281a9a1cf7aa3a43455468f51343b53e5ef609d24113ecae6d254734f90"
+ },
+ "register-ballmer-cancer-2001": {
+  "url": "https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9554,
+  "sha256": "57623b0ee91fc2899bdfcd8cd9b3577554816ce74e5863502a4bd021ca46a945"
+ },
+ "cnet-ibm-billion-2000": {
+  "url": "https://www.cnet.com/tech/tech-industry/ibm-to-spend-1-billion-on-linux-in-2001/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8940,
+  "sha256": "00004c773531f6ab40bf3cb631a1b3343ec2aae5b1c665963f8f3686b6906f5e"
+ },
+ "fsf-welcomes-gpl-java": {
+  "url": "https://www.fsf.org/news/fsf-welcomes-gpl-java.html",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html;charset=utf-8",
+  "chars": 6294,
+  "sha256": "a36545ae1af6e117b104c4f83d3c65cecd02dcae7a96f222f1c5435c29cfc58e"
+ },
+ "redhat-ibm-announce-2018": {
+  "url": "https://www.redhat.com/en/about/press-releases/ibm-acquire-red-hat-completely-changing-cloud-landscape-and-becoming-worlds-1-hybrid-cloud-provider",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 21970,
+  "sha256": "ef8839a75dbd4bfa9ca00f798a8806878476e59624abb6573cb97c4ed2887073"
+ },
+ "mozilla-firefox-1-0": {
+  "url": "https://blog.mozilla.org/press/2004/11/mozilla-foundation-releases-the-highly-anticipated-mozilla-firefox-1-0-web-browser/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 7488,
+  "sha256": "6d4309d4019908cae031742b5ff5dfafc0f27f89ae45c9331d8e8c276a73ca14"
+ },
+ "oha-press-2007": {
+  "url": "https://www.openhandsetalliance.com/press_110507.html",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 24385,
+  "sha256": "35620f86d7cd7317cfb38754711fb7745c9840e9a06cd7e80d3de936d4acd3cc"
+ },
+ "android-open-source-2008": {
+  "url": "https://android-developers.googleblog.com/2008/10/android-is-now-open-source.html",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 1457,
+  "sha256": "7fbf2c9f589692e640bbbb59179162293134934e91d716d14ae18a1a3b15c0a4"
+ },
+ "github-launch-2008": {
+  "url": "https://github.blog/2008-04-10-we-launched/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 11024,
+  "sha256": "37341d8b0ff5deac3797e48a3ac6a1a960414fc1ae7992f126b1e64888cbe8cb"
+ },
+ "github-pull-requests-2008": {
+  "url": "https://github.blog/2008-02-23-oh-yeah-there-s-pull-requests-now/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 10802,
+  "sha256": "3def7abf1ad146c572735fc0d344bf68102ac0afe2e90897f1282a4a16ddb197"
+ },
+ "cncf-launch-2015": {
+  "url": "https://www.cncf.io/announcements/2015/06/21/new-cloud-native-computing-foundation-to-drive-alignment-among-container-technologies/",
+  "fetched": "2026-11-27T13:13Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 22647,
+  "sha256": "2c98e07fc31fed631a43a5c874ceabc1d12987759544f9a1bd5b2eef8a4f1c9c"
+ },
+ "agile-manifesto": {
+  "url": "https://agilemanifesto.org/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 1600,
+  "sha256": "bb1a283bb796b8e578d4ea3590ac4dddf86538ab911b95f720c24ac0106b9662"
+ },
+ "apache-log4j-security": {
+  "url": "https://logging.apache.org/security.html",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 55813,
+  "sha256": "a60c07f620f560cbb15dcb752762c67472e8dff65689bb6521593bb0bcddcd9c"
+ },
+ "c2-etymology": {
+  "url": "http://c2.com/doc/etymology.html",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 10278,
+  "sha256": "327bad1dc4ad83088c29c2c20b16add714074a9763847844e01433bd0fa5455e"
+ },
+ "dmr-hist": {
+  "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 42621,
+  "sha256": "b992a159cd495b670507d42edc9d08a8fe3d329b93b967118e73882bf8e4e0d5"
+ },
+ "elastic-licensing-2021": {
+  "url": "https://www.elastic.co/blog/licensing-change",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 21988,
+  "sha256": "f4d22fd5a6aa48c86f36b6d84507b8a3e6f72233cc065209510172d38770d19c"
+ },
+ "elastic-open-again-2024": {
+  "url": "https://www.elastic.co/blog/elasticsearch-is-open-source-again",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 12142,
+  "sha256": "d71bebf7c0191475b043b02046f6bd87d8d0fb3549d2a89b703160d24199c1fa"
+ },
+ "fowler-ci": {
+  "url": "https://martinfowler.com/articles/continuousIntegration.html",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 87205,
+  "sha256": "5f941ed084485ce877acd28b08f754deae8bdd9d2a7ed53f46f8c83b34e1a6c0"
+ },
+ "fowler-new-methodology": {
+  "url": "https://martinfowler.com/articles/newMethodology.html",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 57755,
+  "sha256": "f00d9f132622c95e19ebf3d692123bc756bccb1d9490e11cd9ee04ba14008c06"
+ },
+ "fowler-xunit": {
+  "url": "https://martinfowler.com/bliki/Xunit.html",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 4473,
+  "sha256": "03fd236f9e3c5856a31145f8dcef35b7026884c7b26815a6fb7c0d849c2cc012"
+ },
+ "freund-xz-2024": {
+  "url": "https://www.openwall.com/lists/oss-security/2024/03/29/4",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 13187,
+  "sha256": "81b03370ee8e103bdf033443deca0c4a21d5757fed6a8e10a96ad756cc275e57"
+ },
+ "fsf-ml-freedom-2024": {
+  "url": "https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html;charset=utf-8",
+  "chars": 9790,
+  "sha256": "4f552c27b4462e129600087fc88477113908848910663990e5248b9a88cc7ec6"
+ },
+ "git-history-progit": {
+  "url": "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 4675,
+  "sha256": "d45a8816f17743b871cceef7aef168125d30cfd075487393477663b6e0299922"
+ },
+ "heartbleed-com": {
+  "url": "https://heartbleed.com/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 16944,
+  "sha256": "c0d5de35fdf2ef5c71b972c0e62747bd9310af9c56dbfea4130b69800dcd3045"
+ },
+ "junit4": {
+  "url": "https://junit.org/junit4/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 2772,
+  "sha256": "761760997b31bd4206362984601103b8db2273b9dcbc53348d68e83996b11305"
+ },
+ "lf-opentofu-2023": {
+  "url": "https://www.linuxfoundation.org/press/announcing-opentofu",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8440,
+  "sha256": "e2c29fc65a9bceac76f077c084f37be7a748e9cd87dfb03300ff8f439f1370b8"
+ },
+ "lf-valkey-2024": {
+  "url": "https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9091,
+  "sha256": "d31d80b8c8bcea2929d089899b8fd9f558be2f3db59d6c0366ab89c3292d2905"
+ },
+ "mozilla-history": {
+  "url": "https://www.mozilla.org/en-US/about/history/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 6556,
+  "sha256": "d136a3b2b3f37ebd08ee71769f953dee5fe8bed3111906a81fe7b872778b009b"
+ },
+ "ms-bash-windows-2016": {
+  "url": "https://blogs.windows.com/windowsdeveloper/2016/03/30/run-bash-on-ubuntu-on-windows/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 6634,
+  "sha256": "9d3f4bcdc57a418cebc8645bd8345f14cb4b78dbdb31f50b95ecf76ad85044ca"
+ },
+ "ms-dotnet-open-2014": {
+  "url": "https://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 7526,
+  "sha256": "ab0274905179fec6f80643e11183868c8f374b295fe73aabef8c584054fa42fd"
+ },
+ "ms-github-announce-2018": {
+  "url": "https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9829,
+  "sha256": "f58fe31aa4a70ac698eb973707d52c50bfbdeffbb3133fa67b1549dc112a1fd3"
+ },
+ "ms-github-complete-2018": {
+  "url": "https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 2967,
+  "sha256": "89300c45c7bb9047c63afb59aa04ca216fa723fd4d4ab2361e33d066289a79da"
+ },
+ "ms-nadella-ceo-2014": {
+  "url": "https://news.microsoft.com/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/",
+  "fetched": "2026-11-27T13:14Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 6426,
+  "sha256": "4eeee06fe505ff4e9a138f1fd116ebfcd5476260f363440006f727e99b14faa6"
+ },
+ "ms-oin-2018": {
+  "url": "https://azure.microsoft.com/en-us/blog/microsoft-joins-open-invention-network-to-help-protect-linux-and-open-source/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8114,
+  "sha256": "153cc247aa5f3b82a68b73e09fb1e609559a6e7ab7504e2ed2b8915f68629ab9"
+ },
+ "ms-sql-linux-2016": {
+  "url": "https://blogs.microsoft.com/blog/2016/03/07/announcing-sql-server-on-linux/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9408,
+  "sha256": "0c780894d217124cee049b484c36caa19b6b8639abe24b94d55f3e5065be59b6"
+ },
+ "ms-wsl-open-source-2025": {
+  "url": "https://blogs.windows.com/windowsdeveloper/2025/05/19/the-windows-subsystem-for-linux-is-now-open-source/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 7330,
+  "sha256": "0422c5e123d2068743ef5fd700515898215acef3a00244964bbe756d2a15bfa0"
+ },
+ "octoverse-2024": {
+  "url": "https://github.blog/news-insights/octoverse/octoverse-2024/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 54523,
+  "sha256": "54a5e1fef1b0e6fe4d2e4010e41c97f79c5faf9091e4444898861c032650feda"
+ },
+ "octoverse-2025": {
+  "url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 59310,
+  "sha256": "9be17a61a40fdd2f739df2c30b421e4f8e843d16d891e7362df687ea1d3824ca"
+ },
+ "opentofu-manifesto": {
+  "url": "https://opentofu.org/manifesto/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 5699,
+  "sha256": "e3f7cb19aac5f59d80e0e7b6ccf85efb239a927748f92e385c20128798c5627d"
+ },
+ "osi-osaid": {
+  "url": "https://opensource.org/ai/open-source-ai-definition",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 12538,
+  "sha256": "9d9bfb452b15bd13e1382f472479860462efedfbe3e46b71a988431a52198057"
+ },
+ "osi-osaid-release-2024": {
+  "url": "https://opensource.org/blog/the-open-source-initiative-announces-the-release-of-the-industrys-first-open-source-ai-definition",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 11641,
+  "sha256": "ca3043497108f673a60d2751542f4ad48515eddaa175e86221aa730fbf80c042"
+ },
+ "osi-sspl-not-open-source": {
+  "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 10378,
+  "sha256": "8ef82b9cc4e650ad77818f6ab8d2bb4bbe27ff1636afe9e795459ed257537d20"
+ },
+ "redhat-history": {
+  "url": "https://www.redhat.com/en/about/brand/standards/history",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9314,
+  "sha256": "6c4734527651d48dbf12f2787db8cd0d6e6210cba15ba28e876608e1c60e4f6c"
+ },
+ "redis-agpl-2025": {
+  "url": "https://redis.io/blog/agplv3/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 10494,
+  "sha256": "122509dbf8a36ae7c09342bcf38f8344e5e0d32cd853cf21eb7bb610e1a0fa39"
+ },
+ "redis-licence-2024": {
+  "url": "https://redis.io/blog/redis-adopts-dual-source-available-licensing/",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 28156,
+  "sha256": "1f209313846e15059e2286d309b1b94403c29e80ad0cda9cf8e423fc59b9c7fb"
+ },
+ "verge-brad-smith-2020": {
+  "url": "https://www.theverge.com/2020/5/18/21262103/microsoft-open-source-linux-history-wrong-statement",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 7815,
+  "sha256": "e44d4167c9ab2643754d1181fb94093aaf6b5b552b7731923fa7bfac7344b326"
+ },
+ "gnu-manifesto": {
+  "url": "http://www.gnu.org/gnu/manifesto.html",
+  "fetched": "2026-11-27T13:15Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 28947,
+  "sha256": "b6b8ecef376bc85557e6248b7847bfc49255452ad83abc3dad391f6084a0ee61"
+ },
+ "gpl-3": {
+  "url": "http://www.gnu.org/licenses/gpl-3.0.txt",
+  "fetched": "2026-11-27T13:16Z",
+  "http": 200,
+  "content_type": "text/plain",
+  "chars": 34025,
+  "sha256": "fd9b5c048eff9812dd906c182e075edb9edce177fb05e25eab65f68bd077b2b4"
+ },
+ "stallman-misses-the-point": {
+  "url": "http://www.gnu.org/philosophy/open-source-misses-the-point.html",
+  "fetched": "2026-11-27T13:16Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 24155,
+  "sha256": "9fcadf6daf5bc456dd419bc8828bd35570a48a3877133ee715ef36b308054687"
+ },
+ "gnu-linux-and-gnu": {
+  "url": "http://www.gnu.org/gnu/linux-and-gnu.html",
+  "fetched": "2026-11-27T13:16Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 11435,
+  "sha256": "076497a71dcecdc71b27aca3f01a0a02cc9e82d91a412f8bead4554510d67c50"
+ },
+ "gnu-bsd-problem": {
+  "url": "http://www.gnu.org/licenses/bsd.html",
+  "fetched": "2026-11-27T13:16Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 7328,
+  "sha256": "24a7a019051411923efb25ab0704db06c339fba41fd0e0c5b0af1db92b5ee8e4"
+ },
+ "catb-cathedral-epilog": {
+  "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s13.html",
+  "fetched": "2026-11-27T13:19Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 4002,
+  "sha256": "c59634f6cb22689c53f32d3a33b2f085b2eaf18d648b6596bbca0b6253344bf4"
+ },
+ "halloween-1": {
+  "url": "http://catb.org/~esr/halloween/halloween1.html",
+  "fetched": "2026-11-27T13:19Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 108289,
+  "sha256": "0daf9afa9a800e8ced026124bb7a035c8e37beefefdb6cc0e78785bf0591f6df"
+ },
+ "halloween-index": {
+  "url": "http://catb.org/~esr/halloween/index.html",
+  "fetched": "2026-11-27T13:20Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 3724,
+  "sha256": "8e065596e2615c59c1df2ad0d1faae401283c1bcff22f728b4d488e2e5c74665"
+ },
+ "esr-goodbye-free-software": {
+  "url": "http://catb.org/~esr/open-source.html",
+  "fetched": "2026-11-27T13:21Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 4147,
+  "sha256": "f151a4a3d041dc24947640f487ccf2ad59fa10472a81f3f304d96fdd29208c63"
+ },
+ "gnu-initial-announcement": {
+  "url": "http://www.gnu.org/gnu/initial-announcement.html",
+  "fetched": "2026-11-27T13:21Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 11167,
+  "sha256": "e19121cbcefcad13d276fe7ed6e145e4f2531cde7d088ff87a7b5065be404e3e"
+ },
+ "gnu-history": {
+  "url": "http://www.gnu.org/gnu/gnu-history.html",
+  "fetched": "2026-11-27T13:21Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 6087,
+  "sha256": "a5a36c96897426983056c371644d2087fbb8b4301d099bafa2f5d0aa9a465d33"
+ },
+ "gpl-1": {
+  "url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt",
+  "fetched": "2026-11-27T13:21Z",
+  "http": 200,
+  "content_type": "text/plain",
+  "chars": 11873,
+  "sha256": "c5e7e3bf26d97e157bf1087756fa41832b58968edf4b8c02991f1a6b23d93cd8"
+ },
+ "gpl-2": {
+  "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+  "fetched": "2026-11-27T13:21Z",
+  "http": 200,
+  "content_type": "text/plain",
+  "chars": 17315,
+  "sha256": "d2b14e08e48a5f3dcca19272068cf5e87dc1d83ef378bd64c204505978900373"
+ },
+ "catb-release-early": {
+  "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html",
+  "fetched": "2026-11-27T13:21Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 9463,
+  "sha256": "875ece6ea9504d36745538d7df9dddb21270d01ee50837497ac6698741e058b5"
+ },
+ "catb-cathedral-intro": {
+  "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/index.html",
+  "fetched": "2026-11-27T13:22Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 5946,
+  "sha256": "4e9803f27e86baff17b0f0468c20f0739c9248b9415857d977c3fbaa014575ee"
+ },
+ "halloween-3": {
+  "url": "http://catb.org/~esr/halloween/halloween3.html",
+  "fetched": "2026-11-27T13:22Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 12162,
+  "sha256": "7b0052f3204926e0816ec42e9e58d0a55abbc0d5a23504e6a4974a22ee9810dc"
+ },
+ "gnu-thegnuproject": {
+  "url": "http://www.gnu.org/gnu/thegnuproject.html",
+  "fetched": "2026-11-27T13:22Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 48309,
+  "sha256": "1d360e42ee24431fc819b4f50a9514b66e276e3d619d152cf53f662e72f5ccb4"
+ },
+ "gnu-free-sw": {
+  "url": "http://www.gnu.org/philosophy/free-sw.html",
+  "fetched": "2026-11-27T13:24Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 25622,
+  "sha256": "d011919ed7da7794202bfb5d00ba0981a5bbf75e2ca167dcb11eef2e04e29555"
+ },
+ "gnu-free-software-for-freedom": {
+  "url": "http://www.gnu.org/philosophy/free-software-for-freedom.html",
+  "fetched": "2026-11-27T13:24Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 17248,
+  "sha256": "ab102cd2c8935db9dfdb787e88669803533eedf5542ee7ba3592d44a767bcdac"
+ },
+ "gnu-java-trap": {
+  "url": "http://www.gnu.org/philosophy/java-trap.html",
+  "fetched": "2026-11-27T13:24Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 10265,
+  "sha256": "02e0f2c65fe251ad0327ef0802b23f045534f07d037963e8033ee910b08a9c76"
+ },
+ "cncf-k8s-donate": {
+  "url": "https://www.cncf.io/blog/2016/03/10/cloud-native-computing-foundation-accepts-kubernetes-as-first-hosted-project-technical-oversight-committee-elected/",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 10780,
+  "sha256": "49e77bcb4df577d4bd2c9a58ef19bc2fe10a706a69f2e16561f11ee85cd39fd0"
+ },
+ "debian-history-detailed": {
+  "url": "https://www.debian.org/doc/manuals/project-history/detailed.en.html",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 30816,
+  "sha256": "9c8af2791c33972d4bfae09556ca69131be3562f3b8a4d1e944ba4363ca7d3e0"
+ },
+ "debian-manifesto": {
+  "url": "https://www.debian.org/doc/manuals/project-history/manifesto.en.html",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 6919,
+  "sha256": "def62793964d49a098ce6c0c500e9f4784e9273b7d9e784bc7fa358545c99f6e"
+ },
+ "devopsdays-about": {
+  "url": "https://devopsdays.org/about/",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 3585,
+  "sha256": "8f7ce848a00eb9df32a254af86f376f97877739e1ba432f9a9e9c67921434b76"
+ },
+ "dotnet-foundation-about": {
+  "url": "https://dotnetfoundation.org/about",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 2444,
+  "sha256": "d2f8f45d2d3b1072c891819229d12fa9c6e668c5ad95f614ace0b6dfb630746f"
+ },
+ "ec-cra-open-source": {
+  "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-open-source",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 6003,
+  "sha256": "b0786b78a0cf4606d031131dadc7537e54f5c322b88dce2f3b8690f23925a04b"
+ },
+ "gnu-linux-faq": {
+  "url": "http://www.gnu.org/gnu/gnu-linux-faq.html",
+  "fetched": "2026-11-27T13:27Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 61593,
+  "sha256": "0d8c89b1c224d44816fe8741dea231fdddc9e6fd043937c9b377ac7c0eb12426"
+ },
+ "ibm-closes-redhat-2019": {
+  "url": "https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 18991,
+  "sha256": "a7509e9632a5db71bdbf023e940c45f771976125cbd8d40b411ef908d4c5869d"
+ },
+ "jenkins-hudson-future": {
+  "url": "https://www.jenkins.io/blog/2011/01/11/hudsons-future",
+  "fetched": "2026-11-27T13:42Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 6411,
+  "sha256": "a3eac83304623dc5032d7d35d5127b041466423e79b901696f6a677a64bda83c"
+ },
+ "k8s-blog-first-commit": {
+  "url": "https://kubernetes.io/blog/2018/07/20/the-history-of-kubernetes-the-community-behind-it/",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 51412,
+  "sha256": "4fb41f83a10b347d1d121bb98dac785b3dfe5c42ad11e4212a04e1a7840617e7"
+ },
+ "lkml-git-2005": {
+  "url": "https://marc.info/?l=linux-kernel&m=111288700902396",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html;",
+  "chars": 5518,
+  "sha256": "3c9b7b8124b9a3db03e84137f3cd6beab1b55f11705dcaad6f3d8f41a8d70103"
+ },
+ "mongodb-sspl-faq": {
+  "url": "https://www.mongodb.com/legal/licensing/server-side-public-license/faq",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 12200,
+  "sha256": "b1459b4145aa62a3c17abbf327a5840849974e5fe50df942a1c1234fdc2fe54b"
+ },
+ "mongodb-sspl-pr": {
+  "url": "https://www.mongodb.com/company/newsroom/press-releases/mongodb-issues-new-server-side-public-license-for-mongodb-community-server",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 9733,
+  "sha256": "e57c7d0bcd126b3a4d7c36bea77570295bf42fca8bb652f761dbb0ab23d0d9fa"
+ },
+ "ms-lf-platinum-2016": {
+  "url": "https://www.linuxfoundation.org/press/press-release/microsoft-fortifies-commitment-to-open-source-becomes-linux-foundation-platinum-member",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 6119,
+  "sha256": "5101ae18f79b6a2de6f3142dd3169ee81b8fdce50f5b1618f8bd7bf30a55f2ff"
+ },
+ "ms-linux-drivers-2009": {
+  "url": "https://learn.microsoft.com/en-us/archive/blogs/port25/microsoft-releases-device-driver-code-to-the-linux-community",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 4292,
+  "sha256": "f95bc818a3a7bfe22b7bef06b7807428721f7bc84203ab3f4cd9b74b7f755326"
+ },
+ "ms-linux-drivers-technet-2009": {
+  "url": "https://techcommunity.microsoft.com/blog/virtualization/linux-ics-for-hyper-v-and-gplv2/381647",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 4475,
+  "sha256": "ca6fc86eb376ab3f5efa45724e4bbb2d90d4befa8a4acd9b0c678bf2b8855043"
+ },
+ "ms-loves-linux-2015": {
+  "url": "https://www.microsoft.com/en-us/windows-server/blog/2015/05/06/microsoft-loves-linux",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 10684,
+  "sha256": "ad003c109aeb8f313a4996fba0ca1e55bdd968f2bf0187ca0838b9c0ad62eedc"
+ },
+ "ms-mundie-2001": {
+  "url": "https://news.microsoft.com/speeches/speech-transcript-craig-mundie-the-new-york-university-stern-school-of-business/",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 20633,
+  "sha256": "6aeee4fbc03000714e75ce92a29adaf68d3eaeaaebdda2cf3418f8e772095b4f"
+ },
+ "openoffice-history": {
+  "url": "https://www.openoffice.org/about_us/milestones.html",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 4094,
+  "sha256": "855d8e61b553afaecd46a71e92a9f4beb50121c43baf26413a57f341cba517fd"
+ },
+ "openssf-about": {
+  "url": "https://openssf.org/about/",
+  "fetched": "2026-11-27T13:28Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 10600,
+  "sha256": "bb1fa03f5a612479fb5ba4d3f4122c93177054521c9e8d6e89e6e05aeb615487"
+ },
+ "pcworld-ms-hearts-linux-2014": {
+  "url": "https://www.pcworld.com/article/435928/microsoft-hearts-linux-for-azures-sake.html",
+  "fetched": "2026-11-27T13:29Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 7729,
+  "sha256": "4f833865fa0104d60cd91077fcfc55467ec03f21f1ac4860f4196d84847ce14f"
+ },
+ "register-nadella-loves-linux-2014": {
+  "url": "https://www.theregister.com/2014/10/20/microsoft_cloud_event/",
+  "fetched": "2026-11-27T13:29Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9287,
+  "sha256": "33e0f35e42a5b438e8e7e2a12568db8c09fd4ef2ab95a92dff187ef3fe08286f"
+ },
+ "register-sco-settlement-2021": {
+  "url": "https://www.theregister.com/2021/08/30/sco_tsg_vs_ibm_settlement/",
+  "fetched": "2026-11-27T13:29Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9042,
+  "sha256": "fee0b64dd5323749b513d89f3e11836bb633f9cfeb3af50850387808edecadf2"
+ },
+ "reuters-ballmer-2016-thestar": {
+  "url": "https://www.thestar.com.my/tech/tech-news/2016/03/11/former-microsoft-ceo-ballmer-does-about-face-on-linux-technology",
+  "fetched": "2026-11-27T13:29Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 4480,
+  "sha256": "624e60cea5c34ab54f71552bf954c43912acaf3b0008105405e531eca71c9eae"
+ },
+ "sfc-osaid-2024": {
+  "url": "https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/",
+  "fetched": "2026-11-27T13:29Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 14387,
+  "sha256": "10438d5fcd497feca6ce6e8651e289490362094f208f7b763256ebab2ff3e065"
+ },
+ "wp-share": {
+  "url": "https://en.wikipedia.org/wiki/SHARE_(computing)",
+  "fetched": "2026-11-27T13:30Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 11313,
+  "sha256": "9fa4d9de0ab2fe07d611fc6a77ec671f78b45447fb60d5403dad57834552ace1"
+ },
+ "git-readme-initial": {
+  "url": "https://raw.githubusercontent.com/git/git/e83c5163316f89bfbde7d9ab23ca2e25604af290/README",
+  "fetched": "2026-11-27T13:30Z",
+  "http": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "chars": 8160,
+  "sha256": "2db028a41371d9dff0cb406fe37db3d9ec1388fab1413ea18d5cbab1f6ff44ea"
+ },
+ "netscape-pr-1998-lkml": {
+  "url": "https://lkml.iu.edu/hypermail/linux/kernel/9801.2/0911.html",
+  "fetched": "2026-11-27T13:33Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 1860,
+  "sha256": "49f60b1cd5b3e3c9016157aac601af92c57197f41d18527726772eb52349cc9e"
+ },
+ "netscape-devedge-1998-lkml": {
+  "url": "https://lkml.iu.edu/hypermail/linux/kernel/9801.2/0955.html",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 6509,
+  "sha256": "5450f1ae057d150682346b2678408bfb975b3a2dc8fb21a4d9836a8cb800a16a"
+ },
+ "baker-jan-22-1998": {
+  "url": "https://blog.lizardwrangler.com/?p=187",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8213,
+  "sha256": "9ed3bf05c320a92089f788853870445038ed4264c533a830fecbbe7a7552801b"
+ },
+ "ms-codeplex-foundation-2009": {
+  "url": "https://learn.microsoft.com/en-us/archive/blogs/port25/the-codeplex-foundation-debuts",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 4191,
+  "sha256": "14b2876d61e54fcb3dd231dac5d67fcf1ba16ca617f8650924eea9f3df51734b"
+ },
+ "ms-open-tech-2012": {
+  "url": "https://learn.microsoft.com/en-us/archive/blogs/interoperability/announcing-one-more-way-microsoft-will-engage-with-the-open-source-and-standards-communities",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 11963,
+  "sha256": "19301902c4bedc70e83a604256892df7f527f269b3eb75dbc78d25a2d7cb67b9"
+ },
+ "ms-connect-2015": {
+  "url": "https://news.microsoft.com/source/2015/11/18/microsoft-empowers-developers-with-new-and-updated-tools-spanning-android-azure-ios-linux-office-and-windows/",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8545,
+  "sha256": "83223b6702b6c32ed5faaf81d3fe1e337039526719e9f61930182f9263c2c2df"
+ },
+ "vscode-1-0-2016": {
+  "url": "https://code.visualstudio.com/blogs/2016/04/14/vscode-1.0/",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 10534,
+  "sha256": "ae1c31aa3febf02eaac7c3f8c027f8f223349c07e76fcdd8366f561ff64cb179"
+ },
+ "opensources-netrev": {
+  "url": "https://www.oreilly.com/openbook/opensources/book/netrev.html",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 25887,
+  "sha256": "2da93155201dfe486bf5f0c437f1665785e0f33d51a180c935ee69a4d378c4a7"
+ },
+ "gsoc-about": {
+  "url": "https://summerofcode.withgoogle.com/about",
+  "fetched": "2026-11-27T13:34Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 1483,
+  "sha256": "3c5b5c7b099ee99a80ab68cb8b6311c14ce159ba58b090440127067d585d25c9"
+ },
+ "oreilly-summit-1998": {
+  "url": "https://linuxgazette.net/issue28/oreilly.html",
+  "fetched": "2026-11-27T13:39Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 7498,
+  "sha256": "94899209a421272b695f4ad2fb9533d33e54b1be460a2e40eb0f93005ca40b1c"
+ },
+ "linuxjournal-summit-1998": {
+  "url": "https://www.linuxjournal.com/article/2918",
+  "fetched": "2026-11-27T13:39Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 6673,
+  "sha256": "20ee47eebbfd0c0e30de5ccb191f09237aff41f419712300c475ece38252b176"
+ },
+ "github-microsoft-2018": {
+  "url": "https://github.blog/news-insights/company-news/github-and-microsoft/",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 13301,
+  "sha256": "22903fb38e4fa590a2fce90fb04492288853f75e9fb84801734fba350f562e35"
+ },
+ "terraform-licence": {
+  "url": "https://raw.githubusercontent.com/hashicorp/terraform/main/LICENSE",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "chars": 4240,
+  "sha256": "40506ffba48ed4ca9eef8cba30fe015f325875544f2b2b0c1f44f9783709236b"
+ },
+ "openoffice-sun-release-2000": {
+  "url": "https://www.openoffice.org/press/sun_release.html",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 11232,
+  "sha256": "2081ed6e868870a2a603ad1086302d5a714a4ddaf399e3a8e0b793f7fb53b995"
+ },
+ "zdnet-sco-settled-2021": {
+  "url": "https://www.zdnet.com/article/last-of-original-sco-v-ibm-linux-lawsuit-settled/",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 8737,
+  "sha256": "39a1e6f4cdcc70e0ef0510bb80d88306c42186e1b368c8a8e2e8ed4bbaa7e7bf"
+ },
+ "register-ballmer-2016": {
+  "url": "https://www.theregister.com/2016/03/11/ballmer_linux_non_apology/",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 9462,
+  "sha256": "afbaba3569223e811f6398b7531fddb95fa9246ed24ef6e5c164bfc89e25be39"
+ },
+ "github-docs-pull-requests": {
+  "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 7042,
+  "sha256": "d504ec3317f7ae656bc6ce81abf1fe81b0c81d31252b5e1ef83d8aa09356a4d9"
+ },
+ "cruisecontrol-home": {
+  "url": "https://cruisecontrol.sourceforge.net/",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 1831,
+  "sha256": "d8051fa127e14a88af121039af77a8543b3164718918749bc24a8a760913218d"
+ },
+ "fowler-ci-original": {
+  "url": "https://martinfowler.com/articles/originalContinuousIntegration.html",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 25946,
+  "sha256": "9e03c23086579e4f97f07b578bfcec6a55af683b71e2cbb6b3a714692b45aead"
+ },
+ "fedwiki-readme": {
+  "url": "https://raw.githubusercontent.com/WardCunningham/Smallest-Federated-Wiki/master/ReadMe.md",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "chars": 2162,
+  "sha256": "95e16dd5d43e80fb8cd1e1abdbd2e0f70d0c3bb60e206e30a5ca35996d54fc7c"
+ },
+ "openssf-launch-2020": {
+  "url": "https://openssf.org/blog/2020/08/03/technology-and-enterprise-leaders-combine-efforts-to-improve-open-source-security/",
+  "fetched": "2026-11-27T13:40Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 15856,
+  "sha256": "fc439e57dad87c275b093349ad0952c583480c2db8c0bc1a24b2dcb5f3b8e4b0"
+ },
+ "cra-article-24": {
+  "url": "https://www.european-cyber-resilience-act.com/Cyber_Resilience_Act_Article_24.html",
+  "fetched": "2026-11-27T13:41Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 2217,
+  "sha256": "36b924b7437de8210ab6c2206cc17a7281f3e3ee9f3ddeb46dfefb27ec56cd68"
+ },
+ "osi-cra-2024": {
+  "url": "https://opensource.org/blog/the-european-regulators-listened-to-the-open-source-communities",
+  "fetched": "2026-11-27T13:41Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 11763,
+  "sha256": "b02c6aba12fc127de6b93cb46520608084c87f8b1af3a6c93d120686a60838d8"
+ },
+ "share-history": {
+  "url": "https://www.share.org/About/History",
+  "fetched": "2026-11-27T13:41Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 2981,
+  "sha256": "78d9a52c9ec8de95ad8332a8d12d4b6906e6e7f4517b500e7c88805b740f50ca"
+ },
+ "fortune-235-patents-2007": {
+  "url": "https://fortune.com/article/microsoft-linux-intellectual-property/",
+  "fetched": "2026-11-27T13:41Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 24924,
+  "sha256": "d11f8946f54e57659b049b352bac75fe00d2191e3ab4018f5f0de733321ac757"
+ },
+ "fortune-235-blog-2007": {
+  "url": "https://fortune.com/2007/05/14/msft-linux-free-software-infringe-235-of-our-patents/",
+  "fetched": "2026-11-27T13:41Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 6441,
+  "sha256": "0021b138e33c9302771658babb4119c11b1df0cad510a66e3fde20386e8e9343"
+ },
+ "eweek-get-the-facts-2004": {
+  "url": "https://www.eweek.com/news/microsoft-takes-on-linux-in-ad-campaign/",
+  "fetched": "2026-11-27T13:41Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 16629,
+  "sha256": "91d528db81b3c52ce4e45907ddae87d7088da1679cc9976509c5ff2885baf0ee"
+ },
+ "jenkins-vote-2011": {
+  "url": "https://www.jenkins.io/blog/2011/01/29/jenkins",
+  "fetched": "2026-11-27T13:42Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 2151,
+  "sha256": "503260bf397506101a84fe217b31221f9efcc6b802e7474daaeb7498179c9864"
+ },
+ "theagileadmin-devops": {
+  "url": "https://theagileadmin.com/what-is-devops/",
+  "fetched": "2026-11-27T13:42Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 69017,
+  "sha256": "65dcb351e56438210e72233a87f342df42540e4b68d6c2c199d8b483ac4afb20"
+ },
+ "fowler-new-methodology-original": {
+  "url": "https://martinfowler.com/articles/newMethodologyOriginal.html",
+  "fetched": "2026-11-27T13:47Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 48704,
+  "sha256": "7ace15356bb8e44083f032b4f8a2dd10b179d283640bc9aee3e692cab9c2cc4f"
+ },
+ "junit-github-readme": {
+  "url": "https://raw.githubusercontent.com/junit-team/junit4/main/README.md",
+  "fetched": "2026-11-27T13:47Z",
+  "http": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "chars": 829,
+  "sha256": "553a6deeeb36f00591458cbc3ce67aedc71b13ddf68a6d8fe62007bedc31b9b2"
+ },
+ "junit-licence": {
+  "url": "https://raw.githubusercontent.com/junit-team/junit4/main/LICENSE-junit.txt",
+  "fetched": "2026-11-27T13:47Z",
+  "http": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "chars": 11212,
+  "sha256": "0ea86ba9905a7139af66823e8b9e3700c1ef16c13a64f37708b0e54d79c34bb1"
+ },
+ "jenkins-home": {
+  "url": "https://www.jenkins.io/",
+  "fetched": "2026-11-27T13:47Z",
+  "http": 200,
+  "content_type": "text/html",
+  "chars": 7558,
+  "sha256": "66d06e78f962462ed01275088fab1a6c0945d77cc1b69c31b75a6d40ead2bbf2"
+ },
+ "c2-wiki-history-json": {
+  "url": "https://c2.com/wiki/remodel/pages/WikiHistory",
+  "fetched": "2026-11-27T13:47Z",
+  "http": 200,
+  "content_type": "",
+  "chars": 16290,
+  "sha256": "40f6aac289270c1cdd394a2c0510df1f12c95be13b0c93f9f4dc837fae80d1d5"
+ },
+ "ec-cra-policy": {
+  "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+  "fetched": "2026-11-27T13:50Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 5114,
+  "sha256": "3c7afd4e199cc0c0f94d8eb8ad1412d6828e7cc363e772460e5c1cb4f8805eea"
+ },
+ "osi-osaid-faq": {
+  "url": "https://opensource.org/ai/faq",
+  "fetched": "2026-11-27T13:50Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 25924,
+  "sha256": "a48bff044f718042d88023b07598371edaa2247119d1c87b7e5b6075f80d82e2"
+ },
+ "cruisecontrol-sourceforge": {
+  "url": "https://sourceforge.net/projects/cruisecontrol/",
+  "fetched": "2026-11-27T13:56Z",
+  "http": 200,
+  "content_type": "text/html; charset=utf-8",
+  "chars": 6393,
+  "sha256": "b5d2a82e65d629a984476c7c730c4145f6b0eb80a114e31a9bab9404b347bfaf"
+ },
+ "k8s-docs-overview": {
+  "url": "https://kubernetes.io/docs/concepts/overview/",
+  "fetched": "2026-11-27T14:01Z",
+  "http": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "chars": 34389,
+  "sha256": "df63d6bab8bfa122695a23c97fd4dffb3aa087414e04253c6a75654e609e94fd"
+ }
+}

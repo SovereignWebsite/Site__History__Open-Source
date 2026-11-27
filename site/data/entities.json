@@ -1,0 +1,3399 @@
+{
+ "derived_from": [
+  "site/data/facts.json",
+  "site/data/story.json"
+ ],
+ "by": "tools/derive.mjs",
+ "note": "Derived. Do not edit by hand.",
+ "entities": [
+  {
+   "id": "richard-stallman",
+   "name": "Richard Stallman",
+   "summary": "Programmer who announced the GNU Project in 1983 and founded the free software movement [f:gnu-announced-1983] [f:stallman-open-source-misses-point].",
+   "type": "people",
+   "facts": [
+    "stallman-sharing-community-1971",
+    "gnu-announced-1983",
+    "gnu-golden-rule-1983",
+    "gnu-manifesto-1985",
+    "copyleft-defined",
+    "stallman-1998-splinter",
+    "sun-java-gpl-2006",
+    "stallman-open-source-misses-point",
+    "gplv3-released-2007"
+   ],
+   "first": "1971",
+   "last": "2007-06-29",
+   "related": [
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 3
+    },
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/gnu-initial-announcement",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/why-open-source-misses-the-point",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/gnu-manifesto",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/gnu-announcement-1983",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/mit-ai-lab",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/sun",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "bill-gates",
+   "name": "Bill Gates",
+   "summary": "Co-founder of Microsoft and author of the 1976 \"Open Letter to Hobbyists\" [f:gates-open-letter-1976].",
+   "type": "people",
+   "facts": [
+    "gates-open-letter-1976"
+   ],
+   "first": "1976-02-03",
+   "last": "1976-02-03",
+   "related": [
+    {
+     "ref": "documents/open-letter-to-hobbyists",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "linus-torvalds",
+   "name": "Linus Torvalds",
+   "summary": "Creator of the Linux kernel (1991) and of Git (2005) [f:linus-minix-post-1991] [f:git-created-2005].",
+   "type": "people",
+   "facts": [
+    "linus-minix-post-1991",
+    "gnu-plus-linux-1992",
+    "linux-gpl-1992",
+    "cathedral-bazaar-1997",
+    "linuss-law-1997",
+    "release-early-release-often",
+    "git-created-2005",
+    "git-first-readme-2005"
+   ],
+   "first": "1991-08-25",
+   "last": "2005",
+   "related": [
+    {
+     "ref": "documents/cathedral-and-bazaar",
+     "shared_facts": 3
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/git",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "eric-raymond",
+   "name": "Eric S. Raymond",
+   "summary": "Author of \"The Cathedral and the Bazaar\", co-founder of the Open Source Initiative and publisher of the Halloween Documents [f:cathedral-bazaar-1997] [f:osi-founded-1998] [f:halloween-memo-threat-1998].",
+   "type": "people",
+   "facts": [
+    "cathedral-bazaar-1997",
+    "linuss-law-1997",
+    "release-early-release-often",
+    "netscape-credits-raymond-1998",
+    "osi-founded-1998",
+    "perens-edited-dfsg-into-osd",
+    "open-source-meeting-peterson-account",
+    "raymond-free-software-term-has-to-go",
+    "raymond-goodbye-free-software-1998",
+    "halloween-memo-threat-1998",
+    "halloween-authenticity-1998",
+    "perens-leaves-osi-1999",
+    "fowler-open-source-debugging-2000"
+   ],
+   "first": "1997-05",
+   "last": "2000-07",
+   "related": [
+    {
+     "ref": "documents/cathedral-and-bazaar",
+     "shared_facts": 5
+    },
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 3
+    },
+    {
+     "ref": "people/linus-torvalds",
+     "shared_facts": 3
+    },
+    {
+     "ref": "events/halloween-documents-1998",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/dfsg",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/halloween-document-i",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/new-methodology",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/time-to-talk-free-software",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/open-source-strategy-session-1998",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/netscape",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/todd-anderson",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/vinod-valloppillil",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "bruce-perens",
+   "name": "Bruce Perens",
+   "summary": "Debian project leader who drafted the Debian Free Software Guidelines and edited them into the Open Source Definition; co-founder of the OSI [f:debian-social-contract-1997] [f:perens-edited-dfsg-into-osd].",
+   "type": "people",
+   "facts": [
+    "debian-social-contract-1997",
+    "osd-derived-from-dfsg-1998",
+    "osi-founded-1998",
+    "perens-edited-dfsg-into-osd",
+    "perens-free-software-again-1999",
+    "perens-leaves-osi-1999"
+   ],
+   "first": "1997-07-05",
+   "last": "1999-02-17",
+   "related": [
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 4
+    },
+    {
+     "ref": "documents/dfsg",
+     "shared_facts": 3
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/time-to-talk-free-software",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/debian",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/debian-social-contract",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "christine-peterson",
+   "name": "Christine Peterson",
+   "summary": "Executive director of the Foresight Institute in 1998, who proposed the term \"open source software\" [f:peterson-coins-open-source-1998].",
+   "type": "people",
+   "facts": [
+    "peterson-coins-open-source-1998",
+    "open-source-label-osi-account",
+    "open-source-meeting-peterson-account",
+    "freeware-summit-renamed-1998"
+   ],
+   "first": "1998-02",
+   "last": "1998-04",
+   "related": [
+    {
+     "ref": "events/open-source-strategy-session-1998",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/open-source-summit-1998",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/foresight-institute",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/tim-oreilly",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/todd-anderson",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "todd-anderson",
+   "name": "Todd Anderson",
+   "summary": "Linux programmer who, in Peterson's account, introduced her term at the February 1998 meeting [f:open-source-meeting-peterson-account].",
+   "type": "people",
+   "facts": [
+    "open-source-meeting-peterson-account"
+   ],
+   "first": "1998-02-05",
+   "last": "1998-02-05",
+   "related": [
+    {
+     "ref": "events/open-source-strategy-session-1998",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "tim-oreilly",
+   "name": "Tim O'Reilly",
+   "summary": "Publisher who organised the April 1998 summit at which leading developers agreed on the term \"open source\" [f:open-source-summit-1998].",
+   "type": "people",
+   "facts": [
+    "freeware-summit-renamed-1998",
+    "open-source-summit-1998"
+   ],
+   "first": "1998-04",
+   "last": "1998-04-07",
+   "related": [
+    {
+     "ref": "events/open-source-summit-1998",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/oreilly",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "ian-murdock",
+   "name": "Ian Murdock",
+   "summary": "Founder of the Debian Project in 1993 [f:debian-founded-1993].",
+   "type": "people",
+   "facts": [
+    "debian-founded-1993"
+   ],
+   "first": "1993-08-16",
+   "last": "1993-08-16",
+   "related": [
+    {
+     "ref": "organisations/debian",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "bill-joy",
+   "name": "Bill Joy",
+   "summary": "Berkeley graduate student who put together the first Berkeley Software Distribution in 1977 [f:bsd-first-distribution-1977].",
+   "type": "people",
+   "facts": [
+    "bsd-first-distribution-1977"
+   ],
+   "first": "1977",
+   "last": "1977",
+   "related": [
+    {
+     "ref": "organisations/uc-berkeley-csrg",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/kirk-mckusick",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "kirk-mckusick",
+   "name": "Marshall Kirk McKusick",
+   "summary": "Member of Berkeley's Computer Systems Research Group and author of the history of Berkeley Unix used here [f:bsd-networking-release-1989].",
+   "type": "people",
+   "facts": [
+    "bsd-first-distribution-1977"
+   ],
+   "first": "1977",
+   "last": "1977",
+   "related": [
+    {
+     "ref": "organisations/uc-berkeley-csrg",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/bill-joy",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "dennis-ritchie",
+   "name": "Dennis Ritchie",
+   "summary": "Bell Labs computer scientist, co-creator of Unix and author of its early history [f:unix-born-1969].",
+   "type": "people",
+   "facts": [
+    "unix-born-1969"
+   ],
+   "first": "1969",
+   "last": "1969",
+   "related": [
+    {
+     "ref": "organisations/bell-labs",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "brian-behlendorf",
+   "name": "Brian Behlendorf",
+   "summary": "One of the eight founders of the Apache Group in 1995 [f:apache-group-1995].",
+   "type": "people",
+   "facts": [
+    "apache-group-1995"
+   ],
+   "first": "1995-02",
+   "last": "1995-02",
+   "related": [
+    {
+     "ref": "organisations/apache",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "vinod-valloppillil",
+   "name": "Vinod Valloppillil",
+   "summary": "Microsoft employee named as author of the 1998 memorandum on open source software known as Halloween Document I [f:halloween-memo-threat-1998].",
+   "type": "people",
+   "facts": [
+    "halloween-memo-fud-1998",
+    "halloween-memo-threat-1998"
+   ],
+   "first": "1998-08-11",
+   "last": "1998-08-11",
+   "related": [
+    {
+     "ref": "documents/halloween-document-i",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/halloween-documents-1998",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "lou-gerstner",
+   "name": "Louis V. Gerstner",
+   "summary": "Chief executive of IBM who announced in December 2000 that the company would spend $1 billion on Linux [f:ibm-billion-linux-2000].",
+   "type": "people",
+   "facts": [
+    "ibm-billion-linux-2000"
+   ],
+   "first": "2000-12-12",
+   "last": "2000-12-12",
+   "related": [
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "jim-allchin",
+   "name": "Jim Allchin",
+   "summary": "Head of the Windows operating system at Microsoft in 2001, who called open source an intellectual-property destroyer [f:allchin-ip-destroyer-2001].",
+   "type": "people",
+   "facts": [
+    "allchin-american-way-2001",
+    "allchin-ip-destroyer-2001"
+   ],
+   "first": "2001-02",
+   "last": "2001-02",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "craig-mundie",
+   "name": "Craig Mundie",
+   "summary": "Microsoft senior vice president who set out the company's \"Shared Source\" position in May 2001 [f:mundie-shared-source-2001].",
+   "type": "people",
+   "facts": [
+    "mundie-gpl-viral-2001",
+    "mundie-shared-source-2001"
+   ],
+   "first": "2001-05-03",
+   "last": "2001-05-03",
+   "related": [
+    {
+     "ref": "events/mundie-nyu-speech-2001",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "steve-ballmer",
+   "name": "Steve Ballmer",
+   "summary": "Chief executive of Microsoft in 2001, reported in 2001 as calling Linux a cancer in an intellectual property sense [f:ballmer-cancer-2001] [f:ballmer-rearview-2016].",
+   "type": "people",
+   "facts": [
+    "ballmer-cancer-2001",
+    "ballmer-cancer-licence-context-2001",
+    "ballmer-cancer-short-form",
+    "ballmer-same-rules-2007",
+    "microsoft-235-patents-2007",
+    "ballmer-rearview-2016"
+   ],
+   "first": "2001-06-01",
+   "last": "2016-03-09",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 5
+    },
+    {
+     "ref": "events/ballmer-sun-times-interview-2001",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/brad-smith",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "brad-smith",
+   "name": "Brad Smith",
+   "summary": "Microsoft general counsel in 2007 and later its president, who said in 2020 that the company had been on the wrong side of history on open source [f:microsoft-235-patents-2007] [f:brad-smith-wrong-side-2020].",
+   "type": "people",
+   "facts": [
+    "microsoft-235-patents-2007",
+    "brad-smith-wrong-side-2020"
+   ],
+   "first": "2007-05",
+   "last": "2020-05",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/steve-ballmer",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "satya-nadella",
+   "name": "Satya Nadella",
+   "summary": "Chief executive of Microsoft from February 2014, who presented the \"Microsoft loves Linux\" slide that October [f:nadella-ceo-2014] [f:microsoft-loves-linux-2014].",
+   "type": "people",
+   "facts": [
+    "nadella-ceo-2014",
+    "azure-linux-share-2014",
+    "microsoft-loves-linux-2014",
+    "microsoft-loves-linux-slide-2014",
+    "microsoft-loves-linux-acknowledged-2015",
+    "microsoft-github-announced-2018"
+   ],
+   "first": "2014-02-04",
+   "last": "2018-06-04",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 6
+    },
+    {
+     "ref": "events/microsoft-cloud-event-2014",
+     "shared_facts": 4
+    },
+    {
+     "ref": "events/github-acquisition-2018",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "scott-guthrie",
+   "name": "Scott Guthrie",
+   "summary": "Microsoft executive vice president who announced SQL Server on Linux in 2016 [f:sql-server-linux-2016].",
+   "type": "people",
+   "facts": [
+    "sql-server-linux-2016"
+   ],
+   "first": "2016-03-07",
+   "last": "2016-03-07",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "shay-banon",
+   "name": "Shay Banon",
+   "summary": "Elastic executive who announced its licence change in 2021 and its return to an open source licence in 2024 [f:elastic-licence-change-2021] [f:elastic-agpl-2024].",
+   "type": "people",
+   "facts": [
+    "elastic-licence-change-2021",
+    "elastic-agpl-2024",
+    "elastic-open-source-again-2024"
+   ],
+   "first": "2021-01-14",
+   "last": "2024-08-29",
+   "related": [
+    {
+     "ref": "organisations/elastic",
+     "shared_facts": 3
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "andres-freund",
+   "name": "Andres Freund",
+   "summary": "Developer who found and reported the xz backdoor in March 2024 [f:xz-backdoor-2024].",
+   "type": "people",
+   "facts": [
+    "xz-backdoor-2024"
+   ],
+   "first": "2024-03-29",
+   "last": "2024-03-29",
+   "related": [
+    {
+     "ref": "events/xz-backdoor-2024",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "kohsuke-kawaguchi",
+   "name": "Kohsuke Kawaguchi",
+   "summary": "Creator of the Hudson continuous integration server, which its community renamed Jenkins in 2011 [f:jenkins-trademark-reason-2011] [f:jenkins-rename-2011].",
+   "type": "people",
+   "facts": [
+    "jenkins-trademark-reason-2011",
+    "jenkins-rename-2011"
+   ],
+   "first": "2011-01-11",
+   "last": "2011-01-29",
+   "related": [
+    {
+     "ref": "organisations/jenkins",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "ward-cunningham",
+   "name": "Ward Cunningham",
+   "summary": "Programmer who created the first wiki in 1995 and is an author of the Agile Manifesto [f:cunningham-first-wiki-1995] [f:agile-manifesto-authors-2001].",
+   "type": "people",
+   "facts": [
+    "cunningham-wiki-name-1995",
+    "cunningham-first-wiki-1995",
+    "agile-manifesto-authors-2001",
+    "agile-manifesto-freely-copied-2001",
+    "federated-wiki-open-source"
+   ],
+   "first": "1995",
+   "last": "2026",
+   "related": [
+    {
+     "ref": "documents/agile-manifesto",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/wikiwikiweb",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/kent-beck",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "kent-beck",
+   "name": "Kent Beck",
+   "summary": "Co-author of the JUnit testing framework and an author of the Agile Manifesto [f:junit-1997] [f:agile-manifesto-authors-2001].",
+   "type": "people",
+   "facts": [
+    "junit-1997",
+    "agile-manifesto-authors-2001",
+    "agile-manifesto-freely-copied-2001"
+   ],
+   "first": "1997",
+   "last": "2001-02",
+   "related": [
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/agile-manifesto",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/ward-cunningham",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/junit",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/erich-gamma",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "erich-gamma",
+   "name": "Erich Gamma",
+   "summary": "Co-author, with Kent Beck, of the JUnit testing framework [f:junit-1997].",
+   "type": "people",
+   "facts": [
+    "junit-1997"
+   ],
+   "first": "1997",
+   "last": "1997",
+   "related": [
+    {
+     "ref": "documents/junit",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/kent-beck",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "martin-fowler",
+   "name": "Martin Fowler",
+   "summary": "Author of \"The New Methodology\" and \"Continuous Integration\" and an author of the Agile Manifesto [f:fowler-open-source-new-methodology-2000] [f:agile-manifesto-authors-2001].",
+   "type": "people",
+   "facts": [
+    "junit-1997",
+    "fowler-open-source-debugging-2000",
+    "fowler-open-source-new-methodology-2000",
+    "continuous-integration-ant-2000",
+    "agile-manifesto-authors-2001",
+    "agile-manifesto-freely-copied-2001",
+    "ci-services-open-source-2024",
+    "cruisecontrol-open-source"
+   ],
+   "first": "1997",
+   "last": "2024-01-18",
+   "related": [
+    {
+     "ref": "people/kent-beck",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/agile-manifesto",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/new-methodology",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/ward-cunningham",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/cathedral-and-bazaar",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/junit",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/jenkins",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/thoughtworks",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/erich-gamma",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "name": "SHARE",
+   "summary": "User group of IBM computer installations, begun in 1955 [f:share-founded-1955].",
+   "type": "organisations",
+   "facts": [
+    "share-founded-1955",
+    "share-library-source-form"
+   ],
+   "first": "1955",
+   "last": "1955",
+   "related": [
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "ibm",
+   "name": "IBM",
+   "summary": "Computer company that shipped early software as source, committed $1 billion to Linux in 2000 and bought Red Hat in 2019 [f:share-library-source-form] [f:ibm-billion-linux-2000] [f:ibm-red-hat-closed-2019].",
+   "type": "organisations",
+   "facts": [
+    "share-library-source-form",
+    "ibm-billion-linux-2000",
+    "sco-v-ibm-2003",
+    "ibm-red-hat-announced-2018",
+    "ibm-red-hat-closed-2019",
+    "openssf-founded-2020",
+    "sco-ibm-settled-2021"
+   ],
+   "first": "1955",
+   "last": "2021-11",
+   "related": [
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 3
+    },
+    {
+     "ref": "events/red-hat-acquisition",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/sco-v-ibm",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/sco",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/share",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/lou-gerstner",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "mit-ai-lab",
+   "name": "MIT Artificial Intelligence Lab",
+   "summary": "Laboratory whose software-sharing community Stallman joined in 1971 [f:stallman-sharing-community-1971].",
+   "type": "organisations",
+   "facts": [
+    "stallman-sharing-community-1971"
+   ],
+   "first": "1971",
+   "last": "1971",
+   "related": [
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "bell-labs",
+   "name": "Bell Labs",
+   "summary": "Research laboratory where Unix was created in 1969 [f:unix-born-1969].",
+   "type": "organisations",
+   "facts": [
+    "unix-born-1969"
+   ],
+   "first": "1969",
+   "last": "1969",
+   "related": [
+    {
+     "ref": "people/dennis-ritchie",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "uc-berkeley-csrg",
+   "name": "University of California, Berkeley (Computer Systems Research Group)",
+   "summary": "Home of the Berkeley Software Distribution and its permissive licence [f:bsd-first-distribution-1977] [f:bsd-licence-terms-1994].",
+   "type": "organisations",
+   "facts": [
+    "bsd-first-distribution-1977",
+    "bsd-networking-release-1989",
+    "bsd-usl-settlement-1994",
+    "bsd-licence-terms-1994"
+   ],
+   "first": "1977",
+   "last": "1994-06",
+   "related": [
+    {
+     "ref": "documents/bsd-licence",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/usl-v-bsdi",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/bill-joy",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/kirk-mckusick",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "gnu-project",
+   "name": "GNU Project",
+   "summary": "Project announced by Stallman in 1983 to build a complete free Unix-compatible system [f:gnu-announced-1983].",
+   "type": "organisations",
+   "facts": [
+    "gnu-announced-1983",
+    "gnu-manifesto-1985",
+    "fsf-founded-1985",
+    "gnu-plus-linux-1992",
+    "four-freedoms"
+   ],
+   "first": "1983-09-27",
+   "last": "1996",
+   "related": [
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/free-software-definition",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/gnu-initial-announcement",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/gnu-manifesto",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/gnu-announcement-1983",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/linus-torvalds",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "fsf",
+   "name": "Free Software Foundation",
+   "summary": "Foundation set up in October 1985 to support GNU; publisher of the GPL [f:fsf-founded-1985] [f:gplv3-released-2007].",
+   "type": "organisations",
+   "facts": [
+    "fsf-founded-1985",
+    "gpl-v1-1989",
+    "gpl-v2-1991",
+    "four-freedoms",
+    "free-as-in-speech",
+    "sun-java-gpl-2006",
+    "stallman-open-source-misses-point",
+    "gplv3-released-2007",
+    "fsf-ml-training-data-2024"
+   ],
+   "first": "1985-10",
+   "last": "2024-10-22",
+   "related": [
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 4
+    },
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/free-software-definition",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/osaid",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/why-open-source-misses-the-point",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/sun",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "debian",
+   "name": "Debian Project",
+   "summary": "Volunteer-run distribution founded in 1993, whose guidelines became the basis of the Open Source Definition [f:debian-founded-1993] [f:osd-derived-from-dfsg-1998].",
+   "type": "organisations",
+   "facts": [
+    "debian-founded-1993",
+    "debian-social-contract-1997",
+    "osd-derived-from-dfsg-1998"
+   ],
+   "first": "1993-08-16",
+   "last": "1998-02",
+   "related": [
+    {
+     "ref": "documents/dfsg",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/debian-social-contract",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/ian-murdock",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "apache",
+   "name": "Apache Group and Apache Software Foundation",
+   "summary": "The group behind the Apache web server (1995), incorporated as a foundation in 1999 [f:apache-group-1995] [f:asf-incorporated-1999].",
+   "type": "organisations",
+   "facts": [
+    "apache-group-1995",
+    "asf-incorporated-1999",
+    "log4shell-2021"
+   ],
+   "first": "1995-02",
+   "last": "2021-12",
+   "related": [
+    {
+     "ref": "events/log4shell-2021",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/brian-behlendorf",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "netscape",
+   "name": "Netscape Communications",
+   "summary": "Browser company whose January 1998 decision to publish its source prompted the \"open source\" label [f:netscape-announcement-1998].",
+   "type": "organisations",
+   "facts": [
+    "mozilla-project-1998",
+    "netscape-credits-raymond-1998",
+    "netscape-announcement-1998",
+    "netscape-licence-gpl-heritage-1998"
+   ],
+   "first": "1998",
+   "last": "1998-01-22",
+   "related": [
+    {
+     "ref": "events/netscape-announcement-1998",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/cathedral-and-bazaar",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/mozilla",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "mozilla",
+   "name": "Mozilla",
+   "summary": "Project created in 1998 from the Netscape source, later a foundation and the maker of Firefox [f:mozilla-project-1998] [f:firefox-1-0-2004].",
+   "type": "organisations",
+   "facts": [
+    "mozilla-project-1998",
+    "firefox-1-0-2004"
+   ],
+   "first": "1998",
+   "last": "2004-11-09",
+   "related": [
+    {
+     "ref": "organisations/netscape",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "foresight-institute",
+   "name": "Foresight Institute",
+   "summary": "Think tank where Christine Peterson worked when she proposed \"open source\" [f:peterson-coins-open-source-1998].",
+   "type": "organisations",
+   "facts": [
+    "peterson-coins-open-source-1998"
+   ],
+   "first": "1998-02",
+   "last": "1998-02",
+   "related": [
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "osi",
+   "name": "Open Source Initiative",
+   "summary": "Organisation founded in February 1998 by Raymond and Perens; keeper of the Open Source Definition and, since 2024, the Open Source AI Definition [f:osi-founded-1998] [f:osaid-1-0-2024].",
+   "type": "organisations",
+   "facts": [
+    "osd-no-field-discrimination",
+    "osd-not-just-source",
+    "osd-derived-from-dfsg-1998",
+    "osi-founded-1998",
+    "open-source-label-osi-account",
+    "perens-free-software-again-1999",
+    "perens-leaves-osi-1999",
+    "sspl-not-osi-approved",
+    "mongodb-sspl-2018",
+    "osi-sspl-not-open-source-2021",
+    "osi-sspl-withdrawn",
+    "osi-on-cra-2024",
+    "elastic-agpl-2024",
+    "elastic-open-source-again-2024",
+    "osaid-1-0-2024",
+    "osaid-data-information",
+    "sfc-osaid-criticism-2024",
+    "redis-agpl-2025",
+    "redis-sspl-not-truly-open-source-2025"
+   ],
+   "first": "1998",
+   "last": "2025-05-01",
+   "related": [
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 5
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 4
+    },
+    {
+     "ref": "organisations/mongodb",
+     "shared_facts": 4
+    },
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 4
+    },
+    {
+     "ref": "documents/osaid",
+     "shared_facts": 3
+    },
+    {
+     "ref": "organisations/elastic",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/time-to-talk-free-software",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/redis",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/shay-banon",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/cra",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/dfsg",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/open-source-strategy-session-1998",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/debian",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/european-union",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/sfc",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "oreilly",
+   "name": "O'Reilly & Associates",
+   "summary": "Publisher that hosted the April 1998 summit [f:open-source-summit-1998].",
+   "type": "organisations",
+   "facts": [
+    "open-source-summit-1998"
+   ],
+   "first": "1998-04-07",
+   "last": "1998-04-07",
+   "related": [
+    {
+     "ref": "events/open-source-summit-1998",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/tim-oreilly",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "summary": "Software company that opposed open source around 2001 and later joined the Linux Foundation and bought GitHub [f:ballmer-cancer-2001] [f:microsoft-joins-linux-foundation-2016] [f:microsoft-github-completed-2018].",
+   "type": "organisations",
+   "facts": [
+    "halloween-memo-fud-1998",
+    "halloween-memo-threat-1998",
+    "halloween-authenticity-1998",
+    "allchin-american-way-2001",
+    "allchin-ip-destroyer-2001",
+    "mundie-gpl-viral-2001",
+    "mundie-shared-source-2001",
+    "ballmer-cancer-2001",
+    "ballmer-cancer-licence-context-2001",
+    "get-the-facts-2004",
+    "ballmer-same-rules-2007",
+    "microsoft-235-patents-2007",
+    "microsoft-first-kernel-contribution-2009",
+    "microsoft-linux-kernel-2009",
+    "codeplex-foundation-2009",
+    "microsoft-open-technologies-2012",
+    "nadella-ceo-2014",
+    "azure-linux-share-2014",
+    "microsoft-loves-linux-2014",
+    "microsoft-loves-linux-slide-2014",
+    "dotnet-open-source-2014",
+    "microsoft-loves-linux-acknowledged-2015",
+    "vscode-open-source-2015",
+    "sql-server-linux-2016",
+    "ballmer-rearview-2016",
+    "wsl-announced-2016",
+    "microsoft-joins-linux-foundation-2016",
+    "microsoft-github-announced-2018",
+    "microsoft-joins-oin-2018",
+    "microsoft-oin-friction-2018",
+    "microsoft-github-completed-2018",
+    "brad-smith-wrong-side-2020",
+    "openssf-founded-2020",
+    "wsl-open-source-2025"
+   ],
+   "first": "1998-08-11",
+   "last": "2025-05-19",
+   "related": [
+    {
+     "ref": "people/satya-nadella",
+     "shared_facts": 6
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 5
+    },
+    {
+     "ref": "people/steve-ballmer",
+     "shared_facts": 5
+    },
+    {
+     "ref": "events/microsoft-cloud-event-2014",
+     "shared_facts": 4
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 3
+    },
+    {
+     "ref": "events/halloween-documents-1998",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/halloween-document-i",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/ballmer-sun-times-interview-2001",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/github-acquisition-2018",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/mundie-nyu-speech-2001",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/oin",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/brad-smith",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/craig-mundie",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/jim-allchin",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/vinod-valloppillil",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/get-the-facts-campaign",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/canonical",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/codeplex-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/dotnet-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/ms-open-tech",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/scott-guthrie",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "red-hat",
+   "name": "Red Hat",
+   "summary": "Linux company that went public in 1999 and was acquired by IBM in 2019 [f:red-hat-ipo-1999] [f:ibm-red-hat-closed-2019].",
+   "type": "organisations",
+   "facts": [
+    "red-hat-ipo-1999",
+    "ibm-red-hat-announced-2018",
+    "ibm-red-hat-closed-2019",
+    "openssf-founded-2020"
+   ],
+   "first": "1999",
+   "last": "2020-08-03",
+   "related": [
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 3
+    },
+    {
+     "ref": "events/red-hat-acquisition",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "sun",
+   "name": "Sun Microsystems",
+   "summary": "Company that opened StarOffice in 2000 and committed Java to the GPL in 2006 [f:sun-staroffice-2000] [f:sun-java-gpl-2006].",
+   "type": "organisations",
+   "facts": [
+    "sun-staroffice-2000",
+    "sun-java-gpl-2006"
+   ],
+   "first": "2000-07-19",
+   "last": "2006-11",
+   "related": [
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "sco",
+   "name": "The SCO Group",
+   "summary": "Company that sued IBM over Unix and Linux in 2003 in a case dismissed in 2021 [f:sco-v-ibm-2003] [f:sco-ibm-settled-2021].",
+   "type": "organisations",
+   "facts": [
+    "sco-v-ibm-2003",
+    "sco-ibm-settled-2021"
+   ],
+   "first": "2003",
+   "last": "2021-11",
+   "related": [
+    {
+     "ref": "events/sco-v-ibm",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "google",
+   "name": "Google",
+   "summary": "Company behind Summer of Code, Android and Kubernetes [f:google-summer-of-code-2005] [f:android-open-source-2008] [f:kubernetes-google-2014].",
+   "type": "organisations",
+   "facts": [
+    "google-summer-of-code-2005",
+    "android-announced-2007",
+    "android-open-source-2008",
+    "kubernetes-google-2014",
+    "openssf-founded-2020"
+   ],
+   "first": "2005",
+   "last": "2020-08-03",
+   "related": [
+    {
+     "ref": "organisations/open-handset-alliance",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/kubernetes",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "open-handset-alliance",
+   "name": "Open Handset Alliance",
+   "summary": "Alliance of companies that announced Android in 2007 [f:android-announced-2007].",
+   "type": "organisations",
+   "facts": [
+    "android-announced-2007",
+    "android-open-source-2008"
+   ],
+   "first": "2007-11-05",
+   "last": "2008-10-21",
+   "related": [
+    {
+     "ref": "organisations/google",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "github",
+   "name": "GitHub",
+   "summary": "Code hosting service launched in 2008, owned by Microsoft since 2018 [f:github-launch-2008] [f:microsoft-github-completed-2018].",
+   "type": "organisations",
+   "facts": [
+    "github-pull-requests-2008",
+    "github-launch-2008",
+    "vscode-open-source-2015",
+    "microsoft-github-announced-2018",
+    "microsoft-github-completed-2018",
+    "openssf-founded-2020",
+    "ci-services-open-source-2024",
+    "octoverse-2024",
+    "wsl-open-source-2025",
+    "octoverse-2025",
+    "federated-wiki-open-source"
+   ],
+   "first": "2008-02-23",
+   "last": "2026",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 5
+    },
+    {
+     "ref": "documents/octoverse",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/github-acquisition-2018",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/git",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/jenkins",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/satya-nadella",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/ward-cunningham",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "linux-foundation",
+   "name": "The Linux Foundation",
+   "summary": "Non-profit that hosts Linux and many other projects, including the CNCF, OpenSSF, OpenTofu and Valkey [f:cncf-founded-2015] [f:openssf-founded-2020] [f:opentofu-2023] [f:valkey-2024].",
+   "type": "organisations",
+   "facts": [
+    "core-infrastructure-initiative-2014",
+    "cncf-founded-2015",
+    "microsoft-joins-linux-foundation-2016",
+    "openssf-founded-2020",
+    "opentofu-2023",
+    "valkey-2024"
+   ],
+   "first": "2014",
+   "last": "2024-03-28",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/bsd-licence",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/busl",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/heartbleed-2014",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/cncf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/hashicorp",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/opentofu",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/redis",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/valkey",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "cncf",
+   "name": "Cloud Native Computing Foundation",
+   "summary": "Foundation announced in 2015 that took on Kubernetes in 2016 [f:cncf-founded-2015] [f:kubernetes-joins-cncf-2016].",
+   "type": "organisations",
+   "facts": [
+    "cncf-founded-2015",
+    "kubernetes-joins-cncf-2016"
+   ],
+   "first": "2015-07-21",
+   "last": "2016-03-10",
+   "related": [
+    {
+     "ref": "organisations/kubernetes",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "kubernetes",
+   "name": "Kubernetes",
+   "summary": "Container orchestration project open sourced by Google in 2014 [f:kubernetes-google-2014] [f:kubernetes-released-2014].",
+   "type": "organisations",
+   "facts": [
+    "kubernetes-google-2014",
+    "kubernetes-released-2014",
+    "kubernetes-joins-cncf-2016"
+   ],
+   "first": "2014",
+   "last": "2016-03-10",
+   "related": [
+    {
+     "ref": "organisations/cncf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "codeplex-foundation",
+   "name": "CodePlex Foundation",
+   "summary": "Open source foundation sponsored by Microsoft in 2009 [f:codeplex-foundation-2009].",
+   "type": "organisations",
+   "facts": [
+    "codeplex-foundation-2009"
+   ],
+   "first": "2009-09-10",
+   "last": "2009-09-10",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "ms-open-tech",
+   "name": "Microsoft Open Technologies, Inc.",
+   "summary": "Microsoft subsidiary for open standards and open source, announced in 2012 [f:microsoft-open-technologies-2012].",
+   "type": "organisations",
+   "facts": [
+    "microsoft-open-technologies-2012"
+   ],
+   "first": "2012-04-12",
+   "last": "2012-04-12",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "dotnet-foundation",
+   "name": ".NET Foundation",
+   "summary": "Foundation through which Microsoft said it would work with the community on open source .NET [f:dotnet-open-source-2014].",
+   "type": "organisations",
+   "facts": [
+    "dotnet-open-source-2014"
+   ],
+   "first": "2014-11-12",
+   "last": "2014-11-12",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "canonical",
+   "name": "Canonical",
+   "summary": "Maker of Ubuntu and Microsoft's partner for the Windows Subsystem for Linux [f:wsl-announced-2016].",
+   "type": "organisations",
+   "facts": [
+    "wsl-announced-2016"
+   ],
+   "first": "2016-03-30",
+   "last": "2016-03-30",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "oin",
+   "name": "Open Invention Network",
+   "summary": "Patent non-aggression community for Linux, which Microsoft joined in 2018 [f:microsoft-joins-oin-2018].",
+   "type": "organisations",
+   "facts": [
+    "microsoft-joins-oin-2018",
+    "microsoft-oin-friction-2018"
+   ],
+   "first": "2018-10-10",
+   "last": "2018-10-10",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "mongodb",
+   "name": "MongoDB, Inc.",
+   "summary": "Database company that created the Server Side Public License in 2018 [f:mongodb-sspl-2018].",
+   "type": "organisations",
+   "facts": [
+    "sspl-not-osi-approved",
+    "mongodb-sspl-2018",
+    "mongodb-sspl-cloud-reason-2018",
+    "osi-sspl-not-open-source-2021",
+    "osi-sspl-withdrawn"
+   ],
+   "first": "2018",
+   "last": "2021-01-19",
+   "related": [
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 5
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 4
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/elastic",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "elastic",
+   "name": "Elastic",
+   "summary": "Search company that left the Apache licence in 2021 and added the AGPL in 2024 [f:elastic-licence-change-2021] [f:elastic-agpl-2024].",
+   "type": "organisations",
+   "facts": [
+    "elastic-licence-change-2021",
+    "osi-sspl-not-open-source-2021",
+    "elastic-agpl-2024",
+    "elastic-open-source-again-2024"
+   ],
+   "first": "2021-01-14",
+   "last": "2024-08-29",
+   "related": [
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 3
+    },
+    {
+     "ref": "people/shay-banon",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/mongodb",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "hashicorp",
+   "name": "HashiCorp",
+   "summary": "Infrastructure software company that moved Terraform to the Business Source License in 2023 [f:hashicorp-busl-2023].",
+   "type": "organisations",
+   "facts": [
+    "hashicorp-busl-2023",
+    "opentofu-2023"
+   ],
+   "first": "2023-08-10",
+   "last": "2023-09-20",
+   "related": [
+    {
+     "ref": "documents/busl",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/opentofu",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "opentofu",
+   "name": "OpenTofu",
+   "summary": "Open source alternative to Terraform under the Linux Foundation [f:opentofu-2023].",
+   "type": "organisations",
+   "facts": [
+    "hashicorp-busl-2023",
+    "opentofu-2023"
+   ],
+   "first": "2023-08-10",
+   "last": "2023-09-20",
+   "related": [
+    {
+     "ref": "documents/busl",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/hashicorp",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "redis",
+   "name": "Redis",
+   "summary": "Database company that left the BSD licence in 2024 and added the AGPL in 2025 [f:redis-licence-change-2024] [f:redis-agpl-2025].",
+   "type": "organisations",
+   "facts": [
+    "redis-licence-change-2024",
+    "valkey-2024",
+    "redis-agpl-2025",
+    "redis-sspl-not-truly-open-source-2025"
+   ],
+   "first": "2024-03-20",
+   "last": "2025-05-01",
+   "related": [
+    {
+     "ref": "documents/bsd-licence",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/valkey",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "valkey",
+   "name": "Valkey",
+   "summary": "Linux Foundation project continuing Redis 7.2.4 under the BSD licence [f:valkey-2024].",
+   "type": "organisations",
+   "facts": [
+    "valkey-2024"
+   ],
+   "first": "2024-03-28",
+   "last": "2024-03-28",
+   "related": [
+    {
+     "ref": "documents/bsd-licence",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/redis",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "openssf",
+   "name": "Open Source Security Foundation",
+   "summary": "Linux Foundation body formed in 2020 for the security of open source software [f:openssf-founded-2020].",
+   "type": "organisations",
+   "facts": [
+    "core-infrastructure-initiative-2014",
+    "openssf-founded-2020"
+   ],
+   "first": "2014",
+   "last": "2020-08-03",
+   "related": [
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/heartbleed-2014",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/google",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "european-union",
+   "name": "European Union",
+   "summary": "Legislator of the Cyber Resilience Act, in force since December 2024 [f:cra-in-force-2024].",
+   "type": "organisations",
+   "facts": [
+    "osi-on-cra-2024",
+    "cra-in-force-2024",
+    "cra-non-commercial-out-of-scope",
+    "cra-open-source-stewards"
+   ],
+   "first": "2024-02-02",
+   "last": "2024-12-10",
+   "related": [
+    {
+     "ref": "documents/cra",
+     "shared_facts": 4
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "sfc",
+   "name": "Software Freedom Conservancy",
+   "summary": "Non-profit that criticised the Open Source AI Definition in 2024 [f:sfc-osaid-criticism-2024].",
+   "type": "organisations",
+   "facts": [
+    "sfc-osaid-criticism-2024"
+   ],
+   "first": "2024-10-31",
+   "last": "2024-10-31",
+   "related": [
+    {
+     "ref": "documents/osaid",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "jenkins",
+   "name": "Jenkins",
+   "summary": "Open source continuous integration server, renamed from Hudson by a community vote in 2011 [f:jenkins-rename-2011].",
+   "type": "organisations",
+   "facts": [
+    "jenkins-trademark-reason-2011",
+    "jenkins-rename-2011",
+    "ci-services-open-source-2024"
+   ],
+   "first": "2011-01-11",
+   "last": "2024-01-18",
+   "related": [
+    {
+     "ref": "people/kohsuke-kawaguchi",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "thoughtworks",
+   "name": "Thoughtworks",
+   "summary": "Consultancy whose staff built CruiseControl, by Martin Fowler's account [f:cruisecontrol-open-source].",
+   "type": "organisations",
+   "facts": [
+    "cruisecontrol-open-source"
+   ],
+   "first": "2024-01-18",
+   "last": "2024-01-18",
+   "related": [
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "gnu-announcement-1983",
+   "name": "Announcement of the GNU Project",
+   "date": "1983-09-27",
+   "summary": "Stallman's Usenet post announcing a free Unix-compatible system [f:gnu-announced-1983].",
+   "type": "events",
+   "facts": [
+    "gnu-announced-1983"
+   ],
+   "first": "1983-09-27",
+   "last": "1983-09-27",
+   "related": [
+    {
+     "ref": "documents/gnu-initial-announcement",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "usl-v-bsdi",
+   "name": "Unix System Laboratories v. BSDI and the University of California",
+   "date": "1994-01",
+   "summary": "Lawsuit over Unix code in BSD, settled in January 1994 [f:bsd-usl-settlement-1994].",
+   "type": "events",
+   "facts": [
+    "bsd-usl-settlement-1994"
+   ],
+   "first": "1994-01",
+   "last": "1994-01",
+   "related": [
+    {
+     "ref": "organisations/uc-berkeley-csrg",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "netscape-announcement-1998",
+   "name": "Netscape source code announcement",
+   "date": "1998-01-22",
+   "summary": "Netscape's announcement that it would publish the Communicator source [f:netscape-announcement-1998].",
+   "type": "events",
+   "facts": [
+    "netscape-announcement-1998",
+    "netscape-licence-gpl-heritage-1998"
+   ],
+   "first": "1998-01-22",
+   "last": "1998-01-22",
+   "related": [
+    {
+     "ref": "organisations/netscape",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "open-source-strategy-session-1998",
+   "name": "The strategy session that adopted \"open source\"",
+   "date": "1998-02",
+   "summary": "Meeting in Silicon Valley in the first week of February 1998, dated 3 February by the OSI and 5 February by Peterson [f:open-source-label-osi-account] [f:open-source-meeting-peterson-account].",
+   "type": "events",
+   "facts": [
+    "open-source-label-osi-account",
+    "open-source-meeting-peterson-account"
+   ],
+   "first": "1998-02-03",
+   "last": "1998-02-05",
+   "related": [
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/todd-anderson",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "open-source-summit-1998",
+   "name": "Freeware Summit / Open Source Summit",
+   "date": "1998-04-07",
+   "summary": "Summit of leading developers in Palo Alto organised by Tim O'Reilly [f:open-source-summit-1998] [f:freeware-summit-renamed-1998].",
+   "type": "events",
+   "facts": [
+    "freeware-summit-renamed-1998",
+    "open-source-summit-1998"
+   ],
+   "first": "1998-04",
+   "last": "1998-04-07",
+   "related": [
+    {
+     "ref": "people/tim-oreilly",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/oreilly",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/christine-peterson",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "halloween-documents-1998",
+   "name": "Leak of the Halloween Documents",
+   "date": "1998-11",
+   "summary": "Publication by Eric Raymond of leaked Microsoft memoranda on open source [f:halloween-memo-threat-1998] [f:halloween-authenticity-1998].",
+   "type": "events",
+   "facts": [
+    "halloween-memo-fud-1998",
+    "halloween-memo-threat-1998",
+    "halloween-authenticity-1998"
+   ],
+   "first": "1998-08-11",
+   "last": "1998-11",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/halloween-document-i",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/vinod-valloppillil",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "mundie-nyu-speech-2001",
+   "name": "Craig Mundie's speech at NYU Stern",
+   "date": "2001-05-03",
+   "summary": "Speech on \"The Commercial Software Model\" attacking the GPL and introducing Shared Source [f:mundie-gpl-viral-2001].",
+   "type": "events",
+   "facts": [
+    "mundie-gpl-viral-2001",
+    "mundie-shared-source-2001"
+   ],
+   "first": "2001-05-03",
+   "last": "2001-05-03",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/craig-mundie",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "ballmer-sun-times-interview-2001",
+   "name": "Steve Ballmer's Chicago Sun-Times interview",
+   "date": "2001-06-01",
+   "summary": "Interview in which Ballmer was reported to have called Linux a cancer [f:ballmer-cancer-2001].",
+   "type": "events",
+   "facts": [
+    "ballmer-cancer-2001",
+    "ballmer-cancer-licence-context-2001",
+    "ballmer-cancer-short-form"
+   ],
+   "first": "2001-06-01",
+   "last": "2001-06-02",
+   "related": [
+    {
+     "ref": "people/steve-ballmer",
+     "shared_facts": 3
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/gpl",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "sco-v-ibm",
+   "name": "SCO v. IBM",
+   "date": "2003",
+   "summary": "Lawsuit begun in 2003 and dismissed after a settlement in 2021 [f:sco-v-ibm-2003] [f:sco-ibm-settled-2021].",
+   "type": "events",
+   "facts": [
+    "sco-v-ibm-2003",
+    "sco-ibm-settled-2021"
+   ],
+   "first": "2003",
+   "last": "2021-11",
+   "related": [
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/sco",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "get-the-facts-campaign",
+   "name": "\"Get the Facts\" campaign",
+   "date": "2004-01",
+   "summary": "Microsoft advertising campaign comparing Windows with Linux [f:get-the-facts-2004].",
+   "type": "events",
+   "facts": [
+    "get-the-facts-2004"
+   ],
+   "first": "2004-01-05",
+   "last": "2004-01-05",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "devopsdays-2009",
+   "name": "First devopsdays",
+   "date": "2009",
+   "summary": "Conference held in Ghent, Belgium, in 2009 [f:devopsdays-2009].",
+   "type": "events",
+   "facts": [
+    "devopsdays-2009"
+   ],
+   "first": "2009",
+   "last": "2009",
+   "related": []
+  },
+  {
+   "id": "heartbleed-2014",
+   "name": "Heartbleed",
+   "date": "2014-04",
+   "summary": "Vulnerability in the OpenSSL library disclosed in April 2014 [f:heartbleed-2014].",
+   "type": "events",
+   "facts": [
+    "core-infrastructure-initiative-2014",
+    "heartbleed-2014"
+   ],
+   "first": "2014",
+   "last": "2014-04-07",
+   "related": [
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/openssf",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "microsoft-cloud-event-2014",
+   "name": "Microsoft cloud event, San Francisco",
+   "date": "2014-10-20",
+   "summary": "Press event at which Nadella showed the \"Microsoft loves Linux\" slide [f:microsoft-loves-linux-2014] [f:microsoft-loves-linux-slide-2014].",
+   "type": "events",
+   "facts": [
+    "azure-linux-share-2014",
+    "microsoft-loves-linux-2014",
+    "microsoft-loves-linux-slide-2014",
+    "microsoft-loves-linux-acknowledged-2015"
+   ],
+   "first": "2014-10-20",
+   "last": "2015-05-06",
+   "related": [
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 4
+    },
+    {
+     "ref": "people/satya-nadella",
+     "shared_facts": 4
+    }
+   ]
+  },
+  {
+   "id": "github-acquisition-2018",
+   "name": "Microsoft's acquisition of GitHub",
+   "date": "2018-06-04",
+   "summary": "Announced on 4 June 2018 for $7.5 billion and completed on 26 October 2018 [f:microsoft-github-announced-2018] [f:microsoft-github-completed-2018].",
+   "type": "events",
+   "facts": [
+    "microsoft-github-announced-2018",
+    "microsoft-github-completed-2018"
+   ],
+   "first": "2018-06-04",
+   "last": "2018-10-26",
+   "related": [
+    {
+     "ref": "organisations/github",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/satya-nadella",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "red-hat-acquisition",
+   "name": "IBM's acquisition of Red Hat",
+   "date": "2018-10-28",
+   "summary": "Announced on 28 October 2018 and closed on 9 July 2019, at about $34 billion [f:ibm-red-hat-announced-2018] [f:ibm-red-hat-closed-2019].",
+   "type": "events",
+   "facts": [
+    "ibm-red-hat-announced-2018",
+    "ibm-red-hat-closed-2019"
+   ],
+   "first": "2018-10-28",
+   "last": "2019-07-09",
+   "related": [
+    {
+     "ref": "organisations/ibm",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/red-hat",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "log4shell-2021",
+   "name": "Log4Shell",
+   "date": "2021-12",
+   "summary": "Critical vulnerability in Apache Log4j [f:log4shell-2021].",
+   "type": "events",
+   "facts": [
+    "log4shell-2021"
+   ],
+   "first": "2021-12",
+   "last": "2021-12",
+   "related": [
+    {
+     "ref": "organisations/apache",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "xz-backdoor-2024",
+   "name": "The xz backdoor",
+   "date": "2024-03-29",
+   "summary": "Backdoor in the xz compression library reported by Andres Freund [f:xz-backdoor-2024].",
+   "type": "events",
+   "facts": [
+    "xz-backdoor-2024"
+   ],
+   "first": "2024-03-29",
+   "last": "2024-03-29",
+   "related": [
+    {
+     "ref": "people/andres-freund",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "open-letter-to-hobbyists",
+   "name": "An Open Letter to Hobbyists",
+   "url": "https://en.wikisource.org/wiki/Open_Letter_to_Hobbyists",
+   "date": "1976-02-03",
+   "summary": "Bill Gates's letter on the copying of Altair BASIC [f:gates-open-letter-1976].",
+   "type": "documents",
+   "facts": [
+    "gates-open-letter-1976"
+   ],
+   "first": "1976-02-03",
+   "last": "1976-02-03",
+   "related": [
+    {
+     "ref": "people/bill-gates",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "gnu-initial-announcement",
+   "name": "GNU Initial Announcement",
+   "url": "https://www.gnu.org/gnu/initial-announcement.html",
+   "date": "1983-09-27",
+   "summary": "Stallman's announcement of the GNU Project [f:gnu-announced-1983].",
+   "type": "documents",
+   "facts": [
+    "gnu-announced-1983",
+    "gnu-golden-rule-1983"
+   ],
+   "first": "1983-09-27",
+   "last": "1983-09-27",
+   "related": [
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/gnu-announcement-1983",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "gnu-manifesto",
+   "name": "The GNU Manifesto",
+   "url": "https://www.gnu.org/gnu/manifesto.html",
+   "date": "1985-03",
+   "summary": "Stallman's statement of the aims of GNU [f:gnu-manifesto-1985].",
+   "type": "documents",
+   "facts": [
+    "gnu-manifesto-1985"
+   ],
+   "first": "1985-03",
+   "last": "1985-03",
+   "related": [
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "free-software-definition",
+   "name": "The Free Software Definition",
+   "url": "https://www.gnu.org/philosophy/free-sw.html",
+   "date": "1996",
+   "summary": "The definition of free software by its four essential freedoms [f:four-freedoms].",
+   "type": "documents",
+   "facts": [
+    "four-freedoms",
+    "free-as-in-speech"
+   ],
+   "first": "1996",
+   "last": "1996",
+   "related": [
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/gnu-project",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "gpl",
+   "name": "GNU General Public License",
+   "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+   "date": "1989-02",
+   "summary": "The copyleft licence of the Free Software Foundation: version 1 in 1989, version 2 in 1991, version 3 in 2007 [f:gpl-v1-1989] [f:gpl-v2-1991] [f:gplv3-released-2007].",
+   "type": "documents",
+   "facts": [
+    "copyleft-defined",
+    "gpl-v1-1989",
+    "gpl-v2-1991",
+    "linux-gpl-1992",
+    "netscape-licence-gpl-heritage-1998",
+    "sun-staroffice-2000",
+    "mundie-gpl-viral-2001",
+    "ballmer-cancer-licence-context-2001",
+    "sun-java-gpl-2006",
+    "gplv3-released-2007",
+    "microsoft-linux-kernel-2009"
+   ],
+   "first": "1989",
+   "last": "2009-07-20",
+   "related": [
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 4
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 3
+    },
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 3
+    },
+    {
+     "ref": "organisations/sun",
+     "shared_facts": 2
+    },
+    {
+     "ref": "events/ballmer-sun-times-interview-2001",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/mundie-nyu-speech-2001",
+     "shared_facts": 1
+    },
+    {
+     "ref": "events/netscape-announcement-1998",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/netscape",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/craig-mundie",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/linus-torvalds",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/steve-ballmer",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "bsd-licence",
+   "name": "BSD licence",
+   "url": "https://opensource.org/license/bsd-3-clause",
+   "date": "1989-06",
+   "summary": "The permissive licence of the Berkeley Software Distribution [f:bsd-licence-terms-1994].",
+   "type": "documents",
+   "facts": [
+    "bsd-networking-release-1989",
+    "bsd-licence-terms-1994",
+    "cruisecontrol-bsd-licence",
+    "redis-licence-change-2024",
+    "valkey-2024"
+   ],
+   "first": "1989-06",
+   "last": "2024-03-28",
+   "related": [
+    {
+     "ref": "organisations/redis",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/uc-berkeley-csrg",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/valkey",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "debian-social-contract",
+   "name": "Debian Social Contract",
+   "url": "https://www.debian.org/social_contract",
+   "date": "1997-07-05",
+   "summary": "Debian's commitments to the free software community [f:debian-social-contract-1997].",
+   "type": "documents",
+   "facts": [
+    "debian-social-contract-1997"
+   ],
+   "first": "1997-07-05",
+   "last": "1997-07-05",
+   "related": [
+    {
+     "ref": "documents/dfsg",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/debian",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "dfsg",
+   "name": "Debian Free Software Guidelines",
+   "url": "https://www.debian.org/social_contract#guidelines",
+   "date": "1997-07-05",
+   "summary": "Debian's test of whether a work is free, the basis of the Open Source Definition [f:osd-derived-from-dfsg-1998].",
+   "type": "documents",
+   "facts": [
+    "debian-social-contract-1997",
+    "osd-derived-from-dfsg-1998",
+    "perens-edited-dfsg-into-osd"
+   ],
+   "first": "1997-07-05",
+   "last": "1998-02",
+   "related": [
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/debian",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/debian-social-contract",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "cathedral-and-bazaar",
+   "name": "The Cathedral and the Bazaar",
+   "url": "http://www.catb.org/~esr/writings/cathedral-bazaar/",
+   "date": "1997-05",
+   "summary": "Eric Raymond's essay on the development style of Linux [f:cathedral-bazaar-1997] [f:release-early-release-often].",
+   "type": "documents",
+   "facts": [
+    "cathedral-bazaar-1997",
+    "linuss-law-1997",
+    "release-early-release-often",
+    "netscape-credits-raymond-1998",
+    "fowler-open-source-debugging-2000"
+   ],
+   "first": "1997-05",
+   "last": "2000-07",
+   "related": [
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 5
+    },
+    {
+     "ref": "people/linus-torvalds",
+     "shared_facts": 3
+    },
+    {
+     "ref": "documents/new-methodology",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/netscape",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "open-source-definition",
+   "name": "The Open Source Definition",
+   "url": "https://opensource.org/osd",
+   "date": "1998-02",
+   "summary": "The OSI's ten criteria for an open source licence [f:osd-not-just-source] [f:osd-no-field-discrimination].",
+   "type": "documents",
+   "facts": [
+    "osd-no-field-discrimination",
+    "osd-not-just-source",
+    "osd-derived-from-dfsg-1998",
+    "perens-edited-dfsg-into-osd",
+    "osi-sspl-not-open-source-2021"
+   ],
+   "first": "1998",
+   "last": "2021-01-19",
+   "related": [
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 4
+    },
+    {
+     "ref": "documents/dfsg",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/sspl",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/debian",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/elastic",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/mongodb",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "halloween-document-i",
+   "name": "Halloween Document I",
+   "url": "http://www.catb.org/~esr/halloween/halloween1.html",
+   "date": "1998-08-11",
+   "summary": "Leaked Microsoft memorandum on open source software, annotated by Eric Raymond [f:halloween-memo-threat-1998].",
+   "type": "documents",
+   "facts": [
+    "halloween-memo-fud-1998",
+    "halloween-memo-threat-1998"
+   ],
+   "first": "1998-08-11",
+   "last": "1998-08-11",
+   "related": [
+    {
+     "ref": "events/halloween-documents-1998",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/microsoft",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/vinod-valloppillil",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "time-to-talk-free-software",
+   "name": "It's Time to Talk about Free Software Again",
+   "url": "https://static.lwn.net/1999/0218/a/bp.html",
+   "date": "1999-02-17",
+   "summary": "Bruce Perens's message on leaving the OSI [f:perens-free-software-again-1999].",
+   "type": "documents",
+   "facts": [
+    "perens-free-software-again-1999",
+    "perens-leaves-osi-1999"
+   ],
+   "first": "1999-02-17",
+   "last": "1999-02-17",
+   "related": [
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/bruce-perens",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "why-open-source-misses-the-point",
+   "name": "Why Open Source Misses the Point of Free Software",
+   "url": "https://www.gnu.org/philosophy/open-source-misses-the-point.html",
+   "date": "2007",
+   "summary": "Stallman's essay on the difference between the two terms [f:stallman-open-source-misses-point].",
+   "type": "documents",
+   "facts": [
+    "stallman-1998-splinter",
+    "stallman-open-source-misses-point"
+   ],
+   "first": "1998",
+   "last": "2007",
+   "related": [
+    {
+     "ref": "people/richard-stallman",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "new-methodology",
+   "name": "The New Methodology",
+   "url": "https://martinfowler.com/articles/newMethodologyOriginal.html",
+   "date": "2000-07",
+   "summary": "Martin Fowler's survey of lightweight methods, which in its original version included open source [f:fowler-open-source-new-methodology-2000].",
+   "type": "documents",
+   "facts": [
+    "fowler-open-source-debugging-2000",
+    "fowler-open-source-new-methodology-2000"
+   ],
+   "first": "2000-07",
+   "last": "2000-07",
+   "related": [
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/cathedral-and-bazaar",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/eric-raymond",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "agile-manifesto",
+   "name": "Manifesto for Agile Software Development",
+   "url": "https://agilemanifesto.org/",
+   "date": "2001-02",
+   "summary": "The declaration of seventeen authors, freely copyable in its entirety [f:agile-manifesto-freely-copied-2001].",
+   "type": "documents",
+   "facts": [
+    "agile-manifesto-authors-2001",
+    "agile-manifesto-freely-copied-2001"
+   ],
+   "first": "2001-02",
+   "last": "2001-02",
+   "related": [
+    {
+     "ref": "people/kent-beck",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 2
+    },
+    {
+     "ref": "people/ward-cunningham",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "wikiwikiweb",
+   "name": "WikiWikiWeb",
+   "url": "https://wiki.c2.com/",
+   "date": "1995-03-25",
+   "summary": "The first wiki, created by Ward Cunningham [f:cunningham-first-wiki-1995].",
+   "type": "documents",
+   "facts": [
+    "cunningham-wiki-name-1995",
+    "cunningham-first-wiki-1995"
+   ],
+   "first": "1995",
+   "last": "1995-03-25",
+   "related": [
+    {
+     "ref": "people/ward-cunningham",
+     "shared_facts": 2
+    }
+   ]
+  },
+  {
+   "id": "junit",
+   "name": "JUnit",
+   "url": "https://junit.org/junit4/",
+   "date": "1997",
+   "summary": "Unit testing framework for Java by Kent Beck and Erich Gamma [f:junit-1997] [f:junit-open-source-licence].",
+   "type": "documents",
+   "facts": [
+    "junit-1997",
+    "junit-open-source-licence"
+   ],
+   "first": "1997",
+   "last": "2026",
+   "related": [
+    {
+     "ref": "people/erich-gamma",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/kent-beck",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/martin-fowler",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "git",
+   "name": "Git",
+   "url": "https://git-scm.com/",
+   "date": "2005",
+   "summary": "Distributed version control system created for the Linux kernel [f:git-created-2005] [f:git-first-readme-2005].",
+   "type": "documents",
+   "facts": [
+    "git-created-2005",
+    "git-first-readme-2005",
+    "github-pull-requests-2008"
+   ],
+   "first": "2005",
+   "last": "2008-02-23",
+   "related": [
+    {
+     "ref": "people/linus-torvalds",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/github",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "sspl",
+   "name": "Server Side Public License",
+   "url": "https://www.mongodb.com/legal/licensing/server-side-public-license",
+   "date": "2018-10-16",
+   "summary": "MongoDB's licence, which requires those offering the software as a service to open the service's software [f:mongodb-sspl-cloud-reason-2018] [f:osi-sspl-not-open-source-2021].",
+   "type": "documents",
+   "facts": [
+    "sspl-not-osi-approved",
+    "mongodb-sspl-2018",
+    "mongodb-sspl-cloud-reason-2018",
+    "elastic-licence-change-2021",
+    "osi-sspl-not-open-source-2021",
+    "osi-sspl-withdrawn",
+    "redis-licence-change-2024",
+    "redis-sspl-not-truly-open-source-2025"
+   ],
+   "first": "2018",
+   "last": "2025-05-01",
+   "related": [
+    {
+     "ref": "organisations/mongodb",
+     "shared_facts": 5
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 5
+    },
+    {
+     "ref": "organisations/elastic",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/redis",
+     "shared_facts": 2
+    },
+    {
+     "ref": "documents/bsd-licence",
+     "shared_facts": 1
+    },
+    {
+     "ref": "documents/open-source-definition",
+     "shared_facts": 1
+    },
+    {
+     "ref": "people/shay-banon",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "busl",
+   "name": "Business Source License 1.1",
+   "url": "https://github.com/hashicorp/terraform/blob/main/LICENSE",
+   "date": "2023-08-10",
+   "summary": "Source-available licence adopted by HashiCorp for Terraform [f:hashicorp-busl-2023].",
+   "type": "documents",
+   "facts": [
+    "hashicorp-busl-2023",
+    "opentofu-2023"
+   ],
+   "first": "2023-08-10",
+   "last": "2023-09-20",
+   "related": [
+    {
+     "ref": "organisations/hashicorp",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/opentofu",
+     "shared_facts": 2
+    },
+    {
+     "ref": "organisations/linux-foundation",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "cra",
+   "name": "Cyber Resilience Act (Regulation (EU) 2024/2847)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+   "date": "2024-12-10",
+   "summary": "European Union law on the cybersecurity of products with digital elements [f:cra-in-force-2024] [f:cra-open-source-stewards].",
+   "type": "documents",
+   "facts": [
+    "osi-on-cra-2024",
+    "cra-in-force-2024",
+    "cra-non-commercial-out-of-scope",
+    "cra-open-source-stewards"
+   ],
+   "first": "2024-02-02",
+   "last": "2024-12-10",
+   "related": [
+    {
+     "ref": "organisations/european-union",
+     "shared_facts": 4
+    },
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "osaid",
+   "name": "The Open Source AI Definition 1.0",
+   "url": "https://opensource.org/ai/open-source-ai-definition",
+   "date": "2024-10-28",
+   "summary": "The OSI's definition of open source for AI systems [f:osaid-1-0-2024] [f:osaid-data-information].",
+   "type": "documents",
+   "facts": [
+    "fsf-ml-training-data-2024",
+    "osaid-1-0-2024",
+    "osaid-data-information",
+    "sfc-osaid-criticism-2024"
+   ],
+   "first": "2024-10-22",
+   "last": "2024-10-31",
+   "related": [
+    {
+     "ref": "organisations/osi",
+     "shared_facts": 3
+    },
+    {
+     "ref": "organisations/fsf",
+     "shared_facts": 1
+    },
+    {
+     "ref": "organisations/sfc",
+     "shared_facts": 1
+    }
+   ]
+  },
+  {
+   "id": "octoverse",
+   "name": "Octoverse",
+   "url": "https://github.blog/news-insights/octoverse/",
+   "date": "2025-10-28",
+   "summary": "GitHub's annual report on activity on its platform [f:octoverse-2024] [f:octoverse-2025].",
+   "type": "documents",
+   "facts": [
+    "octoverse-2024",
+    "octoverse-2025"
+   ],
+   "first": "2024-10-29",
+   "last": "2025-10-28",
+   "related": [
+    {
+     "ref": "organisations/github",
+     "shared_facts": 2
+    }
+   ]
+  }
+ ]
+}

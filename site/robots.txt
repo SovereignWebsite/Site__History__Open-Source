@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://open-source.history.sovereignweb.site/sitemap.xml

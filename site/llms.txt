@@ -1,26 +1,170 @@
-# Open source
+# The history of open source
 
-> Open source software: its history, licences, communities and the projects that shaped it, each claim with its source.
+> From shared tapes to a contested label: how software that anyone may read, change and pass on came to run the world, told through the documents and the words of the people who were there. A history kept as data: 149 facts, 87% from primary sources, each with the exact quote, the source link and the date read.
 
-This file is for AI agents and the people using them. The site is https://open-source.history.sovereignweb.site/, static files in the public repository https://github.com/SovereignWebsite/Site__History__Open-Source (served from site/ on the dev branch). Pick the section that matches who you are acting for, read it in full, then follow it.
+This file is for AI agents and the people using them. The site is https://open-source.history.sovereignweb.site/, static files in the public repository https://github.com/SovereignWebsite/Site__History__Open-Source (served from site/ on the dev branch).
 
-## If you act for a visitor (read-only)
+## If you act for a reader (read-only)
 
-- Read the site's pages, starting at https://open-source.history.sovereignweb.site/.
-- Answer from what the site says, with a link for each point. When the site does not say something, say so plainly; never fill the gap with a guess.
-- Do not change anything.
+- Read the data first: https://open-source.history.sovereignweb.site/data/facts.json (one record per claim), https://open-source.history.sovereignweb.site/data/timeline.json, https://open-source.history.sovereignweb.site/data/entities.json, https://open-source.history.sovereignweb.site/data/story.json.
+- Answer from the facts, with each fact's source link and the date it was read. Where a quote is marked paraphrased or disputed, say so.
+- When the site does not say something, say so plainly; never fill the gap with a guess.
 
 ## If you act for the site's owner
 
-- The owner changes the site through the repository. You need write access, which the owner gets by accepting the repository invitation: https://open-source.history.sovereignweb.site/start/
-- Work on the dev branch only; main is locked. Read the repository's CLAUDE.md first and follow it.
-- Keep the site static: no server code, no cookies, no tracking. Never invent a fact, a price or a customer.
-- Every push to dev publishes the site in a minute or two.
-- Before your first commit, make your own signing key. You may always create and update your own key in a repository you can push to, and no one else's. Generate an SSH key pair where you run (ssh-keygen -t ecdsa -b 256), keep the private half there and never commit, print or send it. Publish only the public half, as site/keys/<name>.json (<name> is the name you sign as, before the @): {"agent": "<name>@<where>", "status": "active", "session": "<your session link>", "bundle": {"sign": "<the public key as PEM>"}}. Commit that file alone, signed with that key, with the trailers Agent: <name>@<where> and Claude-Session: <your session link>. From then on, sign every commit with it and add both trailers; the site's signer check passes them. The owner's own commits on GitHub need no key.
+- Work on the dev branch only; main is never pushed to. Read the repository's CLAUDE.md and https://open-source.history.sovereignweb.site/start/ first.
+- Never invent a fact, a date or a quote. A quote must be found, word for word, in the source text fetched with docs/tools/fetch_source.mjs; docs/tools/check_facts.mjs refuses it otherwise.
+- Keep the site static: no server code, no cookies, no tracking.
+- Before your first commit, make your own signing key (bash tools/setup-signing.sh <your-name> <your-session-url>) and commit only site/keys/<name>.json, signed with it, with the trailers Agent: and Claude-Session:. Sign every commit after that the same way. The owner's own commits on GitHub need no key.
+- Before every push run bash tools/check.sh.
+
+## Pages (each has a markdown twin at the same address plus index.md)
+
+- [The history of open source](https://open-source.history.sovereignweb.site/): From shared tapes to a contested label: how software that anyone may read, change and pass on came to run the world, told through the documents and the words of the people who were there.
+- [Timeline](https://open-source.history.sovereignweb.site/timeline/): Every fact in date order, from 1955 to 2026, with filters by era, thread and source type.
+- [All the facts](https://open-source.history.sovereignweb.site/facts/): All 149 facts by identifier: the permanent address of each one.
+- [Eras](https://open-source.history.sovereignweb.site/eras/): The history in eras, each with its facts.
+- [Shared by default](https://open-source.history.sovereignweb.site/eras/shared-by-default/): Early software travelled as source code among the people who used the machines: IBM's users formed SHARE in 1955 and exchanged their modifications. Unix was born at Bell Labs in 1969 and Berkeley's first distribution went out in 1977. As software became a product, Bill Gates's 1976 letter put the case against sharing.
+- [Free software](https://open-source.history.sovereignweb.site/eras/free-software/): Richard Stallman announced GNU in 1983, and the Free Software Foundation and the GPL gave the idea an organisation and a licence. Berkeley freed its code under permissive terms, Linux joined GNU under the copyleft, and Debian and Apache showed that volunteers could run large projects. In 1997 Debian defined free software in its Social Contract and Eric Raymond described the method in "The Cathedral and the Bazaar".
+- [The label](https://open-source.history.sovereignweb.site/eras/the-label/): Netscape's decision to publish its browser source prompted a new name, "open source", proposed by Christine Peterson and promoted by Eric Raymond, Bruce Perens and Tim O'Reilly. Stallman's movement kept the name free software. Microsoft's internal view leaked in the Halloween Documents, while Red Hat went public and IBM and Sun committed to open source.
+- [Hostility and adoption](https://open-source.history.sovereignweb.site/eras/hostility-and-adoption/): Microsoft's leaders attacked open source and the GPL in public in 2001, advertised against Linux and claimed patent infringement; SCO sued IBM over Linux. In the same years Firefox, Git, Android and GitHub appeared, Sun put Java under the GPL and the GPL reached version 3.
+- [Mainstream](https://open-source.history.sovereignweb.site/eras/mainstream/): In these years even the largest opponent joined in: Microsoft contributed to the Linux kernel and, under Satya Nadella, declared that it loved Linux, opened .NET and Visual Studio Code and joined the Linux Foundation. Google open sourced Kubernetes, which then moved to a foundation. Heartbleed showed the cost of depending on underfunded projects.
+- [Strain and stewardship](https://open-source.history.sovereignweb.site/eras/strain-and-stewardship/): Two of the largest open source companies were bought, GitHub by Microsoft and Red Hat by IBM. Vendors squeezed by cloud providers left open source licences and some returned. Supply-chain attacks and vulnerabilities brought foundations and regulators in, and the meaning of "open source" for AI is contested.
+- [How it evolved](https://open-source.history.sovereignweb.site/threads/): Threads through the history: one change followed step by step, each step a sourced fact.
+- [From shared software to free software to open source](https://open-source.history.sovereignweb.site/threads/free-software-to-open-source/): How a habit became a movement and then a label, and why the people who started the movement did not all accept the label.
+- [The label, 1998](https://open-source.history.sovereignweb.site/threads/the-label-1998/): Ten weeks, from Netscape's announcement to the summit that settled on the words "open source", followed step by step from the participants' own accounts.
+- [The hostility](https://open-source.history.sovereignweb.site/threads/the-hostility/): The case made against shared and open software by those who sold software, from 1976 to the lawsuits and campaigns of the 2000s, and how it ended.
+- [Corporate adoption](https://open-source.history.sovereignweb.site/threads/corporate-adoption/): How companies went from tolerating open source to building their businesses on it, and then to buying its institutions.
+- [Microsoft and Linux: from "a cancer" to "Microsoft loves Linux"](https://open-source.history.sovereignweb.site/threads/microsoft-and-linux/): One company's change of position, step by step, each step from a document: the leaked memo, the speeches and interviews of 2001, the first kernel contribution, the 2014 slide, and what followed.
+- [Licences and relicensing](https://open-source.history.sovereignweb.site/threads/licences-and-relicensing/): The licences are the mechanism. This thread follows the two families, copyleft and permissive, the definitions built on them, and the recent moves away from both.
+- [Security and sustainability](https://open-source.history.sovereignweb.site/threads/security-and-sustainability/): The promise that many eyes make bugs shallow, and what happened when critical projects turned out to have very few eyes on them.
+- [Where things stand](https://open-source.history.sovereignweb.site/threads/state-now/): The open questions of 2018 to 2026, each from the statements of the parties.
+- [Where open source meets Agile](https://open-source.history.sovereignweb.site/threads/bridge-agile/): The two histories share people, tools and one habit: put working software in front of others early and often. Each step here is a point where they touch.
+- [People](https://open-source.history.sovereignweb.site/people/): People in this history, each with the facts that mention them.
+- [Andres Freund](https://open-source.history.sovereignweb.site/people/andres-freund/): Developer who found and reported the xz backdoor in March 2024.
+- [Bill Gates](https://open-source.history.sovereignweb.site/people/bill-gates/): Co-founder of Microsoft and author of the 1976 "Open Letter to Hobbyists".
+- [Bill Joy](https://open-source.history.sovereignweb.site/people/bill-joy/): Berkeley graduate student who put together the first Berkeley Software Distribution in 1977.
+- [Brad Smith](https://open-source.history.sovereignweb.site/people/brad-smith/): Microsoft general counsel in 2007 and later its president, who said in 2020 that the company had been on the wrong side of history on open source.
+- [Brian Behlendorf](https://open-source.history.sovereignweb.site/people/brian-behlendorf/): One of the eight founders of the Apache Group in 1995.
+- [Bruce Perens](https://open-source.history.sovereignweb.site/people/bruce-perens/): Debian project leader who drafted the Debian Free Software Guidelines and edited them into the Open Source Definition; co-founder of the OSI.
+- [Christine Peterson](https://open-source.history.sovereignweb.site/people/christine-peterson/): Executive director of the Foresight Institute in 1998, who proposed the term "open source software".
+- [Craig Mundie](https://open-source.history.sovereignweb.site/people/craig-mundie/): Microsoft senior vice president who set out the company's "Shared Source" position in May 2001.
+- [Dennis Ritchie](https://open-source.history.sovereignweb.site/people/dennis-ritchie/): Bell Labs computer scientist, co-creator of Unix and author of its early history.
+- [Eric S. Raymond](https://open-source.history.sovereignweb.site/people/eric-raymond/): Author of "The Cathedral and the Bazaar", co-founder of the Open Source Initiative and publisher of the Halloween Documents.
+- [Erich Gamma](https://open-source.history.sovereignweb.site/people/erich-gamma/): Co-author, with Kent Beck, of the JUnit testing framework.
+- [Ian Murdock](https://open-source.history.sovereignweb.site/people/ian-murdock/): Founder of the Debian Project in 1993.
+- [Jim Allchin](https://open-source.history.sovereignweb.site/people/jim-allchin/): Head of the Windows operating system at Microsoft in 2001, who called open source an intellectual-property destroyer.
+- [Kent Beck](https://open-source.history.sovereignweb.site/people/kent-beck/): Co-author of the JUnit testing framework and an author of the Agile Manifesto.
+- [Kohsuke Kawaguchi](https://open-source.history.sovereignweb.site/people/kohsuke-kawaguchi/): Creator of the Hudson continuous integration server, which its community renamed Jenkins in 2011.
+- [Linus Torvalds](https://open-source.history.sovereignweb.site/people/linus-torvalds/): Creator of the Linux kernel (1991) and of Git (2005).
+- [Louis V. Gerstner](https://open-source.history.sovereignweb.site/people/lou-gerstner/): Chief executive of IBM who announced in December 2000 that the company would spend $1 billion on Linux.
+- [Marshall Kirk McKusick](https://open-source.history.sovereignweb.site/people/kirk-mckusick/): Member of Berkeley's Computer Systems Research Group and author of the history of Berkeley Unix used here.
+- [Martin Fowler](https://open-source.history.sovereignweb.site/people/martin-fowler/): Author of "The New Methodology" and "Continuous Integration" and an author of the Agile Manifesto.
+- [Richard Stallman](https://open-source.history.sovereignweb.site/people/richard-stallman/): Programmer who announced the GNU Project in 1983 and founded the free software movement.
+- [Satya Nadella](https://open-source.history.sovereignweb.site/people/satya-nadella/): Chief executive of Microsoft from February 2014, who presented the "Microsoft loves Linux" slide that October.
+- [Scott Guthrie](https://open-source.history.sovereignweb.site/people/scott-guthrie/): Microsoft executive vice president who announced SQL Server on Linux in 2016.
+- [Shay Banon](https://open-source.history.sovereignweb.site/people/shay-banon/): Elastic executive who announced its licence change in 2021 and its return to an open source licence in 2024.
+- [Steve Ballmer](https://open-source.history.sovereignweb.site/people/steve-ballmer/): Chief executive of Microsoft in 2001, reported in 2001 as calling Linux a cancer in an intellectual property sense.
+- [Tim O'Reilly](https://open-source.history.sovereignweb.site/people/tim-oreilly/): Publisher who organised the April 1998 summit at which leading developers agreed on the term "open source".
+- [Todd Anderson](https://open-source.history.sovereignweb.site/people/todd-anderson/): Linux programmer who, in Peterson's account, introduced her term at the February 1998 meeting.
+- [Vinod Valloppillil](https://open-source.history.sovereignweb.site/people/vinod-valloppillil/): Microsoft employee named as author of the 1998 memorandum on open source software known as Halloween Document I.
+- [Ward Cunningham](https://open-source.history.sovereignweb.site/people/ward-cunningham/): Programmer who created the first wiki in 1995 and is an author of the Agile Manifesto.
+- [Organisations](https://open-source.history.sovereignweb.site/organisations/): Organisations in this history, each with the facts that mention them.
+- [.NET Foundation](https://open-source.history.sovereignweb.site/organisations/dotnet-foundation/): Foundation through which Microsoft said it would work with the community on open source .NET.
+- [Apache Group and Apache Software Foundation](https://open-source.history.sovereignweb.site/organisations/apache/): The group behind the Apache web server (1995), incorporated as a foundation in 1999.
+- [Bell Labs](https://open-source.history.sovereignweb.site/organisations/bell-labs/): Research laboratory where Unix was created in 1969.
+- [Canonical](https://open-source.history.sovereignweb.site/organisations/canonical/): Maker of Ubuntu and Microsoft's partner for the Windows Subsystem for Linux.
+- [Cloud Native Computing Foundation](https://open-source.history.sovereignweb.site/organisations/cncf/): Foundation announced in 2015 that took on Kubernetes in 2016.
+- [CodePlex Foundation](https://open-source.history.sovereignweb.site/organisations/codeplex-foundation/): Open source foundation sponsored by Microsoft in 2009.
+- [Debian Project](https://open-source.history.sovereignweb.site/organisations/debian/): Volunteer-run distribution founded in 1993, whose guidelines became the basis of the Open Source Definition.
+- [Elastic](https://open-source.history.sovereignweb.site/organisations/elastic/): Search company that left the Apache licence in 2021 and added the AGPL in 2024.
+- [European Union](https://open-source.history.sovereignweb.site/organisations/european-union/): Legislator of the Cyber Resilience Act, in force since December 2024.
+- [Foresight Institute](https://open-source.history.sovereignweb.site/organisations/foresight-institute/): Think tank where Christine Peterson worked when she proposed "open source".
+- [Free Software Foundation](https://open-source.history.sovereignweb.site/organisations/fsf/): Foundation set up in October 1985 to support GNU; publisher of the GPL.
+- [GitHub](https://open-source.history.sovereignweb.site/organisations/github/): Code hosting service launched in 2008, owned by Microsoft since 2018.
+- [GNU Project](https://open-source.history.sovereignweb.site/organisations/gnu-project/): Project announced by Stallman in 1983 to build a complete free Unix-compatible system.
+- [Google](https://open-source.history.sovereignweb.site/organisations/google/): Company behind Summer of Code, Android and Kubernetes.
+- [HashiCorp](https://open-source.history.sovereignweb.site/organisations/hashicorp/): Infrastructure software company that moved Terraform to the Business Source License in 2023.
+- [IBM](https://open-source.history.sovereignweb.site/organisations/ibm/): Computer company that shipped early software as source, committed $1 billion to Linux in 2000 and bought Red Hat in 2019.
+- [Jenkins](https://open-source.history.sovereignweb.site/organisations/jenkins/): Open source continuous integration server, renamed from Hudson by a community vote in 2011.
+- [Kubernetes](https://open-source.history.sovereignweb.site/organisations/kubernetes/): Container orchestration project open sourced by Google in 2014.
+- [Microsoft](https://open-source.history.sovereignweb.site/organisations/microsoft/): Software company that opposed open source around 2001 and later joined the Linux Foundation and bought GitHub.
+- [Microsoft Open Technologies, Inc.](https://open-source.history.sovereignweb.site/organisations/ms-open-tech/): Microsoft subsidiary for open standards and open source, announced in 2012.
+- [MIT Artificial Intelligence Lab](https://open-source.history.sovereignweb.site/organisations/mit-ai-lab/): Laboratory whose software-sharing community Stallman joined in 1971.
+- [MongoDB, Inc.](https://open-source.history.sovereignweb.site/organisations/mongodb/): Database company that created the Server Side Public License in 2018.
+- [Mozilla](https://open-source.history.sovereignweb.site/organisations/mozilla/): Project created in 1998 from the Netscape source, later a foundation and the maker of Firefox.
+- [Netscape Communications](https://open-source.history.sovereignweb.site/organisations/netscape/): Browser company whose January 1998 decision to publish its source prompted the "open source" label.
+- [O'Reilly & Associates](https://open-source.history.sovereignweb.site/organisations/oreilly/): Publisher that hosted the April 1998 summit.
+- [Open Handset Alliance](https://open-source.history.sovereignweb.site/organisations/open-handset-alliance/): Alliance of companies that announced Android in 2007.
+- [Open Invention Network](https://open-source.history.sovereignweb.site/organisations/oin/): Patent non-aggression community for Linux, which Microsoft joined in 2018.
+- [Open Source Initiative](https://open-source.history.sovereignweb.site/organisations/osi/): Organisation founded in February 1998 by Raymond and Perens; keeper of the Open Source Definition and, since 2024, the Open Source AI Definition.
+- [Open Source Security Foundation](https://open-source.history.sovereignweb.site/organisations/openssf/): Linux Foundation body formed in 2020 for the security of open source software.
+- [OpenTofu](https://open-source.history.sovereignweb.site/organisations/opentofu/): Open source alternative to Terraform under the Linux Foundation.
+- [Red Hat](https://open-source.history.sovereignweb.site/organisations/red-hat/): Linux company that went public in 1999 and was acquired by IBM in 2019.
+- [Redis](https://open-source.history.sovereignweb.site/organisations/redis/): Database company that left the BSD licence in 2024 and added the AGPL in 2025.
+- [SHARE](https://open-source.history.sovereignweb.site/organisations/share/): User group of IBM computer installations, begun in 1955.
+- [Software Freedom Conservancy](https://open-source.history.sovereignweb.site/organisations/sfc/): Non-profit that criticised the Open Source AI Definition in 2024.
+- [Sun Microsystems](https://open-source.history.sovereignweb.site/organisations/sun/): Company that opened StarOffice in 2000 and committed Java to the GPL in 2006.
+- [The Linux Foundation](https://open-source.history.sovereignweb.site/organisations/linux-foundation/): Non-profit that hosts Linux and many other projects, including the CNCF, OpenSSF, OpenTofu and Valkey.
+- [The SCO Group](https://open-source.history.sovereignweb.site/organisations/sco/): Company that sued IBM over Unix and Linux in 2003 in a case dismissed in 2021.
+- [Thoughtworks](https://open-source.history.sovereignweb.site/organisations/thoughtworks/): Consultancy whose staff built CruiseControl, by Martin Fowler's account.
+- [University of California, Berkeley (Computer Systems Research Group)](https://open-source.history.sovereignweb.site/organisations/uc-berkeley-csrg/): Home of the Berkeley Software Distribution and its permissive licence.
+- [Valkey](https://open-source.history.sovereignweb.site/organisations/valkey/): Linux Foundation project continuing Redis 7.2.4 under the BSD licence.
+- [Documents](https://open-source.history.sovereignweb.site/documents/): Documents in this history, each with the facts that mention them.
+- [An Open Letter to Hobbyists](https://open-source.history.sovereignweb.site/documents/open-letter-to-hobbyists/): Bill Gates's letter on the copying of Altair BASIC.
+- [BSD licence](https://open-source.history.sovereignweb.site/documents/bsd-licence/): The permissive licence of the Berkeley Software Distribution.
+- [Business Source License 1.1](https://open-source.history.sovereignweb.site/documents/busl/): Source-available licence adopted by HashiCorp for Terraform.
+- [Cyber Resilience Act (Regulation (EU) 2024/2847)](https://open-source.history.sovereignweb.site/documents/cra/): European Union law on the cybersecurity of products with digital elements.
+- [Debian Free Software Guidelines](https://open-source.history.sovereignweb.site/documents/dfsg/): Debian's test of whether a work is free, the basis of the Open Source Definition.
+- [Debian Social Contract](https://open-source.history.sovereignweb.site/documents/debian-social-contract/): Debian's commitments to the free software community.
+- [Git](https://open-source.history.sovereignweb.site/documents/git/): Distributed version control system created for the Linux kernel.
+- [GNU General Public License](https://open-source.history.sovereignweb.site/documents/gpl/): The copyleft licence of the Free Software Foundation: version 1 in 1989, version 2 in 1991, version 3 in 2007.
+- [GNU Initial Announcement](https://open-source.history.sovereignweb.site/documents/gnu-initial-announcement/): Stallman's announcement of the GNU Project.
+- [Halloween Document I](https://open-source.history.sovereignweb.site/documents/halloween-document-i/): Leaked Microsoft memorandum on open source software, annotated by Eric Raymond.
+- [It's Time to Talk about Free Software Again](https://open-source.history.sovereignweb.site/documents/time-to-talk-free-software/): Bruce Perens's message on leaving the OSI.
+- [JUnit](https://open-source.history.sovereignweb.site/documents/junit/): Unit testing framework for Java by Kent Beck and Erich Gamma.
+- [Manifesto for Agile Software Development](https://open-source.history.sovereignweb.site/documents/agile-manifesto/): The declaration of seventeen authors, freely copyable in its entirety.
+- [Octoverse](https://open-source.history.sovereignweb.site/documents/octoverse/): GitHub's annual report on activity on its platform.
+- [Server Side Public License](https://open-source.history.sovereignweb.site/documents/sspl/): MongoDB's licence, which requires those offering the software as a service to open the service's software.
+- [The Cathedral and the Bazaar](https://open-source.history.sovereignweb.site/documents/cathedral-and-bazaar/): Eric Raymond's essay on the development style of Linux.
+- [The Free Software Definition](https://open-source.history.sovereignweb.site/documents/free-software-definition/): The definition of free software by its four essential freedoms.
+- [The GNU Manifesto](https://open-source.history.sovereignweb.site/documents/gnu-manifesto/): Stallman's statement of the aims of GNU.
+- [The New Methodology](https://open-source.history.sovereignweb.site/documents/new-methodology/): Martin Fowler's survey of lightweight methods, which in its original version included open source.
+- [The Open Source AI Definition 1.0](https://open-source.history.sovereignweb.site/documents/osaid/): The OSI's definition of open source for AI systems.
+- [The Open Source Definition](https://open-source.history.sovereignweb.site/documents/open-source-definition/): The OSI's ten criteria for an open source licence.
+- [Why Open Source Misses the Point of Free Software](https://open-source.history.sovereignweb.site/documents/why-open-source-misses-the-point/): Stallman's essay on the difference between the two terms.
+- [WikiWikiWeb](https://open-source.history.sovereignweb.site/documents/wikiwikiweb/): The first wiki, created by Ward Cunningham.
+- [Events](https://open-source.history.sovereignweb.site/events/): Events in this history, each with the facts that mention them.
+- ["Get the Facts" campaign](https://open-source.history.sovereignweb.site/events/get-the-facts-campaign/): Microsoft advertising campaign comparing Windows with Linux.
+- [Announcement of the GNU Project](https://open-source.history.sovereignweb.site/events/gnu-announcement-1983/): Stallman's Usenet post announcing a free Unix-compatible system.
+- [Craig Mundie's speech at NYU Stern](https://open-source.history.sovereignweb.site/events/mundie-nyu-speech-2001/): Speech on "The Commercial Software Model" attacking the GPL and introducing Shared Source.
+- [First devopsdays](https://open-source.history.sovereignweb.site/events/devopsdays-2009/): Conference held in Ghent, Belgium, in 2009.
+- [Freeware Summit / Open Source Summit](https://open-source.history.sovereignweb.site/events/open-source-summit-1998/): Summit of leading developers in Palo Alto organised by Tim O'Reilly.
+- [Heartbleed](https://open-source.history.sovereignweb.site/events/heartbleed-2014/): Vulnerability in the OpenSSL library disclosed in April 2014.
+- [IBM's acquisition of Red Hat](https://open-source.history.sovereignweb.site/events/red-hat-acquisition/): Announced on 28 October 2018 and closed on 9 July 2019, at about $34 billion.
+- [Leak of the Halloween Documents](https://open-source.history.sovereignweb.site/events/halloween-documents-1998/): Publication by Eric Raymond of leaked Microsoft memoranda on open source.
+- [Log4Shell](https://open-source.history.sovereignweb.site/events/log4shell-2021/): Critical vulnerability in Apache Log4j.
+- [Microsoft cloud event, San Francisco](https://open-source.history.sovereignweb.site/events/microsoft-cloud-event-2014/): Press event at which Nadella showed the "Microsoft loves Linux" slide.
+- [Microsoft's acquisition of GitHub](https://open-source.history.sovereignweb.site/events/github-acquisition-2018/): Announced on 4 June 2018 for $7.5 billion and completed on 26 October 2018.
+- [Netscape source code announcement](https://open-source.history.sovereignweb.site/events/netscape-announcement-1998/): Netscape's announcement that it would publish the Communicator source.
+- [SCO v. IBM](https://open-source.history.sovereignweb.site/events/sco-v-ibm/): Lawsuit begun in 2003 and dismissed after a settlement in 2021.
+- [Steve Ballmer's Chicago Sun-Times interview](https://open-source.history.sovereignweb.site/events/ballmer-sun-times-interview-2001/): Interview in which Ballmer was reported to have called Linux a cancer.
+- [The strategy session that adopted "open source"](https://open-source.history.sovereignweb.site/events/open-source-strategy-session-1998/): Meeting in Silicon Valley in the first week of February 1998, dated 3 February by the OSI and 5 February by Peterson.
+- [The xz backdoor](https://open-source.history.sovereignweb.site/events/xz-backdoor-2024/): Backdoor in the xz compression library reported by Andres Freund.
+- [Unix System Laboratories v. BSDI and the University of California](https://open-source.history.sovereignweb.site/events/usl-v-bsdi/): Lawsuit over Unix code in BSD, settled in January 1994.
+- [What is disputed](https://open-source.history.sovereignweb.site/disputed/): Where the record is contested: famous quotes that are paraphrased, attributions that are argued over, studies that were challenged.
+- [Sources](https://open-source.history.sovereignweb.site/sources/): The 115 sources behind the 149 facts: 100 primary, 15 secondary.
+- [Connect the dots](https://open-source.history.sovereignweb.site/connect/): Where the history of open source meets the history of Agile: the people, tools and ideas the two share, each connection sourced on both sides.
+- [Start here](https://open-source.history.sovereignweb.site/start/): For whoever keeps this site: where the files are, how to correct a fact, how to add one, and what the checks refuse.
+- [Use this site with your AI](https://open-source.history.sovereignweb.site/agents/): For AI agents and the people using them: the data files, the rule for quoting, and how to propose a correction.
+- [How this site was made](https://open-source.history.sovereignweb.site/admin/): Who built this site, from what brief, by what method, and what could not be sourced.
 
 ## More
 
 - Use this site with AI: https://open-source.history.sovereignweb.site/agents/
-- Start here (for the owner): https://open-source.history.sovereignweb.site/start/
 - How this site was made: https://open-source.history.sovereignweb.site/admin/
+- How this site is governed: https://open-source.history.sovereignweb.site/policy/
 - The agents that work on this site: https://open-source.history.sovereignweb.site/data/agents.json
+- The sister history: https://agile.history.sovereignweb.site/
+
+No cookies, no tracking.

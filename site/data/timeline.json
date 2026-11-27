@@ -1,0 +1,3737 @@
+{
+ "derived_from": [
+  "site/data/facts.json",
+  "site/data/story.json"
+ ],
+ "by": "tools/derive.mjs",
+ "note": "Derived. Do not edit by hand.",
+ "timeline": [
+  {
+   "date": "1955",
+   "fact": "share-founded-1955",
+   "claim": "SHARE, the user group of IBM computer installations, says of itself that it began in 1955 as the first enterprise IT user group.",
+   "era": "shared-by-default",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "share"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.share.org/About/History",
+    "title": "History (About SHARE)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1955",
+   "fact": "share-library-source-form",
+   "claim": "In the early mainframe years IBM supplied its software as source code, and SHARE members modified it and exchanged their changes through the SHARE library.",
+   "era": "shared-by-default",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "share",
+    "ibm"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "encyclopaedia",
+    "url": "https://en.wikipedia.org/wiki/SHARE_(computing)",
+    "title": "SHARE (computing)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1969",
+   "fact": "unix-born-1969",
+   "claim": "Dennis Ritchie dates the birth of Unix at Bell Labs to 1969, five years before the first paper describing it.",
+   "era": "shared-by-default",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "dennis-ritchie"
+   ],
+   "organisations": [
+    "bell-labs"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html",
+    "title": "The Evolution of the Unix Time-sharing System"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1971",
+   "fact": "stallman-sharing-community-1971",
+   "claim": "Richard Stallman recalls joining the MIT Artificial Intelligence Lab in 1971 and finding a community in which sharing software was the normal practice.",
+   "era": "shared-by-default",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [
+    "mit-ai-lab"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://www.gnu.org/gnu/thegnuproject.html",
+    "title": "The GNU Project"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1976-02-03",
+   "fact": "gates-open-letter-1976",
+   "claim": "In February 1976 Bill Gates wrote an open letter accusing computer hobbyists of stealing software, setting out the case that software should be paid for rather than shared.",
+   "era": "shared-by-default",
+   "threads": [
+    "free-software-to-open-source",
+    "the-hostility"
+   ],
+   "people": [
+    "bill-gates"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "open-letter-to-hobbyists"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://en.wikisource.org/wiki/Open_Letter_to_Hobbyists",
+    "title": "An Open Letter to Hobbyists"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1977",
+   "fact": "bsd-first-distribution-1977",
+   "claim": "Bill Joy assembled the first Berkeley Software Distribution (BSD) at the University of California, Berkeley, early in 1977.",
+   "era": "shared-by-default",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "bill-joy",
+    "kirk-mckusick"
+   ],
+   "organisations": [
+    "uc-berkeley-csrg"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+    "title": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable (in Open Sources: Voices from the Open Source Revolution)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1983-09-27",
+   "fact": "gnu-announced-1983",
+   "claim": "On 27 September 1983 Richard Stallman announced on Usenet that he would write a complete Unix-compatible system called GNU and give it away.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [
+    "gnu-project"
+   ],
+   "events": [
+    "gnu-announcement-1983"
+   ],
+   "documents": [
+    "gnu-initial-announcement"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "mailing-list",
+    "url": "http://www.gnu.org/gnu/initial-announcement.html",
+    "title": "Initial Announcement (new Unix implementation)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1983-09-27",
+   "fact": "gnu-golden-rule-1983",
+   "claim": "Stallman gave an ethical reason for GNU: he held that sharing programs is a duty and refused to sign nondisclosure or software licence agreements.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "gnu-initial-announcement"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "mailing-list",
+    "url": "http://www.gnu.org/gnu/initial-announcement.html",
+    "title": "Initial Announcement (new Unix implementation)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1985-03",
+   "fact": "gnu-manifesto-1985",
+   "claim": "The GNU Manifesto of 1985 set out the rule that later became copyleft: anyone may modify and redistribute GNU, but nobody may restrict its further redistribution.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [
+    "gnu-project"
+   ],
+   "events": [],
+   "documents": [
+    "gnu-manifesto"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://www.gnu.org/gnu/manifesto.html",
+    "title": "The GNU Manifesto"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1985-10",
+   "fact": "fsf-founded-1985",
+   "claim": "The Free Software Foundation was founded in October 1985, at first to raise money for the development of GNU.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "fsf",
+    "gnu-project"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://www.gnu.org/gnu/gnu-history.html",
+    "title": "Overview of the GNU System"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1989",
+   "fact": "copyleft-defined",
+   "claim": "Stallman describes copyleft, the method behind the GNU General Public License, as using copyright law to keep a program free.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://www.gnu.org/gnu/thegnuproject.html",
+    "title": "The GNU Project"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1989-02",
+   "fact": "gpl-v1-1989",
+   "claim": "Version 1 of the GNU General Public License, dated February 1989, states its purpose as guaranteeing the freedom to share and change free software.",
+   "era": "free-software",
+   "threads": [
+    "licences-and-relicensing",
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "licence",
+    "url": "http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt",
+    "title": "GNU General Public License, version 1"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1989-06",
+   "fact": "bsd-networking-release-1989",
+   "claim": "In June 1989 Berkeley released Networking Release 1, its first freely redistributable code.",
+   "era": "free-software",
+   "threads": [
+    "licences-and-relicensing",
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "uc-berkeley-csrg"
+   ],
+   "events": [],
+   "documents": [
+    "bsd-licence"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+    "title": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable (in Open Sources: Voices from the Open Source Revolution)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1991-06",
+   "fact": "gpl-v2-1991",
+   "claim": "Version 2 of the GNU General Public License is dated June 1991.",
+   "era": "free-software",
+   "threads": [
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "licence",
+    "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+    "title": "GNU General Public License, version 2"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1991-08-25",
+   "fact": "linus-minix-post-1991",
+   "claim": "On 25 August 1991 Linus Torvalds told the comp.os.minix newsgroup that he was writing a free operating system as a hobby.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "archive",
+    "url": "https://www.cs.cmu.edu/~awb/linux.history.html",
+    "title": "Linux History (compilation of early Usenet posts on comp.os.minix)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1992",
+   "fact": "gnu-plus-linux-1992",
+   "claim": "The GNU Project says that by 1990 it had every major component of its system except the kernel, and that Linux filled that gap from 1992.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "linus-torvalds"
+   ],
+   "organisations": [
+    "gnu-project"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://www.gnu.org/gnu/gnu-history.html",
+    "title": "Overview of the GNU System"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1992",
+   "fact": "linux-gpl-1992",
+   "claim": "In the release notes for Linux 0.12 Torvalds announced that the kernel would move to the GNU copyleft, dropping his earlier ban on distributing it for money.",
+   "era": "free-software",
+   "threads": [
+    "licences-and-relicensing",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.12",
+    "title": "Release notes for Linux v0.12"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1993-08-16",
+   "fact": "debian-founded-1993",
+   "claim": "Ian Murdock founded the Debian Project on 16 August 1993.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "ian-murdock"
+   ],
+   "organisations": [
+    "debian"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.debian.org/doc/manuals/project-history/intro.en.html",
+    "title": "A Brief History of Debian, chapter 1: Introduction"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1994-01",
+   "fact": "bsd-usl-settlement-1994",
+   "claim": "The lawsuit by Unix System Laboratories over BSD was settled in January 1994, with three files of some 18,000 removed from the Berkeley release.",
+   "era": "free-software",
+   "threads": [
+    "licences-and-relicensing",
+    "the-hostility"
+   ],
+   "people": [],
+   "organisations": [
+    "uc-berkeley-csrg"
+   ],
+   "events": [
+    "usl-v-bsdi"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+    "title": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable (in Open Sources: Voices from the Open Source Revolution)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1994-06",
+   "fact": "bsd-licence-terms-1994",
+   "claim": "4.4BSD-Lite, released in June 1994, carried the permissive Berkeley terms: free redistribution in source and binary form, provided the copyright notices and credit to the University remain.",
+   "era": "free-software",
+   "threads": [
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [
+    "uc-berkeley-csrg"
+   ],
+   "events": [],
+   "documents": [
+    "bsd-licence"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.oreilly.com/openbook/opensources/book/kirkmck.html",
+    "title": "Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable (in Open Sources: Voices from the Open Source Revolution)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1995",
+   "fact": "cunningham-wiki-name-1995",
+   "claim": "Cunningham confirmed in correspondence with a dictionary editor that he named the technology WikiWikiWeb in 1995, after the Hawaiian word for quick.",
+   "era": "free-software",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "ward-cunningham"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "wikiwikiweb"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://c2.com/doc/etymology.html",
+    "title": "Correspondence on the Etymology of Wiki"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1995-02",
+   "fact": "apache-group-1995",
+   "claim": "The Apache Group formed in February 1995, when eight webmasters began co-ordinating their patches to the NCSA web server.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "corporate-adoption"
+   ],
+   "people": [
+    "brian-behlendorf"
+   ],
+   "organisations": [
+    "apache"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://httpd.apache.org/ABOUT_APACHE.html",
+    "title": "About the Apache HTTP Server Project"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1995-03-25",
+   "fact": "cunningham-first-wiki-1995",
+   "claim": "Ward Cunningham started the first wiki, the WikiWikiWeb, on 25 March 1995 as a supplement to the Portland Pattern Repository.",
+   "era": "free-software",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "ward-cunningham"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "wikiwikiweb"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "archive",
+    "url": "https://c2.com/wiki/remodel/pages/WikiHistory",
+    "title": "WikiHistory (page of the original wiki, WikiWikiWeb)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1996",
+   "fact": "four-freedoms",
+   "claim": "The Free Software Definition says a program is free software when its users have four essential freedoms: to run it, to study and change it, to redistribute copies and to distribute modified versions.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [
+    "fsf",
+    "gnu-project"
+   ],
+   "events": [],
+   "documents": [
+    "free-software-definition"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://www.gnu.org/philosophy/free-sw.html",
+    "title": "What is Free Software? (The Free Software Definition)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1996",
+   "fact": "free-as-in-speech",
+   "claim": "The GNU Project explains that \"free\" in free software is a matter of liberty and not of price.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "free-software-definition"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://www.gnu.org/philosophy/free-sw.html",
+    "title": "What is Free Software? (The Free Software Definition)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1997",
+   "fact": "junit-1997",
+   "claim": "Kent Beck and Erich Gamma wrote the first version of the JUnit testing framework together on a flight to the OOPSLA conference in 1997.",
+   "era": "free-software",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "kent-beck",
+    "erich-gamma",
+    "martin-fowler"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "junit"
+   ],
+   "source": {
+    "type": "secondary",
+    "kind": "own-post",
+    "url": "https://martinfowler.com/bliki/Xunit.html",
+    "title": "Xunit"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1997-05",
+   "fact": "cathedral-bazaar-1997",
+   "claim": "Eric Raymond's essay \"The Cathedral and the Bazaar\", first presented in May 1997, contrasted closed \"cathedral\" development with the open \"bazaar\" style of Linux.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "the-label-1998",
+    "bridge-agile"
+   ],
+   "people": [
+    "eric-raymond",
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "cathedral-and-bazaar"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/index.html",
+    "title": "The Cathedral and the Bazaar (title page, revision history and abstract)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1997-05",
+   "fact": "linuss-law-1997",
+   "claim": "Raymond coined \"Linus's Law\": given enough eyeballs, all bugs are shallow.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "security-and-sustainability"
+   ],
+   "people": [
+    "eric-raymond",
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "cathedral-and-bazaar"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html",
+    "title": "The Cathedral and the Bazaar: Release Early, Release Often"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1997-05",
+   "fact": "release-early-release-often",
+   "claim": "Lesson 7 of \"The Cathedral and the Bazaar\" is to release early, release often and listen to your customers, which Raymond drew from how Torvalds ran Linux.",
+   "era": "free-software",
+   "threads": [
+    "bridge-agile",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "eric-raymond",
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "cathedral-and-bazaar"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html",
+    "title": "The Cathedral and the Bazaar: Release Early, Release Often"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1997-07-05",
+   "fact": "debian-social-contract-1997",
+   "claim": "The Debian Social Contract and its Debian Free Software Guidelines were drafted by Bruce Perens, refined by Debian developers in June 1997 and ratified as version 1.0 on 5 July 1997.",
+   "era": "free-software",
+   "threads": [
+    "free-software-to-open-source",
+    "licences-and-relicensing",
+    "the-label-1998"
+   ],
+   "people": [
+    "bruce-perens"
+   ],
+   "organisations": [
+    "debian"
+   ],
+   "events": [],
+   "documents": [
+    "debian-social-contract",
+    "dfsg"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.debian.org/social_contract",
+    "title": "Debian Social Contract (with the Debian Free Software Guidelines)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998",
+   "fact": "mozilla-project-1998",
+   "claim": "Mozilla says its project was created in 1998 with the release of the Netscape browser source code.",
+   "era": "the-label",
+   "threads": [
+    "corporate-adoption",
+    "the-label-1998"
+   ],
+   "people": [],
+   "organisations": [
+    "mozilla",
+    "netscape"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.mozilla.org/en-US/about/history/",
+    "title": "History of the Mozilla Project"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998",
+   "fact": "osd-no-field-discrimination",
+   "claim": "Criterion 6 of the Open Source Definition forbids a licence from restricting the fields in which a program may be used, including use in a business.",
+   "era": "the-label",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "open-source-definition"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opensource.org/osd",
+    "title": "The Open Source Definition"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998",
+   "fact": "osd-not-just-source",
+   "claim": "The Open Source Definition opens by saying that open source is more than access to source code: the distribution terms must meet its ten criteria.",
+   "era": "the-label",
+   "threads": [
+    "licences-and-relicensing",
+    "the-label-1998"
+   ],
+   "people": [],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "open-source-definition"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opensource.org/osd",
+    "title": "The Open Source Definition"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998",
+   "fact": "stallman-1998-splinter",
+   "claim": "Richard Stallman describes 1998 as the year part of the free software community splintered off to campaign under the name \"open source\".",
+   "era": "the-label",
+   "threads": [
+    "free-software-to-open-source",
+    "the-label-1998"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "why-open-source-misses-the-point"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://www.gnu.org/philosophy/open-source-misses-the-point.html",
+    "title": "Why Open Source Misses the Point of Free Software"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-01",
+   "fact": "netscape-credits-raymond-1998",
+   "claim": "Raymond reports that Netscape's chief technology officer, Eric Hahn, wrote to him that his essay had been a fundamental inspiration for the decision to release the source.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998"
+   ],
+   "people": [
+    "eric-raymond"
+   ],
+   "organisations": [
+    "netscape"
+   ],
+   "events": [],
+   "documents": [
+    "cathedral-and-bazaar"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s13.html",
+    "title": "The Cathedral and the Bazaar: Epilog: Netscape Embraces the Bazaar"
+   },
+   "quote_status": "paraphrase"
+  },
+  {
+   "date": "1998-01-22",
+   "fact": "netscape-announcement-1998",
+   "claim": "On 22 January 1998 Netscape announced that it would publish the source code of the next generation of its Communicator browser.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "netscape"
+   ],
+   "events": [
+    "netscape-announcement-1998"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://blog.lizardwrangler.com/?p=187",
+    "title": "January 22, 1998: the Beginning of Mozilla (reproduces the Netscape press release in full)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-01-22",
+   "fact": "netscape-licence-gpl-heritage-1998",
+   "claim": "Netscape said its source licence would allow modification and redistribution and would build on the heritage of the GPL.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [
+    "netscape"
+   ],
+   "events": [
+    "netscape-announcement-1998"
+   ],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://blog.lizardwrangler.com/?p=187",
+    "title": "January 22, 1998: the Beginning of Mozilla (reproduces the Netscape press release in full)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-02",
+   "fact": "osd-derived-from-dfsg-1998",
+   "claim": "The Open Source Definition was made in February 1998 by revising the Debian Free Software Guidelines and removing the references to Debian.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "licences-and-relicensing",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "bruce-perens"
+   ],
+   "organisations": [
+    "osi",
+    "debian"
+   ],
+   "events": [],
+   "documents": [
+    "open-source-definition",
+    "dfsg"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opensource.org/history",
+    "title": "History of the OSI"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-02",
+   "fact": "osi-founded-1998",
+   "claim": "Eric Raymond and Bruce Perens founded the Open Source Initiative in late February 1998.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998"
+   ],
+   "people": [
+    "eric-raymond",
+    "bruce-perens"
+   ],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opensource.org/history",
+    "title": "History of the OSI"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-02",
+   "fact": "perens-edited-dfsg-into-osd",
+   "claim": "Bruce Perens says in his own account that he edited the Debian guidelines into the Open Source Definition at Raymond's suggestion.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "bruce-perens",
+    "eric-raymond"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "open-source-definition",
+    "dfsg"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.oreilly.com/openbook/opensources/book/perens.html",
+    "title": "The Open Source Definition (in Open Sources: Voices from the Open Source Revolution)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-02",
+   "fact": "peterson-coins-open-source-1998",
+   "claim": "Christine Peterson, then executive director of the Foresight Institute, says she came up with the term \"open source software\" in the first week of February 1998.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "christine-peterson"
+   ],
+   "organisations": [
+    "foresight-institute"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://opensource.com/article/18/2/coining-term-open-source-software",
+    "title": "How I coined the term 'open source'"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-02-03",
+   "fact": "open-source-label-osi-account",
+   "claim": "The Open Source Initiative's own history says the \"open source\" label was created at a strategy session in Palo Alto on 3 February 1998, and credits Christine Peterson with suggesting it.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "christine-peterson"
+   ],
+   "organisations": [
+    "osi"
+   ],
+   "events": [
+    "open-source-strategy-session-1998"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opensource.org/history",
+    "title": "History of the OSI"
+   },
+   "quote_status": "disputed"
+  },
+  {
+   "date": "1998-02-05",
+   "fact": "open-source-meeting-peterson-account",
+   "claim": "In Peterson's account the term was adopted at a strategy meeting at VA Research on 5 February 1998, where Todd Anderson put it forward and Eric Raymond endorsed it.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998"
+   ],
+   "people": [
+    "christine-peterson",
+    "eric-raymond",
+    "todd-anderson"
+   ],
+   "organisations": [],
+   "events": [
+    "open-source-strategy-session-1998"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://opensource.com/article/18/2/coining-term-open-source-software",
+    "title": "How I coined the term 'open source'"
+   },
+   "quote_status": "disputed"
+  },
+  {
+   "date": "1998-02-08",
+   "fact": "raymond-free-software-term-has-to-go",
+   "claim": "Raymond's stated reason for the new label was pragmatic: \"free software\" was ambiguous and made business people nervous.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "eric-raymond"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://catb.org/~esr/open-source.html",
+    "title": "Goodbye, \"free software\"; hello, \"open source\""
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-02-08",
+   "fact": "raymond-goodbye-free-software-1998",
+   "claim": "On 8 February 1998 Eric Raymond publicly called on the community to replace the term \"free software\" with \"open source\", saying the group had come up with the label together.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "eric-raymond"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://catb.org/~esr/open-source.html",
+    "title": "Goodbye, \"free software\"; hello, \"open source\""
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-04",
+   "fact": "freeware-summit-renamed-1998",
+   "claim": "The April 1998 meeting was announced as the \"Freeware Summit\" and within a week was being called the \"Open Source Summit\".",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998"
+   ],
+   "people": [
+    "tim-oreilly",
+    "christine-peterson"
+   ],
+   "organisations": [],
+   "events": [
+    "open-source-summit-1998"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://opensource.com/article/18/2/coining-term-open-source-software",
+    "title": "How I coined the term 'open source'"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-04-07",
+   "fact": "open-source-summit-1998",
+   "claim": "At a summit organised by Tim O'Reilly in Palo Alto on 7 April 1998, leading developers agreed that \"open source\" or \"sourceware\" best described their way of working.",
+   "era": "the-label",
+   "threads": [
+    "the-label-1998"
+   ],
+   "people": [
+    "tim-oreilly"
+   ],
+   "organisations": [
+    "oreilly"
+   ],
+   "events": [
+    "open-source-summit-1998"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://linuxgazette.net/issue28/oreilly.html",
+    "title": "Open Source Pioneers Meet in Historic Summit (O'Reilly press release, as reprinted in Linux Gazette issue 28)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-08-11",
+   "fact": "halloween-memo-fud-1998",
+   "claim": "The same memorandum concluded that open source was credible in the long term and could not be fought with fear, uncertainty and doubt.",
+   "era": "the-label",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "vinod-valloppillil"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "halloween-documents-1998"
+   ],
+   "documents": [
+    "halloween-document-i"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://catb.org/~esr/halloween/halloween1.html",
+    "title": "Halloween Document I (Microsoft memorandum \"Open Source Software: A (New?) Development Methodology\", annotated)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-08-11",
+   "fact": "halloween-memo-threat-1998",
+   "claim": "An internal Microsoft memorandum of August 1998 judged open source software to be a direct, short-term revenue and platform threat to the company.",
+   "era": "the-label",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "vinod-valloppillil",
+    "eric-raymond"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "halloween-documents-1998"
+   ],
+   "documents": [
+    "halloween-document-i"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "http://catb.org/~esr/halloween/halloween1.html",
+    "title": "Halloween Document I (Microsoft memorandum \"Open Source Software: A (New?) Development Methodology\", annotated)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1998-11",
+   "fact": "halloween-authenticity-1998",
+   "claim": "According to Raymond, Microsoft admitted that the leaked memorandum was authentic within days of its publication.",
+   "era": "the-label",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "eric-raymond"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "halloween-documents-1998"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://catb.org/~esr/halloween/halloween3.html",
+    "title": "Halloween Document III: Microsoft's Reaction to the \"Halloween Memorandum\""
+   },
+   "quote_status": "paraphrase"
+  },
+  {
+   "date": "1999",
+   "fact": "red-hat-ipo-1999",
+   "claim": "Red Hat, a Linux distributor, became a public company in 1999.",
+   "era": "the-label",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "red-hat"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.redhat.com/en/about/brand/standards/history",
+    "title": "Red Hat brand standards: History"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1999-02-17",
+   "fact": "perens-free-software-again-1999",
+   "claim": "A year after co-founding the OSI, Bruce Perens wrote that open source had played down the freedoms of free software and that it was time to talk about free software again.",
+   "era": "the-label",
+   "threads": [
+    "free-software-to-open-source",
+    "the-label-1998"
+   ],
+   "people": [
+    "bruce-perens"
+   ],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "time-to-talk-free-software"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "mailing-list",
+    "url": "https://static.lwn.net/1999/0218/a/bp.html",
+    "title": "It's Time to Talk about Free Software Again (email to the editor, as published)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1999-02-17",
+   "fact": "perens-leaves-osi-1999",
+   "claim": "In the same message Perens said he would go on promoting software that fits the Open Source Definition, but independently of the Open Source Initiative.",
+   "era": "the-label",
+   "threads": [
+    "free-software-to-open-source",
+    "the-label-1998"
+   ],
+   "people": [
+    "bruce-perens",
+    "eric-raymond"
+   ],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "time-to-talk-free-software"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "mailing-list",
+    "url": "https://static.lwn.net/1999/0218/a/bp.html",
+    "title": "It's Time to Talk about Free Software Again (email to the editor, as published)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "1999-06-30",
+   "fact": "asf-incorporated-1999",
+   "claim": "On 30 June 1999 the Apache Group announced that it had incorporated as the Apache Software Foundation.",
+   "era": "the-label",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "apache"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.apache.org/foundation/press/pr_1999_06_30.txt",
+    "title": "The Apache Group incorporates to become the Apache Software Foundation"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2000-07",
+   "fact": "fowler-open-source-debugging-2000",
+   "claim": "Fowler picked out the same point Raymond had made in \"Linus's Law\": in open source, debugging can be done by many people in parallel.",
+   "era": "the-label",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "martin-fowler",
+    "eric-raymond"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "new-methodology",
+    "cathedral-and-bazaar"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://martinfowler.com/articles/newMethodologyOriginal.html",
+    "title": "The New Methodology (Original)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2000-07",
+   "fact": "fowler-open-source-new-methodology-2000",
+   "claim": "In the original July 2000 version of \"The New Methodology\", Martin Fowler listed open source alongside the new lightweight methods, saying much of its way of working applied to closed source projects too.",
+   "era": "the-label",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "martin-fowler"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "new-methodology"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://martinfowler.com/articles/newMethodologyOriginal.html",
+    "title": "The New Methodology (Original)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2000-07-19",
+   "fact": "sun-staroffice-2000",
+   "claim": "On 19 July 2000 Sun Microsystems announced it would release the StarOffice source code under the GPL, creating OpenOffice.org.",
+   "era": "the-label",
+   "threads": [
+    "corporate-adoption",
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [
+    "sun"
+   ],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.openoffice.org/press/sun_release.html",
+    "title": "Sun Microsystems Open Sources StarOffice Technology"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2000-09-10",
+   "fact": "continuous-integration-ant-2000",
+   "claim": "The original \"Continuous Integration\" article by Martin Fowler and Matthew Foemmel (September 2000) records their team moving its builds to Ant, an open source tool.",
+   "era": "the-label",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "martin-fowler"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://martinfowler.com/articles/originalContinuousIntegration.html",
+    "title": "Continuous Integration (original version)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2000-12-12",
+   "fact": "ibm-billion-linux-2000",
+   "claim": "In December 2000 IBM's chief executive, Lou Gerstner, said IBM would spend $1 billion on Linux in 2001.",
+   "era": "the-label",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [
+    "lou-gerstner"
+   ],
+   "organisations": [
+    "ibm"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.cnet.com/tech/tech-industry/ibm-to-spend-1-billion-on-linux-in-2001/",
+    "title": "IBM to spend $1 billion on Linux in 2001"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-02",
+   "fact": "agile-manifesto-authors-2001",
+   "claim": "The authors of the Agile Manifesto include Kent Beck (JUnit), Ward Cunningham (the first wiki) and Martin Fowler (who wrote on open source as a method).",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "kent-beck",
+    "ward-cunningham",
+    "martin-fowler"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "agile-manifesto"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://agilemanifesto.org/",
+    "title": "Manifesto for Agile Software Development"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-02",
+   "fact": "agile-manifesto-freely-copied-2001",
+   "claim": "The Manifesto for Agile Software Development carries a notice that it may be freely copied in any form, but only in its entirety.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "kent-beck",
+    "ward-cunningham",
+    "martin-fowler"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "agile-manifesto"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://agilemanifesto.org/",
+    "title": "Manifesto for Agile Software Development"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-02",
+   "fact": "allchin-american-way-2001",
+   "claim": "Allchin added that he worried about governments encouraging open source and that policymakers needed to be taught to see it as a threat.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "jim-allchin"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.cnet.com/tech/tech-industry/microsoft-exec-calls-open-source-a-threat-to-innovation/",
+    "title": "Microsoft exec calls open source a threat to innovation"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-02",
+   "fact": "allchin-ip-destroyer-2001",
+   "claim": "In February 2001 Jim Allchin, head of Windows at Microsoft, called open source an intellectual-property destroyer.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "jim-allchin"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.cnet.com/tech/tech-industry/microsoft-exec-calls-open-source-a-threat-to-innovation/",
+    "title": "Microsoft exec calls open source a threat to innovation"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-03-23",
+   "fact": "cruisecontrol-bsd-licence",
+   "claim": "The CruiseControl continuous integration tool was registered as a project on SourceForge on 23 March 2001, under a BSD licence.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "bridge-agile",
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "bsd-licence"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "archive",
+    "url": "https://sourceforge.net/projects/cruisecontrol/",
+    "title": "CruiseControl project summary"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-05-03",
+   "fact": "mundie-gpl-viral-2001",
+   "claim": "On 3 May 2001 Craig Mundie of Microsoft told an audience at New York University's Stern School of Business that the \"viral\" GPL threatened the intellectual property of any organisation using it.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "craig-mundie"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "mundie-nyu-speech-2001"
+   ],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "speech",
+    "url": "https://news.microsoft.com/speeches/speech-transcript-craig-mundie-the-new-york-university-stern-school-of-business/",
+    "title": "Speech Transcript: Craig Mundie, The New York University Stern School of Business (Prepared Text of Remarks: The Commercial Software Model)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-05-03",
+   "fact": "mundie-shared-source-2001",
+   "claim": "In the same speech Mundie set out Microsoft's alternative, \"Shared Source\": showing source code to customers and partners while keeping the intellectual property.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "craig-mundie"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "mundie-nyu-speech-2001"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "speech",
+    "url": "https://news.microsoft.com/speeches/speech-transcript-craig-mundie-the-new-york-university-stern-school-of-business/",
+    "title": "Speech Transcript: Craig Mundie, The New York University Stern School of Business (Prepared Text of Remarks: The Commercial Software Model)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-06-01",
+   "fact": "ballmer-cancer-2001",
+   "claim": "Steve Ballmer, Microsoft's chief executive, told the Chicago Sun-Times on 1 June 2001 that Linux is a cancer that attaches itself in an intellectual property sense to everything it touches.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "steve-ballmer"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "ballmer-sun-times-interview-2001"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/",
+    "title": "Ballmer: 'Linux is a cancer'"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-06-01",
+   "fact": "ballmer-cancer-licence-context-2001",
+   "claim": "Ballmer's explanation of the remark was about licensing: he said that using any open source software obliges a company to make the rest of its software open source.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "steve-ballmer"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "ballmer-sun-times-interview-2001"
+   ],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/",
+    "title": "Ballmer: 'Linux is a cancer'"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2001-06-02",
+   "fact": "ballmer-cancer-short-form",
+   "claim": "The remark is usually repeated in the short form \"Linux is a cancer\", which is the headline The Register gave its report, and which drops the qualifier about intellectual property.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "steve-ballmer"
+   ],
+   "organisations": [],
+   "events": [
+    "ballmer-sun-times-interview-2001"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/",
+    "title": "Ballmer: 'Linux is a cancer'"
+   },
+   "quote_status": "paraphrase"
+  },
+  {
+   "date": "2003",
+   "fact": "sco-v-ibm-2003",
+   "claim": "The SCO Group's lawsuit against IBM over Unix code and Linux began in 2003.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility"
+   ],
+   "people": [],
+   "organisations": [
+    "sco",
+    "ibm"
+   ],
+   "events": [
+    "sco-v-ibm"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.theregister.com/2021/08/30/sco_tsg_vs_ibm_settlement/",
+    "title": "Ancient 'Who owns Unix?' case puts a $14.25M price tag on making some claims go away"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2004-01-05",
+   "fact": "get-the-facts-2004",
+   "claim": "In January 2004 Microsoft launched \"Get the Facts\", an advertising campaign arguing the advantages of Windows over Linux.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "get-the-facts-campaign"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.eweek.com/news/microsoft-takes-on-linux-in-ad-campaign/",
+    "title": "Microsoft Takes on Linux in Ad Campaign"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2004-11-09",
+   "fact": "firefox-1-0-2004",
+   "claim": "The Mozilla Foundation released Firefox 1.0 on 9 November 2004.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "mozilla"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://blog.mozilla.org/press/2004/11/mozilla-foundation-releases-the-highly-anticipated-mozilla-firefox-1-0-web-browser/",
+    "title": "Mozilla Foundation releases the highly anticipated Mozilla Firefox 1.0 web browser"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2005",
+   "fact": "git-created-2005",
+   "claim": "Git was created in 2005 by Linus Torvalds and the Linux kernel community after they lost free use of the proprietary BitKeeper tool.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption",
+    "bridge-agile"
+   ],
+   "people": [
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "git"
+   ],
+   "source": {
+    "type": "secondary",
+    "kind": "book",
+    "url": "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git",
+    "title": "Pro Git, 1.2 Getting Started: A Short History of Git"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2005",
+   "fact": "git-first-readme-2005",
+   "claim": "The README in the first revision of Git describes it as a stupid but extremely fast directory content manager.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption",
+    "bridge-agile"
+   ],
+   "people": [
+    "linus-torvalds"
+   ],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "git"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://raw.githubusercontent.com/git/git/e83c5163316f89bfbde7d9ab23ca2e25604af290/README",
+    "title": "README in the initial revision of git (commit e83c5163)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2005",
+   "fact": "google-summer-of-code-2005",
+   "claim": "Google has run Summer of Code, which pays new contributors to work on open source projects with mentors, since 2005.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "google"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://summerofcode.withgoogle.com/about",
+    "title": "About Google Summer of Code"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2006-11",
+   "fact": "sun-java-gpl-2006",
+   "claim": "In November 2006 Sun Microsystems committed to releasing Java under the GPL, a move the Free Software Foundation welcomed.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [
+    "sun",
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.fsf.org/news/fsf-welcomes-gpl-java.html",
+    "title": "Sun begins releasing Java under the GPL"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2007",
+   "fact": "stallman-open-source-misses-point",
+   "claim": "Stallman's position is that free software is a movement for users' freedom while open source values mainly practical advantage, and that the GNU Project therefore does not use the term \"open source\".",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "why-open-source-misses-the-point"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "http://www.gnu.org/philosophy/open-source-misses-the-point.html",
+    "title": "Why Open Source Misses the Point of Free Software"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2007-05",
+   "fact": "ballmer-same-rules-2007",
+   "claim": "In the same Fortune article Steve Ballmer said that users of free and open source software would have to play by the same rules as the rest of the business.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "steve-ballmer"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://fortune.com/article/microsoft-linux-intellectual-property/",
+    "title": "Microsoft takes on the free world"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2007-05",
+   "fact": "microsoft-235-patents-2007",
+   "claim": "In May 2007 Microsoft's general counsel Brad Smith and licensing chief Horacio Gutierrez told Fortune that free and open source software infringed 235 Microsoft patents.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "the-hostility",
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "brad-smith",
+    "steve-ballmer"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://fortune.com/article/microsoft-linux-intellectual-property/",
+    "title": "Microsoft takes on the free world"
+   },
+   "quote_status": "disputed"
+  },
+  {
+   "date": "2007-06-29",
+   "fact": "gplv3-released-2007",
+   "claim": "The Free Software Foundation released version 3 of the GPL on 29 June 2007, adding protection against locked-down devices and an explicit patent licence.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "licences-and-relicensing",
+    "free-software-to-open-source"
+   ],
+   "people": [
+    "richard-stallman"
+   ],
+   "organisations": [
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.fsf.org/news/gplv3_launched",
+    "title": "FSF releases the GNU General Public License, version 3"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2007-11-05",
+   "fact": "android-announced-2007",
+   "claim": "On 5 November 2007 Google and the Open Handset Alliance announced Android as an open platform for mobile devices.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "google",
+    "open-handset-alliance"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.openhandsetalliance.com/press_110507.html",
+    "title": "Industry Leaders Announce Open Platform for Mobile Devices"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2008-02-23",
+   "fact": "github-pull-requests-2008",
+   "claim": "GitHub added pull requests in February 2008, while the site was still in beta.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption",
+    "bridge-agile"
+   ],
+   "people": [],
+   "organisations": [
+    "github"
+   ],
+   "events": [],
+   "documents": [
+    "git"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://github.blog/2008-02-23-oh-yeah-there-s-pull-requests-now/",
+    "title": "Oh yeah, there's pull requests now"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2008-04-10",
+   "fact": "github-launch-2008",
+   "claim": "GitHub launched publicly on 10 April 2008.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption",
+    "bridge-agile"
+   ],
+   "people": [],
+   "organisations": [
+    "github"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://github.blog/2008-04-10-we-launched/",
+    "title": "We Launched"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2008-10-21",
+   "fact": "android-open-source-2008",
+   "claim": "On 21 October 2008 Google and its partners released the Android source code.",
+   "era": "hostility-and-adoption",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "google",
+    "open-handset-alliance"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://android-developers.googleblog.com/2008/10/android-is-now-open-source.html",
+    "title": "Android is now Open Source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2009",
+   "fact": "devopsdays-2009",
+   "claim": "The first devopsdays conference was held in Ghent, Belgium, in 2009.",
+   "era": "mainstream",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [],
+   "organisations": [],
+   "events": [
+    "devopsdays-2009"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://devopsdays.org/about/",
+    "title": "About devopsdays"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2009-07-20",
+   "fact": "microsoft-first-kernel-contribution-2009",
+   "claim": "Microsoft's own virtualisation blog said this was the first time the company had contributed code to the Linux kernel.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://techcommunity.microsoft.com/blog/virtualization/linux-ics-for-hyper-v-and-gplv2/381647",
+    "title": "Linux ICs for Hyper-V and GPLv2"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2009-07-20",
+   "fact": "microsoft-linux-kernel-2009",
+   "claim": "On 20 July 2009 Microsoft released 20,000 lines of Hyper-V driver code for the Linux kernel under version 2 of the GPL.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux",
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [
+    "gpl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://learn.microsoft.com/en-us/archive/blogs/port25/microsoft-releases-device-driver-code-to-the-linux-community",
+    "title": "Microsoft Releases Device Driver Code to the Linux Community"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2009-09-10",
+   "fact": "codeplex-foundation-2009",
+   "claim": "In September 2009 Microsoft sponsored the new CodePlex Foundation with $1 million, to help software companies and open source communities exchange code.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "codeplex-foundation"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://learn.microsoft.com/en-us/archive/blogs/port25/the-codeplex-foundation-debuts",
+    "title": "The CodePlex Foundation Debuts"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2010-08-02",
+   "fact": "devops-from-agile-2010",
+   "claim": "An early practitioner definition of DevOps (2010) traces it to \"agile infrastructure\": applying Agile and Lean approaches to operations work.",
+   "era": "mainstream",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [],
+   "organisations": [],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://theagileadmin.com/what-is-devops/",
+    "title": "What Is DevOps?"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2011-01-11",
+   "fact": "jenkins-trademark-reason-2011",
+   "claim": "The reason given for leaving the Hudson name was that Oracle held the trademark and could revoke the project's right to use it.",
+   "era": "mainstream",
+   "threads": [
+    "bridge-agile",
+    "licences-and-relicensing"
+   ],
+   "people": [
+    "kohsuke-kawaguchi"
+   ],
+   "organisations": [
+    "jenkins"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.jenkins.io/blog/2011/01/11/hudsons-future",
+    "title": "Hudson's future"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2011-01-29",
+   "fact": "jenkins-rename-2011",
+   "claim": "In January 2011 the community behind the Hudson continuous integration server voted 214 to 14 to rename the project Jenkins.",
+   "era": "mainstream",
+   "threads": [
+    "bridge-agile",
+    "corporate-adoption"
+   ],
+   "people": [
+    "kohsuke-kawaguchi"
+   ],
+   "organisations": [
+    "jenkins"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.jenkins.io/blog/2011/01/29/jenkins",
+    "title": "Jenkins!"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2012-04-12",
+   "fact": "microsoft-open-technologies-2012",
+   "claim": "On 12 April 2012 Microsoft announced a subsidiary, Microsoft Open Technologies, Inc., for its work on interoperability, open standards and open source.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "ms-open-tech"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://learn.microsoft.com/en-us/archive/blogs/interoperability/announcing-one-more-way-microsoft-will-engage-with-the-open-source-and-standards-communities",
+    "title": "Announcing one more way Microsoft will engage with the open source and standards communities"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014",
+   "fact": "core-infrastructure-initiative-2014",
+   "claim": "The Linux Foundation founded the Core Infrastructure Initiative in response to Heartbleed, to fund critical open source projects.",
+   "era": "mainstream",
+   "threads": [
+    "security-and-sustainability"
+   ],
+   "people": [],
+   "organisations": [
+    "linux-foundation",
+    "openssf"
+   ],
+   "events": [
+    "heartbleed-2014"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://openssf.org/blog/2020/08/03/technology-and-enterprise-leaders-combine-efforts-to-improve-open-source-security/",
+    "title": "Technology and Enterprise Leaders Combine Efforts to Improve Open Source Security"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014",
+   "fact": "kubernetes-google-2014",
+   "claim": "The Kubernetes project states that Google open sourced it in 2014.",
+   "era": "mainstream",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "google",
+    "kubernetes"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://kubernetes.io/docs/concepts/overview/",
+    "title": "Kubernetes documentation: Overview"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014-02-04",
+   "fact": "nadella-ceo-2014",
+   "claim": "Microsoft's board appointed Satya Nadella chief executive on 4 February 2014.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "satya-nadella"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://news.microsoft.com/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/",
+    "title": "Microsoft Board names Satya Nadella as CEO"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014-04-07",
+   "fact": "heartbleed-2014",
+   "claim": "In April 2014 the Heartbleed bug in the open source OpenSSL library exposed information protected by the encryption that secures much of the internet.",
+   "era": "mainstream",
+   "threads": [
+    "security-and-sustainability",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [],
+   "events": [
+    "heartbleed-2014"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "report",
+    "url": "https://heartbleed.com/",
+    "title": "The Heartbleed Bug"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014-06",
+   "fact": "kubernetes-released-2014",
+   "claim": "Kubernetes was released to the public in June 2014.",
+   "era": "mainstream",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "kubernetes"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://kubernetes.io/blog/2018/07/20/the-history-of-kubernetes-the-community-behind-it/",
+    "title": "The History of Kubernetes & the Community Behind It"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014-10-20",
+   "fact": "azure-linux-share-2014",
+   "claim": "At the same event Nadella said about a fifth of Azure was running Linux.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux",
+    "corporate-adoption"
+   ],
+   "people": [
+    "satya-nadella"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "microsoft-cloud-event-2014"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.pcworld.com/article/435928/microsoft-hearts-linux-for-azures-sake.html",
+    "title": "Microsoft (hearts) Linux, for Azure's sake"
+   },
+   "quote_status": "paraphrase"
+  },
+  {
+   "date": "2014-10-20",
+   "fact": "microsoft-loves-linux-2014",
+   "claim": "At a cloud event for the press in San Francisco on 20 October 2014, Satya Nadella delivered the message \"Microsoft loves Linux\".",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "satya-nadella"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "microsoft-cloud-event-2014"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.theregister.com/2014/10/20/microsoft_cloud_event/",
+    "title": "Redmond top man Satya Nadella: 'Microsoft LOVES Linux'"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014-10-20",
+   "fact": "microsoft-loves-linux-slide-2014",
+   "claim": "PCWorld reported that Nadella stood in front of an image reading \"Microsoft [heart] Linux\" during the webcast.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "satya-nadella"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "microsoft-cloud-event-2014"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.pcworld.com/article/435928/microsoft-hearts-linux-for-azures-sake.html",
+    "title": "Microsoft (hearts) Linux, for Azure's sake"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2014-11-12",
+   "fact": "dotnet-open-source-2014",
+   "claim": "On 12 November 2014 Microsoft announced it was open sourcing the server-side .NET stack and bringing .NET to Linux and Mac OS, working through the .NET Foundation.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "dotnet-foundation"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/",
+    "title": "Microsoft takes .NET open source and cross-platform, adds new development capabilities with Visual Studio 2015, .NET 2015 and Visual Studio Online"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2015-05-06",
+   "fact": "microsoft-loves-linux-acknowledged-2015",
+   "claim": "Microsoft's Windows Server team confirmed the slide in its own blog post in May 2015.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "satya-nadella"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [
+    "microsoft-cloud-event-2014"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.microsoft.com/en-us/windows-server/blog/2015/05/06/microsoft-loves-linux",
+    "title": "Microsoft Loves Linux"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2015-07-21",
+   "fact": "cncf-founded-2015",
+   "claim": "The Linux Foundation announced the Cloud Native Computing Foundation on 21 July 2015.",
+   "era": "mainstream",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "linux-foundation",
+    "cncf"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.cncf.io/announcements/2015/06/21/new-cloud-native-computing-foundation-to-drive-alignment-among-container-technologies/",
+    "title": "New Cloud Native Computing Foundation to drive alignment among container technologies"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2015-11-18",
+   "fact": "vscode-open-source-2015",
+   "claim": "On 18 November 2015 Microsoft released Visual Studio Code as an open source project on GitHub.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "github"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://news.microsoft.com/source/2015/11/18/microsoft-empowers-developers-with-new-and-updated-tools-spanning-android-azure-ios-linux-office-and-windows/",
+    "title": "Microsoft empowers developers with new and updated tools spanning Android, Azure, iOS, Linux, Office and Windows"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2016-03-07",
+   "fact": "sql-server-linux-2016",
+   "claim": "On 7 March 2016 Scott Guthrie of Microsoft announced plans to bring the SQL Server database to Linux.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [
+    "scott-guthrie"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://blogs.microsoft.com/blog/2016/03/07/announcing-sql-server-on-linux/",
+    "title": "Announcing SQL Server on Linux"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2016-03-09",
+   "fact": "ballmer-rearview-2016",
+   "claim": "In March 2016 Steve Ballmer said his earlier stance on Linux had been right for its time but that the threat from Linux was now \"in the rearview mirror\".",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux",
+    "the-hostility"
+   ],
+   "people": [
+    "steve-ballmer"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.thestar.com.my/tech/tech-news/2016/03/11/former-microsoft-ceo-ballmer-does-about-face-on-linux-technology",
+    "title": "Former Microsoft CEO Ballmer does about-face on Linux technology"
+   },
+   "quote_status": "paraphrase"
+  },
+  {
+   "date": "2016-03-10",
+   "fact": "kubernetes-joins-cncf-2016",
+   "claim": "On 10 March 2016 the Cloud Native Computing Foundation accepted Kubernetes as its first hosted project.",
+   "era": "mainstream",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "cncf",
+    "kubernetes"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.cncf.io/blog/2016/03/10/cloud-native-computing-foundation-accepts-kubernetes-as-first-hosted-project-technical-oversight-committee-elected/",
+    "title": "Cloud Native Computing Foundation accepts Kubernetes as first hosted project; Technical Oversight Committee elected"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2016-03-30",
+   "fact": "wsl-announced-2016",
+   "claim": "On 30 March 2016 Microsoft announced the Windows Subsystem for Linux, which runs Ubuntu's Bash shell and Linux command-line tools on Windows.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "canonical"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://blogs.windows.com/windowsdeveloper/2016/03/30/run-bash-on-ubuntu-on-windows/",
+    "title": "Run Bash on Ubuntu on Windows"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2016-11-16",
+   "fact": "microsoft-joins-linux-foundation-2016",
+   "claim": "Microsoft joined the Linux Foundation as a platinum member on 16 November 2016.",
+   "era": "mainstream",
+   "threads": [
+    "microsoft-and-linux",
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "linux-foundation"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.linuxfoundation.org/press/press-release/microsoft-fortifies-commitment-to-open-source-becomes-linux-foundation-platinum-member",
+    "title": "Microsoft Fortifies Commitment to Open Source, Becomes Linux Foundation Platinum Member"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018",
+   "fact": "sspl-not-osi-approved",
+   "claim": "MongoDB's own FAQ states that the SSPL has not been approved by the Open Source Initiative.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "mongodb",
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "sspl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://www.mongodb.com/legal/licensing/server-side-public-license/faq",
+    "title": "Server Side Public License FAQ"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-06-04",
+   "fact": "microsoft-github-announced-2018",
+   "claim": "On 4 June 2018 Microsoft announced it would buy GitHub for $7.5 billion in stock.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "microsoft-and-linux",
+    "corporate-adoption"
+   ],
+   "people": [
+    "satya-nadella"
+   ],
+   "organisations": [
+    "microsoft",
+    "github"
+   ],
+   "events": [
+    "github-acquisition-2018"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/",
+    "title": "Microsoft to acquire GitHub for $7.5 billion"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-10-10",
+   "fact": "microsoft-joins-oin-2018",
+   "claim": "On 10 October 2018 Microsoft joined the Open Invention Network, bringing more than 60,000 patents to a group formed to protect Linux from patent claims.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "microsoft-and-linux",
+    "the-hostility"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "oin"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-joins-open-invention-network-to-help-protect-linux-and-open-source/",
+    "title": "Microsoft joins Open Invention Network to help protect Linux and open source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-10-10",
+   "fact": "microsoft-oin-friction-2018",
+   "claim": "In the same post Microsoft acknowledged past friction with the open source community over patents.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "microsoft-and-linux",
+    "the-hostility"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "oin"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-joins-open-invention-network-to-help-protect-linux-and-open-source/",
+    "title": "Microsoft joins Open Invention Network to help protect Linux and open source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-10-16",
+   "fact": "mongodb-sspl-2018",
+   "claim": "On 16 October 2018 MongoDB moved its Community Server from the AGPL to a new licence of its own, the Server Side Public License.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "mongodb",
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "sspl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.mongodb.com/company/newsroom/press-releases/mongodb-issues-new-server-side-public-license-for-mongodb-community-server",
+    "title": "MongoDB Issues New Server Side Public License for MongoDB Community Server"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-10-16",
+   "fact": "mongodb-sspl-cloud-reason-2018",
+   "claim": "MongoDB said the one substantive change in the SSPL was that anyone offering MongoDB as a service must open source the software used to run that service.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "mongodb"
+   ],
+   "events": [],
+   "documents": [
+    "sspl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.mongodb.com/company/newsroom/press-releases/mongodb-issues-new-server-side-public-license-for-mongodb-community-server",
+    "title": "MongoDB Issues New Server Side Public License for MongoDB Community Server"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-10-26",
+   "fact": "microsoft-github-completed-2018",
+   "claim": "Microsoft completed the GitHub acquisition on 26 October 2018.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "microsoft-and-linux",
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "github"
+   ],
+   "events": [
+    "github-acquisition-2018"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/",
+    "title": "Microsoft completes GitHub acquisition"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2018-10-28",
+   "fact": "ibm-red-hat-announced-2018",
+   "claim": "On 28 October 2018 IBM announced it would acquire Red Hat for about $34 billion.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "ibm",
+    "red-hat"
+   ],
+   "events": [
+    "red-hat-acquisition"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.redhat.com/en/about/press-releases/ibm-acquire-red-hat-completely-changing-cloud-landscape-and-becoming-worlds-1-hybrid-cloud-provider",
+    "title": "IBM To Acquire Red Hat, Completely Changing The Cloud Landscape And Becoming World's #1 Hybrid Cloud Provider"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2019-07-09",
+   "fact": "ibm-red-hat-closed-2019",
+   "claim": "IBM closed its acquisition of Red Hat on 9 July 2019.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "corporate-adoption"
+   ],
+   "people": [],
+   "organisations": [
+    "ibm",
+    "red-hat"
+   ],
+   "events": [
+    "red-hat-acquisition"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future",
+    "title": "IBM Closes Landmark Acquisition of Red Hat for $34 Billion; Defines Open, Hybrid Cloud Future"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2020-05",
+   "fact": "brad-smith-wrong-side-2020",
+   "claim": "In May 2020 Brad Smith, Microsoft's president, said the company had been on the wrong side of history when open source took off, and that this applied to him personally.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "microsoft-and-linux",
+    "the-hostility"
+   ],
+   "people": [
+    "brad-smith"
+   ],
+   "organisations": [
+    "microsoft"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.theverge.com/2020/5/18/21262103/microsoft-open-source-linux-history-wrong-statement",
+    "title": "Microsoft: we were wrong about open source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2020-08-03",
+   "fact": "openssf-founded-2020",
+   "claim": "In August 2020 the Linux Foundation formed the Open Source Security Foundation, folding in the Core Infrastructure Initiative; Microsoft, Google, IBM, Red Hat and GitHub were among its founding board members.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "security-and-sustainability",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "linux-foundation",
+    "openssf",
+    "github",
+    "google",
+    "ibm",
+    "microsoft",
+    "red-hat"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://openssf.org/blog/2020/08/03/technology-and-enterprise-leaders-combine-efforts-to-improve-open-source-security/",
+    "title": "Technology and Enterprise Leaders Combine Efforts to Improve Open Source Security"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2021-01-14",
+   "fact": "elastic-licence-change-2021",
+   "claim": "On 14 January 2021 Elastic moved Elasticsearch and Kibana from the Apache 2.0 licence to a choice of the SSPL or its own Elastic License.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [
+    "shay-banon"
+   ],
+   "organisations": [
+    "elastic"
+   ],
+   "events": [],
+   "documents": [
+    "sspl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.elastic.co/blog/licensing-change",
+    "title": "Doubling down on open, Part II"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2021-01-19",
+   "fact": "osi-sspl-not-open-source-2021",
+   "claim": "On 19 January 2021 the Open Source Initiative stated that the SSPL is not an open source licence, calling such licences \"fauxpen\" source.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "osi",
+    "elastic",
+    "mongodb"
+   ],
+   "events": [],
+   "documents": [
+    "sspl",
+    "open-source-definition"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+    "title": "The SSPL is Not an Open Source License"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2021-01-19",
+   "fact": "osi-sspl-withdrawn",
+   "claim": "The OSI says the SSPL was submitted for its approval and then withdrawn when it became clear it would not be approved.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "osi",
+    "mongodb"
+   ],
+   "events": [],
+   "documents": [
+    "sspl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+    "title": "The SSPL is Not an Open Source License"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2021-11",
+   "fact": "sco-ibm-settled-2021",
+   "claim": "In November 2021 the federal court in Utah dismissed the last of SCO v. IBM after a settlement, some eighteen years after the case began.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "the-hostility"
+   ],
+   "people": [],
+   "organisations": [
+    "sco",
+    "ibm"
+   ],
+   "events": [
+    "sco-v-ibm"
+   ],
+   "documents": [],
+   "source": {
+    "type": "secondary",
+    "kind": "reporting",
+    "url": "https://www.zdnet.com/article/last-of-original-sco-v-ibm-linux-lawsuit-settled/",
+    "title": "Last of original SCO v IBM Linux lawsuit settled"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2021-12",
+   "fact": "log4shell-2021",
+   "claim": "The Log4Shell vulnerability (CVE-2021-44228) in the Apache Log4j logging library allowed attackers to run arbitrary code; Apache rates it 10.0, critical.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "security-and-sustainability",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "apache"
+   ],
+   "events": [
+    "log4shell-2021"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "report",
+    "url": "https://logging.apache.org/security.html",
+    "title": "Apache Logging Services: Security (vulnerability reports)"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2023-08-10",
+   "fact": "hashicorp-busl-2023",
+   "claim": "On 10 August 2023 HashiCorp changed the licence of Terraform from the Mozilla Public License to the Business Source License.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "hashicorp",
+    "opentofu"
+   ],
+   "events": [],
+   "documents": [
+    "busl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opentofu.org/manifesto/",
+    "title": "The OpenTofu Manifesto"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2023-09-20",
+   "fact": "opentofu-2023",
+   "claim": "On 20 September 2023 the Linux Foundation announced OpenTofu as an open source alternative to Terraform.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "linux-foundation",
+    "opentofu",
+    "hashicorp"
+   ],
+   "events": [],
+   "documents": [
+    "busl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.linuxfoundation.org/press/announcing-opentofu",
+    "title": "Linux Foundation Launches OpenTofu: A New Open Source Alternative to Terraform"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-01-18",
+   "fact": "ci-services-open-source-2024",
+   "claim": "In his 2024 revision of \"Continuous Integration\", Fowler names the open source Jenkins and GitHub Actions among the usual continuous integration services.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "bridge-agile",
+    "state-now"
+   ],
+   "people": [
+    "martin-fowler"
+   ],
+   "organisations": [
+    "jenkins",
+    "github"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://martinfowler.com/articles/continuousIntegration.html",
+    "title": "Continuous Integration"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-01-18",
+   "fact": "cruisecontrol-open-source",
+   "claim": "Fowler credits his colleagues at Thoughtworks with CruiseControl, which he calls the first continuous integration service and which was open source.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "martin-fowler"
+   ],
+   "organisations": [
+    "thoughtworks"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://martinfowler.com/articles/continuousIntegration.html",
+    "title": "Continuous Integration"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-02-02",
+   "fact": "osi-on-cra-2024",
+   "claim": "The Open Source Initiative welcomed the final text in February 2024, noting the new \"open source steward\" role.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "osi",
+    "european-union"
+   ],
+   "events": [],
+   "documents": [
+    "cra"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://opensource.org/blog/the-european-regulators-listened-to-the-open-source-communities",
+    "title": "The European regulators listened to the Open Source communities!"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-03-20",
+   "fact": "redis-licence-change-2024",
+   "claim": "On 20 March 2024 Redis announced that future versions would no longer be under the BSD licence but under two source-available licences.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "redis"
+   ],
+   "events": [],
+   "documents": [
+    "sspl",
+    "bsd-licence"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://redis.io/blog/redis-adopts-dual-source-available-licensing/",
+    "title": "Redis Adopts Dual Source-Available Licensing"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-03-28",
+   "fact": "valkey-2024",
+   "claim": "Eight days later the Linux Foundation announced Valkey, which continues development from Redis 7.2.4 under the BSD licence.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "linux-foundation",
+    "valkey",
+    "redis"
+   ],
+   "events": [],
+   "documents": [
+    "bsd-licence"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community",
+    "title": "Linux Foundation Launches Open Source Valkey Community"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-03-29",
+   "fact": "xz-backdoor-2024",
+   "claim": "On 29 March 2024 Andres Freund reported to the oss-security list that the xz compression library had been backdoored upstream, in a way that compromised SSH servers.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "security-and-sustainability",
+    "state-now"
+   ],
+   "people": [
+    "andres-freund"
+   ],
+   "organisations": [],
+   "events": [
+    "xz-backdoor-2024"
+   ],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "mailing-list",
+    "url": "https://www.openwall.com/lists/oss-security/2024/03/29/4",
+    "title": "backdoor in upstream xz/liblzma leading to ssh server compromise"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-08-29",
+   "fact": "elastic-agpl-2024",
+   "claim": "On 29 August 2024 Shay Banon of Elastic announced that Elasticsearch and Kibana would also be offered under the AGPL, an OSI-approved licence.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [
+    "shay-banon"
+   ],
+   "organisations": [
+    "elastic",
+    "osi"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.elastic.co/blog/elasticsearch-is-open-source-again",
+    "title": "Elasticsearch is open source, again"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-08-29",
+   "fact": "elastic-open-source-again-2024",
+   "claim": "Banon wrote that using an OSI-approved licence was what allowed Elastic to use the term \"open source\" again.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [
+    "shay-banon"
+   ],
+   "organisations": [
+    "elastic",
+    "osi"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://www.elastic.co/blog/elasticsearch-is-open-source-again",
+    "title": "Elasticsearch is open source, again"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-10-22",
+   "fact": "fsf-ml-training-data-2024",
+   "claim": "A week earlier the Free Software Foundation had said its own criteria for free machine learning applications would require the raw training data to carry the four freedoms.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now",
+    "free-software-to-open-source"
+   ],
+   "people": [],
+   "organisations": [
+    "fsf"
+   ],
+   "events": [],
+   "documents": [
+    "osaid"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications",
+    "title": "FSF is working on freedom in machine learning applications"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-10-28",
+   "fact": "osaid-1-0-2024",
+   "claim": "On 28 October 2024 the Open Source Initiative released version 1.0 of its Open Source AI Definition.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "osaid"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "press-release",
+    "url": "https://opensource.org/blog/the-open-source-initiative-announces-the-release-of-the-industrys-first-open-source-ai-definition",
+    "title": "The Open Source Initiative Announces the Release of the Industry's First Open Source AI Definition"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-10-28",
+   "fact": "osaid-data-information",
+   "claim": "The Open Source AI Definition requires detailed information about the training data, enough for a skilled person to build a substantially equivalent system, but not the training data itself.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "osaid"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://opensource.org/ai/open-source-ai-definition",
+    "title": "The Open Source AI Definition 1.0"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-10-29",
+   "fact": "octoverse-2024",
+   "claim": "GitHub reported for 2024 more than 5.2 billion contributions to more than 518 million projects, a figure that mixes open source, public and private work.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "github"
+   ],
+   "events": [],
+   "documents": [
+    "octoverse"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "report",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-2024/",
+    "title": "Octoverse: AI leads Python to top language as the number of global developers surges"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-10-31",
+   "fact": "sfc-osaid-criticism-2024",
+   "claim": "The Software Freedom Conservancy's Bradley Kuhn criticised the definition for not requiring public disclosure of training sets, and said the OSI should not have published it yet.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "sfc",
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "osaid"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/",
+    "title": "Open Source AI Definition Erodes the Meaning of \"Open Source\""
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-12-10",
+   "fact": "cra-in-force-2024",
+   "claim": "The European Union's Cyber Resilience Act entered into force on 10 December 2024, with its main obligations applying from 11 December 2027.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now",
+    "security-and-sustainability"
+   ],
+   "people": [],
+   "organisations": [
+    "european-union"
+   ],
+   "events": [],
+   "documents": [
+    "cra"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+    "title": "Cyber Resilience Act"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-12-10",
+   "fact": "cra-non-commercial-out-of-scope",
+   "claim": "The Commission says only open source software supplied in the course of a commercial activity falls within the Act.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "european-union"
+   ],
+   "events": [],
+   "documents": [
+    "cra"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-open-source",
+    "title": "The Cyber Resilience Act and open source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2024-12-10",
+   "fact": "cra-open-source-stewards",
+   "claim": "The Act creates a new legal category, the open source software steward, for bodies that sustain open source products used commercially, under a lighter regime than manufacturers.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now",
+    "security-and-sustainability"
+   ],
+   "people": [],
+   "organisations": [
+    "european-union"
+   ],
+   "events": [],
+   "documents": [
+    "cra"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-open-source",
+    "title": "The Cyber Resilience Act and open source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2025-05-01",
+   "fact": "redis-agpl-2025",
+   "claim": "On 1 May 2025 Redis added the OSI-approved AGPL as a licence option from Redis 8.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "redis",
+    "osi"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://redis.io/blog/agplv3/",
+    "title": "Redis is now available under the AGPLv3 open source license"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2025-05-01",
+   "fact": "redis-sspl-not-truly-open-source-2025",
+   "claim": "Redis wrote in the same post that the SSPL is not truly open source.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "licences-and-relicensing",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "redis",
+    "osi"
+   ],
+   "events": [],
+   "documents": [
+    "sspl"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://redis.io/blog/agplv3/",
+    "title": "Redis is now available under the AGPLv3 open source license"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2025-05-19",
+   "fact": "wsl-open-source-2025",
+   "claim": "On 19 May 2025 Microsoft released the Windows Subsystem for Linux as open source.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "microsoft-and-linux",
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "microsoft",
+    "github"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "own-post",
+    "url": "https://blogs.windows.com/windowsdeveloper/2025/05/19/the-windows-subsystem-for-linux-is-now-open-source/",
+    "title": "The Windows Subsystem for Linux is now open source"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2025-10-28",
+   "fact": "octoverse-2025",
+   "claim": "GitHub reported in October 2025 that more than 180 million developers use the platform, 36 million of whom joined in the past year.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "state-now"
+   ],
+   "people": [],
+   "organisations": [
+    "github"
+   ],
+   "events": [],
+   "documents": [
+    "octoverse"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "report",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/",
+    "title": "Octoverse: A new developer joins GitHub every second as AI leads TypeScript to #1"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2026",
+   "fact": "federated-wiki-open-source",
+   "claim": "Cunningham's later project, the Smallest Federated Wiki, is published on GitHub under the MIT licence or the GPL version 2.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "bridge-agile"
+   ],
+   "people": [
+    "ward-cunningham"
+   ],
+   "organisations": [
+    "github"
+   ],
+   "events": [],
+   "documents": [],
+   "source": {
+    "type": "primary",
+    "kind": "document",
+    "url": "https://raw.githubusercontent.com/WardCunningham/Smallest-Federated-Wiki/master/ReadMe.md",
+    "title": "Smallest Federated Wiki: ReadMe"
+   },
+   "quote_status": "verified"
+  },
+  {
+   "date": "2026",
+   "fact": "junit-open-source-licence",
+   "claim": "JUnit 4 is distributed under the Eclipse Public License, an open source licence.",
+   "era": "strain-and-stewardship",
+   "threads": [
+    "bridge-agile",
+    "licences-and-relicensing"
+   ],
+   "people": [],
+   "organisations": [],
+   "events": [],
+   "documents": [
+    "junit"
+   ],
+   "source": {
+    "type": "primary",
+    "kind": "licence",
+    "url": "https://raw.githubusercontent.com/junit-team/junit4/main/LICENSE-junit.txt",
+    "title": "JUnit 4 licence file (Eclipse Public License 1.0)"
+   },
+   "quote_status": "verified"
+  }
+ ]
+}

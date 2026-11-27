@@ -1,0 +1,258 @@
+{
+ "note": "Where the two histories meet. Written by tools/bridge.mjs from one authored list of meeting points; the facts of the other site are copied as digests with their sources.",
+ "meeting_points": [
+  {
+   "id": "ward-cunningham-and-the-wiki",
+   "title": "Ward Cunningham and the wiki",
+   "text": "One person stands in both histories. Ward Cunningham started the first wiki in 1995, signed the Agile Manifesto in 2001 (he is credited with its website), and later worked at the Eclipse Foundation on its open source committer community. The Snowbird meeting itself was planned on a wiki.",
+   "here": [
+    "cunningham-wiki-name-1995",
+    "cunningham-first-wiki-1995",
+    "federated-wiki-open-source"
+   ],
+   "there": [
+    {
+     "id": "wiki-1995-cunningham",
+     "date": "1995",
+     "claim": "Ward Cunningham confirmed to a lexicographer that he first applied the word \"wiki\" to web software in 1995.",
+     "source_url": "http://c2.com/doc/etymology.html",
+     "source_title": "Etymology of Wiki",
+     "source_type": "primary"
+    },
+    {
+     "id": "snowbird-planned-on-a-wiki",
+     "date": "2000",
+     "claim": "The Snowbird meeting was planned on a wiki that Martin set up.",
+     "source_url": "https://agilemanifesto.org/history.html",
+     "source_title": "History: The Agile Manifesto",
+     "source_type": "primary"
+    },
+    {
+     "id": "bio-cunningham",
+     "date": "2001",
+     "claim": "Ward Cunningham was known for his part in object-oriented programming and Extreme Programming, and for the communities hosted by his WikiWikiWeb.",
+     "source_url": "https://agilemanifesto.org/authors.html",
+     "source_title": "Authors: The Agile Manifesto",
+     "source_type": "primary"
+    },
+    {
+     "id": "manifesto-site-by-cunningham",
+     "date": "2001",
+     "claim": "The Manifesto's website credits its design and artwork to Ward Cunningham.",
+     "source_url": "https://agilemanifesto.org/",
+     "source_title": "Manifesto for Agile Software Development",
+     "source_type": "primary"
+    },
+    {
+     "id": "cunningham-eclipse-2005",
+     "date": "2005-10",
+     "claim": "In October 2005 the Eclipse Foundation announced that Cunningham was joining it to build its committer community, citing his interest in open source.",
+     "source_url": "https://www.eclipse.org/org/press-release/20051019cunningham.html",
+     "source_title": "Ward Cunningham Joins the Eclipse Foundation",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "release-early-release-often",
+   "title": "Release early, release often",
+   "text": "Eric Raymond's rule for open source projects and the Manifesto's principle of frequent delivery say much the same thing, a few years apart. The sources read here do not show one borrowing from the other; they show two communities reaching the same habit.",
+   "here": [
+    "cathedral-bazaar-1997",
+    "release-early-release-often",
+    "linuss-law-1997"
+   ],
+   "there": [
+    {
+     "id": "raymond-release-early",
+     "date": "1997",
+     "claim": "Raymond's essay made frequent release a rule of open source development, in words now often shortened to \"release early, release often\".",
+     "source_url": "http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html",
+     "source_title": "The Cathedral and the Bazaar: Release Early, Release Often",
+     "source_type": "primary"
+    },
+    {
+     "id": "raymond-catb-1997",
+     "date": "1997-05-21",
+     "claim": "The revision history of Eric Raymond's The Cathedral and the Bazaar records its first official presentation on 21 May 1997 at the Linux Kongress.",
+     "source_url": "http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/",
+     "source_title": "The Cathedral and the Bazaar (version 3.0, title page and revision history)",
+     "source_type": "primary"
+    },
+    {
+     "id": "principle-deliver-frequently",
+     "date": "2001",
+     "claim": "One principle asks for working software to be delivered every couple of weeks to couple of months, the shorter the better.",
+     "source_url": "https://agilemanifesto.org/principles.html",
+     "source_title": "Principles behind the Agile Manifesto",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "fowler-on-open-source",
+   "title": "Fowler counts open source among the new methods",
+   "text": "In July 2000, seven months before Snowbird, Martin Fowler's survey of the new lightweight methodologies had a section on open source and pointed readers to Raymond's essay. It is the clearest direct citation from one history to the other.",
+   "here": [
+    "fowler-open-source-new-methodology-2000",
+    "fowler-open-source-debugging-2000"
+   ],
+   "there": [
+    {
+     "id": "fowler-open-source-2000",
+     "date": "2000-07",
+     "claim": "Fowler's July 2000 survey of the new methodologies had a section on open source, saying much of that community's way of working applied to closed source projects too.",
+     "source_url": "https://martinfowler.com/articles/newMethodologyOriginal.html",
+     "source_title": "The New Methodology (Original)",
+     "source_type": "primary"
+    },
+    {
+     "id": "fowler-cites-raymond-2000",
+     "date": "2000-07",
+     "claim": "In the same section Fowler pointed readers to Eric Raymond's The Cathedral and the Bazaar as the most famous description of the open source process.",
+     "source_url": "https://martinfowler.com/articles/newMethodologyOriginal.html",
+     "source_title": "The New Methodology (Original)",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "a-text-made-to-be-copied",
+   "title": "A text made to be copied",
+   "text": "The Manifesto carries its own copying notice: anyone may copy it in any form, but only whole. That is not an open source licence, since it allows no changes, but it shares the wish to be passed on that the GNU licences wrote into law for software.",
+   "here": [
+    "gnu-manifesto-1985",
+    "gpl-v1-1989",
+    "agile-manifesto-freely-copied-2001"
+   ],
+   "there": [
+    {
+     "id": "manifesto-freely-copied",
+     "date": "2001-02",
+     "claim": "The Manifesto is copyright of its authors and may be freely copied in any form, but only whole and with its notice.",
+     "source_url": "https://agilemanifesto.org/",
+     "source_title": "Manifesto for Agile Software Development",
+     "source_type": "primary"
+    },
+    {
+     "id": "manifesto-seventeen-signatories",
+     "date": "2001-02",
+     "claim": "The Manifesto carries seventeen names.",
+     "source_url": "https://agilemanifesto.org/",
+     "source_title": "Manifesto for Agile Software Development",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "tests-and-continuous-integration",
+   "title": "JUnit and continuous integration",
+   "text": "Extreme Programming's practices of testing and continuous integration spread as freely shared tools: JUnit, written by Kent Beck and Erich Gamma, then CruiseControl, and later the community-run Jenkins.",
+   "here": [
+    "junit-1997",
+    "continuous-integration-ant-2000",
+    "cruisecontrol-bsd-licence",
+    "jenkins-rename-2011",
+    "ci-services-open-source-2024",
+    "junit-open-source-licence"
+   ],
+   "there": [
+    {
+     "id": "junit-1997",
+     "date": "1997",
+     "claim": "According to Fowler, Kent Beck and Erich Gamma wrote the first version of JUnit on a flight to OOPSLA 1997, and it became essential to Extreme Programming and test-driven development.",
+     "source_url": "https://martinfowler.com/bliki/Xunit.html",
+     "source_title": "Xunit",
+     "source_type": "secondary"
+    },
+    {
+     "id": "ci-article-and-cruisecontrol",
+     "date": "2001",
+     "claim": "Fowler first wrote his article on Continuous Integration in 2001, and credits Thoughtworks colleagues with open-source tools for it, above all CruiseControl, which he calls the first CI service.",
+     "source_url": "https://martinfowler.com/articles/continuousIntegration.html",
+     "source_title": "Continuous Integration",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "git-github-and-the-pull-request",
+   "title": "Git, GitHub and the pull request",
+   "text": "Git was made in 2005 for the Linux kernel. GitHub added the pull request in 2008, and Fowler now describes pull requests, which grew up in open source projects, as widely used on software projects of every kind.",
+   "here": [
+    "git-created-2005",
+    "github-pull-requests-2008",
+    "github-launch-2008"
+   ],
+   "there": [
+    {
+     "id": "pull-requests-from-open-source",
+     "date": "2024-01-18",
+     "claim": "Fowler describes pull requests, now common on software projects, as an artefact of GitHub that grew up mostly in open-source projects.",
+     "source_url": "https://martinfowler.com/articles/continuousIntegration.html",
+     "source_title": "Continuous Integration",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "devops",
+   "title": "DevOps",
+   "text": "DevOps appears in both histories around 2009: on the Agile side as the carrying of frequent delivery into operations, on the open source side as a practice described at the time as Agile and Lean applied to operations work.",
+   "here": [
+    "devopsdays-2009",
+    "devops-from-agile-2010"
+   ],
+   "there": [
+    {
+     "id": "devopsdays-ghent-2009",
+     "date": "2009",
+     "claim": "The first devopsdays was held in Ghent, Belgium, in 2009.",
+     "source_url": "https://devopsdays.org/about/",
+     "source_title": "About devopsdays",
+     "source_type": "primary"
+    },
+    {
+     "id": "ten-deploys-2009",
+     "date": "2009-06-23",
+     "claim": "In June 2009 John Allspaw posted the slides of the Velocity talk he gave with Paul Hammond on developers and operations cooperating at Flickr.",
+     "source_url": "https://www.kitchensoap.com/tag/velocity-conference/",
+     "source_title": "Slides for Velocity Talk 2009",
+     "source_type": "primary"
+    },
+    {
+     "id": "continuous-delivery-book-2010",
+     "date": "2010",
+     "claim": "Jez Humble's site dates the Continuous Delivery book to 2010.",
+     "source_url": "https://continuousdelivery.com/",
+     "source_title": "Continuous Delivery",
+     "source_type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "ruby-and-the-pragmatic-programmers",
+   "title": "Ruby and the Pragmatic Programmers",
+   "text": "Two Manifesto authors, Dave Thomas and Andy Hunt, co-wrote Programming Ruby, and Thomas later put the word agile in the title of his book on Ruby on Rails. No fact on the open source side covers Ruby yet; this meeting point has one side only.",
+   "here": [],
+   "there": [
+    {
+     "id": "bio-hunt",
+     "date": "2001",
+     "claim": "Andrew Hunt was a partner in The Pragmatic Programmers and co-author of The Pragmatic Programmer and of Programming Ruby.",
+     "source_url": "https://agilemanifesto.org/authors.html",
+     "source_title": "Authors: The Agile Manifesto",
+     "source_type": "primary"
+    },
+    {
+     "id": "thomas-rails-book",
+     "date": "2014-03-04",
+     "claim": "Thomas noted that he had himself put the word in a book title, Agile Web Development with Rails, because of the agility Ruby on Rails gave him.",
+     "source_url": "https://pragdave.me/thoughts/active/2014-03-04-time-to-kill-agile.html",
+     "source_title": "Agile is Dead (Long Live Agility)",
+     "source_type": "primary"
+    }
+   ]
+  }
+ ]
+}

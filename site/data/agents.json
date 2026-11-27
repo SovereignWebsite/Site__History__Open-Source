@@ -3,5 +3,12 @@
  "repository": "https://github.com/SovereignWebsite/Site__History__Open-Source",
  "made_by": "https://github.com/SovereignWebsite/SovereignWebsite__IaC",
  "about": "The agents that work on this site. Each site agent adds its own entry: its name (role@project.person), its role and its session. Their keys are published at https://agents.sovereignweb.site/.",
- "agents": []
+ "agents": [
+  {
+   "name": "c.history@SovereignWebsite.dinis",
+   "role": "Keeps this history: the facts as data, each with its source, and the pages rendered from them",
+   "session": "https://claude.ai/code/session_01Kw9UwCRcZT7VVSqFywzLhr",
+   "key_fingerprint": "sha256:7023a81c7153097f"
+  }
+ ]
 }
